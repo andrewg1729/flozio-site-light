@@ -1,0 +1,589 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; border: 0 solid currentColor; }
+html { -webkit-text-size-adjust: 100%; line-height: normal; }
+body { margin: 0; }
+ul, ol, menu { list-style: none; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea, optgroup { font: inherit; color: inherit; background: transparent; border: 0; padding: 0; margin: 0; text-align: inherit; letter-spacing: inherit; }
+button { cursor: pointer; }
+table { border-collapse: separate; border-spacing: 0; }
+img, picture, video, canvas, svg { display: inline-block; }
+/* Lottie runtime fit: the player re-mounts its svg/canvas into an absolute overlay that fills
+   the host's captured (per-viewport, definite) box. Force that runtime media to fit the box so
+   an aspect-mismatched viewBox (e.g. a portrait animation in a shorter, letterboxed source box)
+   can't inflate past the pinned height. Scoped to the runtime-marked host only. */
+[data-ditto-lottie] > div > svg, [data-ditto-lottie] > div > canvas { width: 100%; height: 100%; display: block; }
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd { margin: 0; }
+/* Neutralize UA text defaults to inherit so the generator's default-skipping is
+   correct: a property equal to its inherited value is simply not emitted. */
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+b, strong, th { font-weight: inherit; }
+em, i, cite, var, dfn, address, q { font-style: inherit; }
+small, big, sub, sup { font-size: inherit; }
+sub, sup { vertical-align: inherit; }
+code, kbd, samp, pre, tt, var { font-family: inherit; font-size: inherit; }
+mark { background-color: transparent; color: inherit; }
+abbr[title] { text-decoration: none; }
+fieldset, legend { min-width: 0; }
+
+/* fonts */
+@font-face {
+  font-family: "Inter var";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/dc6c6b28aa26.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8e20d0283c24.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/e6924e6bd1b1.woff2") format("woff2"), url("/assets/cloned/fonts/1923e1743cab.woff") format("woff"), url("/assets/cloned/fonts/221f39e89e7a.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/f92918ec2fea.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8d8cfe907a45.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/f92918ec2fea.woff2") format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8d8cfe907a45.woff2") format("woff2");
+  unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/a57ea6705618.woff2") format("woff2"), url("/assets/cloned/fonts/3b0bad8f7fec.woff") format("woff"), url("/assets/cloned/fonts/20ed50aaf7bb.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8d67d74e4cfc.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/a06daf26ca85.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8d67d74e4cfc.woff2") format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/a06daf26ca85.woff2") format("woff2");
+  unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/8874935afed8.woff2") format("woff2"), url("/assets/cloned/fonts/d7332ef8a85a.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/d48e65d0621a.woff2") format("woff2"), url("/assets/cloned/fonts/0b114701de61.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/1977b6ac070d.woff2") format("woff2"), url("/assets/cloned/fonts/dfcd1234a578.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/124a479250ce.woff2") format("woff2"), url("/assets/cloned/fonts/2db3660d1713.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/ebfd4d3bcc99.woff2") format("woff2"), url("/assets/cloned/fonts/23885ef2948f.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/cbb9dd535859.woff2") format("woff2"), url("/assets/cloned/fonts/f0b32f20a370.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/e526aaec78eb.woff2") format("woff2"), url("/assets/cloned/fonts/c7ca3a182834.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/3612f6792700.woff2") format("woff2"), url("/assets/cloned/fonts/e0b802e7ee7a.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/151c5c2a49d3.woff2") format("woff2"), url("/assets/cloned/fonts/86c9ce95c015.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/3c8501562135.woff2") format("woff2"), url("/assets/cloned/fonts/38405cdc666e.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/5cf026bc23c2.woff2") format("woff2"), url("/assets/cloned/fonts/f714f9d9c235.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/91475e9014ad.woff2") format("woff2"), url("/assets/cloned/fonts/ba9e6dee0544.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/582992ffb375.woff2") format("woff2"), url("/assets/cloned/fonts/b2d0ca1f3104.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/70740e228630.woff2") format("woff2"), url("/assets/cloned/fonts/e6c878fdd41c.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/3baf92e7213c.woff2") format("woff2"), url("/assets/cloned/fonts/6fe5e5b4cab2.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/f66380b0f0cd.woff2") format("woff2"), url("/assets/cloned/fonts/64ddcb319fee.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/baf268e19827.woff2") format("woff2"), url("/assets/cloned/fonts/e8a7a9fcc2ab.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/44c5eb6537a9.woff2") format("woff2"), url("/assets/cloned/fonts/e848220a3c9b.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/ff2e19bdde6b.woff2") format("woff2"), url("/assets/cloned/fonts/a7b9a691dbfd.woff") format("woff"), url("/assets/cloned/fonts/3ea9db93072a.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/407051c84f5f.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/27e8f8bcbbd3.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/407051c84f5f.woff2") format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/27e8f8bcbbd3.woff2") format("woff2");
+  unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/c1549ebfc9a4.woff2") format("woff2"), url("/assets/cloned/fonts/b38ca7af32fe.woff") format("woff"), url("/assets/cloned/fonts/f32ccbebd188.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/5d43dab42ec3.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/98e1a6d73d88.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/5d43dab42ec3.woff2") format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/98e1a6d73d88.woff2") format("woff2");
+  unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff;
+}
+
+@font-face {
+  font-family: "Shantell Sans";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/cbd3ce618115.woff2") format("woff2"), url("/assets/cloned/fonts/f806635b8e09.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sometype Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/eb1f3ef69f32.woff2") format("woff2"), url("/assets/cloned/fonts/02d7a087d3dd.woff") format("woff"), url("/assets/cloned/fonts/2f92eea2c6e9.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sometype Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/84fe1a1304ff.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Sometype Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/944ae47b6ec6.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Sometype Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/84fe1a1304ff.woff2") format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd;
+}
+
+@font-face {
+  font-family: "Sometype Mono";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cloned/fonts/944ae47b6ec6.woff2") format("woff2");
+  unicode-range: u+0100-02ba,u+02bd-02c5,u+02c7-02cc,u+02ce-02d7,u+02dd-02ff,u+0304,u+0308,u+0329,u+1d00-1dbf,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff;
+}
+
+/* tokens */
+:root {
+  --background: rgb(255, 255, 255);
+  --foreground: rgb(41, 45, 52);
+  --primary: rgb(118, 18, 250);
+  --accent: rgb(123, 104, 238);
+  --border: rgb(232, 232, 232);
+  --surface: rgb(233, 235, 240);
+  --muted-foreground: rgb(100, 100, 100);
+  --muted: rgb(131, 131, 131);
+  --surface-2: rgba(255, 255, 255, 0.07);
+  --surface-3: rgba(255, 255, 255, 0.12);
+  --surface-4: rgba(255, 255, 255, 0.16);
+  --surface-5: rgba(238, 239, 241, 0.4);
+  --surface-6: rgb(247, 247, 247);
+  --surface-7: rgb(248, 249, 250);
+  --color-001: rgb(32, 32, 32);
+  --color-002: rgb(0, 0, 0);
+  --color-003: rgb(9, 12, 29);
+  --color-004: rgb(42, 42, 42);
+  --color-005: rgb(238, 238, 238);
+  --color-006: rgb(25, 25, 25);
+  --color-007: rgb(0, 145, 255);
+  --color-008: rgba(226, 232, 255, 0.1);
+  --color-009: rgba(0, 0, 0, 0.3);
+  --color-010: rgb(141, 141, 141);
+  --color-011: rgb(180, 180, 180);
+  --color-012: rgb(102, 71, 240);
+  --color-013: rgba(226, 232, 255, 0.01);
+  --color-014: rgb(110, 231, 183);
+  --color-015: rgba(16, 16, 16, 0.3);
+  --color-016: rgb(124, 130, 141);
+  --color-017: rgb(36, 36, 73);
+  --color-018: rgb(0, 192, 122);
+  --color-019: rgb(187, 187, 187);
+  --color-020: rgba(0, 0, 0, 0.06);
+  --color-021: rgb(51, 51, 51);
+}
+
+:root {
+  /* fonts */
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-001: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  --font-002: Inter, sans-serif;
+  --font-003: "Sometype Mono", monospace;
+  --font-004: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  --font-005: Inter;
+  --font-006: "Plus Jakarta Sans", -apple-system, Roboto, Helvetica, sans-serif;
+  --font-007: "Sometype Mono";
+  --font-008: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-009: "SF Pro", sans-serif;
+  --font-010: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-011: "Sometype Mono", -apple-system, Roboto, Helvetica, sans-serif;
+  --font-012: "Times New Roman";
+  /* fontSizes */
+  --font-size-001: 8px;
+  --font-size-002: 10px;
+  --font-size-003: 12px;
+  --font-size-004: 14px;
+  --font-size-005: 15px;
+  --font-size-006: 16px;
+  --font-size-007: 18px;
+  --font-size-008: 26px;
+  --font-size-009: 34px;
+  --font-size-010: 40px;
+  --font-size-011: 48px;
+  --font-size-012: 60px;
+  --font-size-013: 76px;
+  /* fontWeights */
+  --font-weight-001: 400;
+  --font-weight-002: 500;
+  --font-weight-003: 600;
+  --font-weight-004: 650;
+  --font-weight-005: 700;
+  /* lineHeights */
+  --line-height-001: 24px;
+  --line-height-002: 21px;
+  --line-height-003: 20px;
+  --line-height-004: 18px;
+  --line-height-005: 14px;
+  --line-height-006: 22px;
+  --line-height-007: 16px;
+  --line-height-008: 0px;
+  --line-height-009: 11px;
+  --line-height-010: 40.8px;
+  --line-height-011: 60px;
+  --line-height-012: 19.2px;
+  --line-height-013: 21.3333px;
+  --line-height-014: 21.6px;
+  --line-height-015: 32.5px;
+  --line-height-016: 48px;
+  --line-height-017: 66px;
+  --line-height-018: 79.8px;
+  /* spacing */
+  --space-001: -4px;
+  --space-002: 1px;
+  --space-003: 1.2px;
+  --space-004: 2px;
+  --space-005: 3px;
+  --space-006: 4px;
+  --space-007: 5px;
+  --space-008: 6px;
+  --space-009: 7px;
+  --space-010: 8px;
+  --space-011: 9px;
+  --space-012: 10px;
+  --space-013: 12px;
+  --space-014: 13px;
+  --space-015: 14px;
+  --space-016: 16px;
+  --space-017: normal 16px;
+  --space-018: 18px;
+  --space-019: 20px;
+  --space-020: 22px;
+  --space-021: 24px;
+  --space-022: 27px;
+  --space-023: 28px;
+  --space-024: 30px;
+  --space-025: 32px;
+  --space-026: 34.857px;
+  --space-027: 35px;
+  --space-028: 36px;
+  --space-029: 40px;
+  --space-030: 48px;
+  --space-031: 56px;
+  --space-032: 80px;
+  --space-033: 119.203px;
+  /* radii */
+  --radius-001: 1px;
+  --radius-002: 3px;
+  --radius-003: 4px;
+  --radius-004: 5px;
+  --radius-005: 6px;
+  --radius-006: 7px;
+  --radius-007: 7.7px;
+  --radius-008: 8px;
+  --radius-009: 9px;
+  --radius-010: 12px;
+  --radius-011: 14px;
+  --radius-012: 15px;
+  --radius-013: 16px;
+  --radius-014: 18px;
+  --radius-015: 20px;
+  --radius-016: 32px;
+  --radius-017: 50%;
+  --radius-018: 54px;
+  --radius-019: 60px;
+  --radius-020: 99px;
+  --radius-021: 100px;
+  --radius-022: 999px;
+  /* shadows */
+  --shadow-001: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
+  --shadow-002: rgba(0, 0, 0, 0.27) 0px 0px 1px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  --shadow-003: rgba(18, 43, 165, 0.04) 0px 1px 1px -0.5px, rgba(18, 43, 165, 0.04) 0px 3px 3px -1.5px, rgba(18, 43, 165, 0.04) 0px 6px 6px -3px, rgba(18, 43, 165, 0.04) 0px 12px 12px -6px;
+  /* zIndices */
+  --z-001: -1;
+  --z-002: 0;
+  --z-003: 1;
+  --z-004: 2;
+  --z-005: 3;
+  --z-006: 10;
+  --z-007: 20;
+  /* breakpoints */
+  --bp-375: 375px;
+  --bp-768: 768px;
+  --bp-1280: 1280px;
+}
+
+
+/* page base */
+html { background: #ffffff; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+html, body { overflow-x: clip; }

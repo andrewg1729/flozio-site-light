@@ -1,0 +1,18 @@
+{
+  "name": "ClickUp: Productivity Platform",
+  "short_name": "ClickUp: Productivity Platform",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "co.mangotechnologies.clickup"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://clickup.com/landing/images/icons/android_icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

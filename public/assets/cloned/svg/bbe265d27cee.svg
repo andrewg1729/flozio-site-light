@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="9.9" height="9.9" viewBox="0 0 9.9 9.9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="indicator">
+<path id="bg" fill-rule="evenodd" clip-rule="evenodd" d="M9.9 4.95C9.9 7.68381 7.68381 9.9 4.95 9.9C2.21619 9.9 0 7.68381 0 4.95C0 2.21619 2.21619 0 4.95 0C7.68381 0 9.9 2.21619 9.9 4.95Z" fill="#F9F9F9"/>
+<path id="online" d="M8.25 4.95C8.25 6.77254 6.77254 8.25 4.95 8.25C3.12746 8.25 1.65 6.77254 1.65 4.95C1.65 3.12746 3.12746 1.65 4.95 1.65C6.77254 1.65 8.25 3.12746 8.25 4.95Z" fill="#30A46C"/>
+</g>
+</svg>
