@@ -1,0 +1,6 @@
+﻿@media (max-width: 900px) {
+  /* The source disables its GSAP pin spacers at this breakpoint. */
+  .pin-spacer {
+    display: none !important;
+  }
+}

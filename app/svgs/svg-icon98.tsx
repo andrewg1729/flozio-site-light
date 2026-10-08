@@ -1,0 +1,7 @@
+export default function Icon98() {
+  return (
+    <svg className="icon-16 flow-3" data-component="icon" aria-hidden="true" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+      <path fillRule="evenodd" clipRule="evenodd" d="M18.7071 7.29289C19.0976 7.68342 19.0976 8.31658 18.7071 8.70711L10.7112 16.703L10.7076 16.7066C10.317 17.0972 9.68342 17.0976 9.29289 16.7071L5.29289 12.7071C4.90237 12.3166 4.90237 11.6834 5.29289 11.2929C5.68342 10.9024 6.31658 10.9024 6.70711 11.2929L10 14.5858L17.2929 7.29289C17.6834 6.90237 18.3166 6.90237 18.7071 7.29289Z" fill="#838383" />
+    </svg>
+  );
+}

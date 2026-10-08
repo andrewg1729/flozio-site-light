@@ -1,56 +1,56 @@
-import Illustration15 from "../svgs/svg-illustration15";
-import Icon34 from "../svgs/svg-icon34";
-import Icon35 from "../svgs/svg-icon35";
-import Icon36 from "../svgs/svg-icon36";
-import Icon37 from "../svgs/svg-icon37";
-import Illustration16 from "../svgs/svg-illustration16";
-import Illustration17 from "../svgs/svg-illustration17";
-import Icon38 from "../svgs/svg-icon38";
-import Icon39 from "../svgs/svg-icon39";
-import Icon40 from "../svgs/svg-icon40";
-import Icon41 from "../svgs/svg-icon41";
-import Icon42 from "../svgs/svg-icon42";
-import Icon43 from "../svgs/svg-icon43";
 import Illustration18 from "../svgs/svg-illustration18";
-import Icon44 from "../svgs/svg-icon44";
-import Icon45 from "../svgs/svg-icon45";
-import Icon46 from "../svgs/svg-icon46";
-import Icon47 from "../svgs/svg-icon47";
-import Icon48 from "../svgs/svg-icon48";
-import Icon49 from "../svgs/svg-icon49";
-import Icon50 from "../svgs/svg-icon50";
-import Icon51 from "../svgs/svg-icon51";
-import Icon52 from "../svgs/svg-icon52";
+import Icon75 from "../svgs/svg-icon75";
+import Icon76 from "../svgs/svg-icon76";
+import Icon77 from "../svgs/svg-icon77";
+import Icon78 from "../svgs/svg-icon78";
+import Illustration19 from "../svgs/svg-illustration19";
+import Illustration20 from "../svgs/svg-illustration20";
+import Icon79 from "../svgs/svg-icon79";
+import Icon80 from "../svgs/svg-icon80";
+import Icon81 from "../svgs/svg-icon81";
+import Icon82 from "../svgs/svg-icon82";
+import Icon83 from "../svgs/svg-icon83";
+import Icon84 from "../svgs/svg-icon84";
+import Illustration21 from "../svgs/svg-illustration21";
+import Icon85 from "../svgs/svg-icon85";
+import Icon86 from "../svgs/svg-icon86";
+import Icon87 from "../svgs/svg-icon87";
+import Icon88 from "../svgs/svg-icon88";
+import Icon89 from "../svgs/svg-icon89";
+import Icon90 from "../svgs/svg-icon90";
+import Icon91 from "../svgs/svg-icon91";
+import Icon92 from "../svgs/svg-icon92";
+import Icon93 from "../svgs/svg-icon93";
 /** Product Grid section. */
 export default function ProductGridSection() {
   return (
-    <section className="section-4 stack-20">
-      <div className="box-127 stack-25">
-        <div className="box-128 flow-3">
-          <header className="header stack-26 type-28">
-            <div className="box-129 row-2">
-              <Illustration15 />
+    <section className="section-5 stack-13">
+      <div className="box-172 stack-22">
+        <div className="box-173 flow-3">
+          <header className="header stack-23 type-28">
+            <div className="box-174 row-2">
+              <Illustration18 />
             </div>
-            <h2 className="heading-6 flow-2 type-96" data-component="heading">
+            <h2 className="heading-6 flow-2 type-98" data-component="heading">
               {"The best AI is "}
               <i className="flow-4 type-7">
                 your
               </i>
               {" AI"}
             </h2>
-            <p className="text-65 flow-2 type-97">
+            <p className="text-61 flow-2 type-99">
               Already plugged into your team, your tools, and your tasks.
             </p>
-            <div className="text-50 row-53">
-              <span className="flow-2 type-98">
+            <div className="box-175 row-53">
+              <span className="flow-2 type-100">
                 Available everywhere
               </span>
               <ul className="row-54 type-20">
-                <li className="row-48">
-                  <button className="btn-16 row-48 type-99" data-component="button" type="button">
+                <li className="row-27">
+                  <button className="btn-16 row-27 type-101" data-component="button" type="button">
                     <span className="row-4">
-                      <span className="row-55" aria-hidden="true">
-                        <Icon34 />
+                      <span className="row-25" aria-hidden="true">
+                        <Icon75 />
                       </span>
                       <span className="flow-2">
                         macOS
@@ -58,11 +58,11 @@ export default function ProductGridSection() {
                     </span>
                   </button>
                 </li>
-                <li className="row-48">
-                  <a className="btn-16 row-48 type-99" data-component="link" href="https://apps.apple.com/us/app/brain-max-ai-by-clickup/id6741688163" rel="noopener noreferrer" target="_blank">
+                <li className="row-27">
+                  <a className="btn-16 row-27 type-101" data-component="link" href="https://apps.apple.com/us/app/brain-max-ai-by-clickup/id6741688163" rel="noopener noreferrer" target="_blank">
                     <span className="row-4">
-                      <span className="row-55" aria-hidden="true">
-                        <Icon34 />
+                      <span className="row-25" aria-hidden="true">
+                        <Icon75 />
                       </span>
                       <span className="flow-2">
                         iOS
@@ -70,11 +70,11 @@ export default function ProductGridSection() {
                     </span>
                   </a>
                 </li>
-                <li className="row-48">
-                  <button className="btn-16 row-48 type-99" data-component="button" type="button">
+                <li className="row-27">
+                  <button className="btn-16 row-27 type-101" data-component="button" type="button">
                     <span className="row-4">
-                      <span className="row-55" aria-hidden="true">
-                        <Icon35 />
+                      <span className="row-25" aria-hidden="true">
+                        <Icon76 />
                       </span>
                       <span className="flow-2">
                         Windows
@@ -82,11 +82,11 @@ export default function ProductGridSection() {
                     </span>
                   </button>
                 </li>
-                <li className="row-48">
-                  <a className="btn-16 row-48 type-99" data-component="link" href="https://play.google.com/store/apps/details?id=com.clickup.max" rel="noopener noreferrer" target="_blank">
+                <li className="row-27">
+                  <a className="btn-16 row-27 type-101" data-component="link" href="https://play.google.com/store/apps/details?id=com.clickup.max" rel="noopener noreferrer" target="_blank">
                     <span className="row-4">
-                      <span className="row-55" aria-hidden="true">
-                        <Icon36 />
+                      <span className="row-25" aria-hidden="true">
+                        <Icon77 />
                       </span>
                       <span className="flow-2">
                         Android
@@ -97,71 +97,71 @@ export default function ProductGridSection() {
               </ul>
             </div>
           </header>
-          <img className="image-82 flow-23" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/svg/2eb834996a5b.svg" />
-          <img className="image-83 flow-23" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/images/65051058bb19.png" />
+          <img className="image-68 flow-12" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/svg/2eb834996a5b.svg" />
+          <img className="image-69 flow-12" data-component="image" alt="" aria-hidden="true" src="/assets/cloned/images/65051058bb19.png" />
         </div>
-        <div className="box-130 flow-2">
-          <ul className="list-2 grid-8 type-20">
-            <li className="list-item-14 stack-27">
-              <div className="box-131 stack-28">
-                <p className="flow-2 type-100">
+        <div className="box-176 flow-2">
+          <ul className="list-3 grid-3 type-20">
+            <li className="list-item-14 stack-24">
+              <div className="box-177 stack-25">
+                <p className="flow-2 type-102">
                   Context
                 </p>
-                <p className="flow-2 type-101">
+                <p className="flow-2 type-103">
                   Brain² sees your tasks, docs, and conversations. It doesn't need a brief because it knows what's happening in real-time.
                 </p>
               </div>
-              <div className="box-132 row-56">
-                <div className="box-133 flow-29" aria-hidden="true" role="presentation">
-                  <div className="box-134 flow-2">
-                    <div className="box-135 flow-2">
-                      <div className="box-136 flow-3">
-                        <span className="text-66 flow-2" />
-                        <span className="text-67 row-57">
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
+              <div className="box-178 row-55">
+                <div className="box-179 flow-29" aria-hidden="true" role="presentation">
+                  <div className="box-180 flow-2">
+                    <div className="box-181 flow-2">
+                      <div className="box-182 flow-3">
+                        <span className="text-62 flow-2" />
+                        <span className="text-63 row-56">
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
                         </span>
-                        <span className="text-69 flow-2" />
-                        <span className="text-70 flow-2" />
+                        <span className="text-65 flow-2" />
+                        <span className="text-66 flow-2" />
                       </div>
-                      <div className="box-137 flow-3">
-                        <span className="text-66 flow-2" />
-                        <span className="text-67 row-57">
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
+                      <div className="box-183 flow-3">
+                        <span className="text-62 flow-2" />
+                        <span className="text-63 row-56">
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
                         </span>
-                        <span className="text-69 flow-2" />
-                        <span className="text-70 flow-2" />
+                        <span className="text-65 flow-2" />
+                        <span className="text-66 flow-2" />
                       </div>
-                      <div className="box-138 flow-3">
-                        <span className="text-66 flow-2" />
-                        <span className="text-67 row-57">
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
+                      <div className="box-184 flow-3">
+                        <span className="text-62 flow-2" />
+                        <span className="text-63 row-56">
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
                         </span>
-                        <span className="text-69 flow-2" />
-                        <span className="text-70 flow-2" />
+                        <span className="text-65 flow-2" />
+                        <span className="text-66 flow-2" />
                       </div>
-                      <div className="box-139 flow-3">
-                        <span className="text-66 flow-2" />
-                        <span className="text-67 row-57">
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
-                          <span className="text-68 flow-2" />
+                      <div className="box-185 flow-3">
+                        <span className="text-62 flow-2" />
+                        <span className="text-63 row-56">
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
+                          <span className="text-64 flow-2" />
                         </span>
-                        <span className="text-69 flow-2" />
-                        <span className="text-70 flow-2" />
+                        <span className="text-65 flow-2" />
+                        <span className="text-66 flow-2" />
                       </div>
                     </div>
-                    <div className="box-140 flow-2" />
-                    <div className="box-141 flow-3">
-                      <span className="text-71 row-2">
-                        <span className="text-72 row-2">
-                          <picture className="image-84 flow-2">
-                            <img className="image-19 flow-23" data-component="image" alt="" aria-hidden="true" height="28" src="/assets/cloned/svg/61176a9dcceb.svg" width="28" />
+                    <div className="box-186 flow-2" />
+                    <div className="box-187 flow-3">
+                      <span className="text-67 row-2">
+                        <span className="text-68 row-2">
+                          <picture className="image-70 flow-2">
+                            <img className="image-71 flow-12" data-component="image" alt="" aria-hidden="true" height="28" src="/assets/cloned/svg/61176a9dcceb.svg" width="28" />
                           </picture>
                         </span>
                       </span>
@@ -170,62 +170,62 @@ export default function ProductGridSection() {
                 </div>
               </div>
             </li>
-            <li className="list-item-15 stack-27">
-              <div className="box-131 stack-28">
-                <p className="flow-2 type-100">
+            <li className="list-item-15 stack-24">
+              <div className="box-177 stack-25">
+                <p className="flow-2 type-102">
                   Intelligence
                 </p>
-                <p className="flow-2 type-101">
+                <p className="flow-2 type-103">
                   Brain² picks the best AI model for each job. One subscription. Every frontier model running with full context.
                 </p>
               </div>
-              <div className="box-142 row-56">
-                <div className="box-143 flow-29" aria-hidden="true" role="presentation">
-                  <div className="box-144 flow-2">
-                    <p className="text-73 flow-2 type-102">
+              <div className="box-188 row-55">
+                <div className="box-189 flow-29" aria-hidden="true" role="presentation">
+                  <div className="box-190 flow-2">
+                    <p className="text-69 flow-2 type-104">
                       Best models
                     </p>
-                    <div className="box-45 stack-24">
-                      <span className="text-74 flow-2">
-                        <Icon37 />
+                    <div className="box-191 stack-17">
+                      <span className="text-70 flow-2">
+                        <Icon78 />
                       </span>
-                      <div className="box-145 row-10">
-                        <span className="text-75 row-55">
-                          <picture className="text-24 flow-2">
-                            <img className="image-85 flow-23" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/61176a9dcceb.svg" width="16" />
+                      <div className="box-192 row-10">
+                        <span className="text-71 row-25">
+                          <picture className="image-72 flow-2">
+                            <img className="image-73 flow-12" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/61176a9dcceb.svg" width="16" />
                           </picture>
                         </span>
-                        <span className="text-4 flow-3 type-104">
+                        <span className="text-4 flow-3 type-106">
                           Brain
                         </span>
                       </div>
-                      <div className="box-145 row-10">
-                        <span className="text-24 row-55">
-                          <picture className="icon-2 flow-2">
-                            <img className="image-86 flow-23" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
+                      <div className="box-192 row-10">
+                        <span className="image-72 row-25">
+                          <picture className="image-74 flow-2">
+                            <img className="image-75 flow-12" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
                           </picture>
                         </span>
-                        <span className="text-4 flow-3 type-104">
+                        <span className="text-4 flow-3 type-106">
                           GPT
                         </span>
                       </div>
-                      <div className="box-145 row-10">
-                        <span className="text-24 row-55">
-                          <picture className="image-87 flow-2">
-                            <img className="image-88 flow-23" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/e21ad16cb32f.svg" width="16" />
+                      <div className="box-192 row-10">
+                        <span className="image-72 row-25">
+                          <picture className="image-76 flow-2">
+                            <img className="image-77 flow-12" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/e21ad16cb32f.svg" width="16" />
                           </picture>
                         </span>
-                        <span className="text-4 flow-3 type-104">
+                        <span className="text-4 flow-3 type-106">
                           Claude Opus
                         </span>
                       </div>
-                      <div className="box-145 row-10">
-                        <span className="row-55">
-                          <picture className="text-24 flow-2">
-                            <img className="image-85 flow-23" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
+                      <div className="box-192 row-10">
+                        <span className="row-25">
+                          <picture className="image-72 flow-2">
+                            <img className="image-73 flow-12" data-component="image" alt="" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
                           </picture>
                         </span>
-                        <span className="text-4 flow-3 type-104">
+                        <span className="text-4 flow-3 type-106">
                           Gemini
                         </span>
                       </div>
@@ -234,76 +234,76 @@ export default function ProductGridSection() {
                 </div>
               </div>
             </li>
-            <li className="list-item-16 stack-27">
-              <div className="box-131 stack-28">
-                <p className="flow-2 type-100">
+            <li className="list-item-16 stack-24">
+              <div className="box-177 stack-25">
+                <p className="flow-2 type-102">
                   Personality
                 </p>
-                <p className="flow-2 type-101">
+                <p className="flow-2 type-103">
                   Brain² learns how you and your team talk: your tone, your shorthand, your preferences.
                 </p>
               </div>
-              <div className="box-146 row-56">
-                <div className="box-147 flow-29" aria-hidden="true" role="presentation">
-                  <div className="box-148 stack-25">
-                    <span className="text-76 flow-2" aria-hidden="true" />
-                    <span className="text-77 flow-3">
-                      <span className="text-78 flow-2" />
+              <div className="box-193 row-55">
+                <div className="box-194 flow-29" aria-hidden="true" role="presentation">
+                  <div className="box-195 stack-22">
+                    <span className="text-72 flow-2" aria-hidden="true" />
+                    <span className="text-73 flow-3">
+                      <span className="text-74 flow-2" />
                     </span>
-                    <div className="box-149 stack-24">
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                    <div className="box-196 stack-17">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           tone
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "direct, no fluff, like a sharp coworker"
                         </span>
                       </div>
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           sprint_methods
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "story points, fibonacci"
                         </span>
                       </div>
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           reports_to
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "VP Engineering, weekly on Mondays"
                         </span>
                       </div>
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           prefers
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "tables over bullet points"
                         </span>
                       </div>
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           projects
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "Brain 2.0, Platform Migration, Q2"
                         </span>
                       </div>
-                      <div className="box-150 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-197 row-23">
+                        <span className="text-75 flow-30 type-107">
                           timezone
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "PST, don't schedule before 10am"
                         </span>
                       </div>
-                      <div className="box-151 row-58">
-                        <span className="text-79 flow-30 type-105">
+                      <div className="box-198 row-23">
+                        <span className="text-75 flow-30 type-107">
                           tools
                         </span>
-                        <span className="text-4 flow-31 type-106">
+                        <span className="text-4 flow-31 type-108">
                           "GitHub, Figma, Linear, Notion"
                         </span>
                       </div>
@@ -314,651 +314,651 @@ export default function ProductGridSection() {
             </li>
           </ul>
         </div>
-        <div className="box-130 flow-2">
-          <header className="header-2 stack-29 type-28">
-            <h3 className="heading-7 flow-2 type-107" data-component="heading">
+        <div className="box-176 flow-2">
+          <header className="header-2 stack-26 type-28">
+            <h3 className="heading-7 flow-2 type-109" data-component="heading">
               Nothing comes close to Brain
-              <sup className="box-152 flow-4 type-108">
+              <sup className="box-199 flow-4 type-110">
                 2
               </sup>
             </h3>
-            <p className="text-80 flow-2 type-109">
+            <p className="text-76 flow-2 type-111">
               We rebuilt Brain from the ground up.
             </p>
           </header>
-          <section className="section-5 flow-3" aria-label="What's new in Brain 2">
-            <div className="box-153 stack-24">
-              <div className="box-154 grid-9" aria-label="Brain 2 feature highlights - row 1">
-                <div className="box-155 stack-30">
-                  <div className="box-156 stack-4">
-                    <p className="flow-2 type-110">
+          <section className="section-6 flow-3" aria-label="What's new in Brain 2">
+            <div className="box-200 stack-17">
+              <div className="box-201 grid-4" aria-label="Brain 2 feature highlights - row 1">
+                <div className="box-202 stack-27">
+                  <div className="box-203 stack-4">
+                    <p className="flow-2 type-112">
                       {"Memory & Preferences"}
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       Brain² keeps track of how you like to work, and gets smarter every time you use ClickUp.
                     </p>
                   </div>
-                  <div className="box-157 flow-3">
-                    <div className="box-158 row-59" aria-hidden="true" role="presentation">
-                      <div className="box-159 flow-2" aria-hidden="true" />
-                      <div className="box-160 flow-2">
-                        <div className="box-161 stack-31">
-                          <div className="box-162 row-60">
-                            <span className="text-82 flow-29 type-112">
+                  <div className="box-204 flow-3">
+                    <div className="box-205 row-57" aria-hidden="true" role="presentation">
+                      <div className="box-206 flow-2" aria-hidden="true" />
+                      <div className="box-207 flow-2">
+                        <div className="box-208 stack-28">
+                          <div className="box-209 row-58">
+                            <span className="text-78 flow-29 type-114">
                               Memory Updated
                             </span>
-                            <picture className="image-89 flow-30">
-                              <img className="image-16 flow-23" data-component="image" alt="brain mark" height="18" sizes="(max-width: 768px) 100vw, 50vw" src="/assets/cloned/svg/61176a9dcceb.svg" width="18" />
+                            <picture className="image-78 flow-30">
+                              <img className="image-79 flow-12" data-component="image" alt="brain mark" height="18" sizes="(max-width: 768px) 100vw, 50vw" src="/assets/cloned/svg/61176a9dcceb.svg" width="18" />
                             </picture>
                           </div>
-                          <div className="box-163 flow-2">
-                            <div className="box-164 stack-32" id="brain2-memory-preference-values-clarity">
-                              <span className="flow-2 type-113">
+                          <div className="box-210 flow-2">
+                            <div className="box-211 stack-29" id="brain2-memory-preference-values-clarity">
+                              <span className="flow-2 type-115">
                                 User Preference:
                               </span>
-                              <span className="text-83 flow-2 type-114">
+                              <span className="text-79 flow-2 type-116">
                                 Values clarity
                               </span>
                             </div>
                           </div>
                         </div>
-                        <span className="text-84 flow-2" aria-hidden="true" />
+                        <span className="text-80 flow-2" aria-hidden="true" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-155 stack-30">
-                  <div className="box-165 stack-4">
-                    <p className="flow-2 type-110">
+                <div className="box-202 stack-27">
+                  <div className="box-212 stack-4">
+                    <p className="flow-2 type-112">
                       Every AI, Unlimited
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       GPT, Claude Opus, Gemini, and more. Every model runs with full knowledge of your work.
                     </p>
                   </div>
-                  <div className="box-157 flow-3">
-                    <div className="box-166 row-46" aria-hidden="true">
-                      <div className="box-167 row-2">
-                        <span className="text-85 row-2">
-                          <picture className="image-90 flow-2">
-                            <img className="image-91 flow-23" data-component="image" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/11f4c2bd267d.svg" width="12" />
+                  <div className="box-204 flow-3">
+                    <div className="box-213 row-47" aria-hidden="true">
+                      <div className="box-214 row-2">
+                        <span className="text-81 row-2">
+                          <picture className="image-80 flow-2">
+                            <img className="image-81 flow-12" data-component="image" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/11f4c2bd267d.svg" width="12" />
                           </picture>
                         </span>
-                        <div className="box-168 flow-2">
-                          <div className="box-169 row-45">
+                        <div className="box-215 flow-2">
+                          <div className="box-216 row-44">
                             <div className="text-12 row-10">
-                              <span className="row-55">
-                                <picture className="text-24 flow-2">
-                                  <img className="image-5 flow-23" data-component="image" alt="Gemini logo" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
-                                </picture>
-                              </span>
-                              <span className="text-4 flow-2 type-115">
-                                Gemini
-                              </span>
-                            </div>
-                          </div>
-                          <div className="box-170 row-45">
-                            <div className="text-12 row-4">
-                              <Illustration16 />
-                            </div>
-                          </div>
-                          <div className="box-171 row-45">
-                            <div className="text-12 row-4">
-                              <span className="box-162 row-55">
-                                <picture className="image-93 flow-2">
-                                  <img className="image-94 flow-23" data-component="image" alt="Claude logo" aria-hidden="true" height="19" src="/assets/cloned/svg/e21ad16cb32f.svg" width="18" />
-                                </picture>
-                              </span>
-                              <span className="text-4 flow-2 type-116">
-                                Claude
-                              </span>
-                            </div>
-                          </div>
-                          <div className="box-172 row-45">
-                            <div className="text-12 row-10">
-                              <span className="text-75 row-55">
-                                <picture className="text-24 flow-2">
-                                  <img className="image-5 flow-23" data-component="image" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
+                              <span className="row-25">
+                                <picture className="image-72 flow-2">
+                                  <img className="image-82 flow-12" data-component="image" alt="Gemini logo" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
                                 </picture>
                               </span>
                               <span className="text-4 flow-2 type-117">
+                                Gemini
+                              </span>
+                            </div>
+                          </div>
+                          <div className="box-217 row-44">
+                            <div className="text-12 row-4">
+                              <Illustration19 />
+                            </div>
+                          </div>
+                          <div className="box-218 row-44">
+                            <div className="text-12 row-4">
+                              <span className="box-209 row-25">
+                                <picture className="image-83 flow-2">
+                                  <img className="image-84 flow-12" data-component="image" alt="Claude logo" aria-hidden="true" height="19" src="/assets/cloned/svg/e21ad16cb32f.svg" width="18" />
+                                </picture>
+                              </span>
+                              <span className="text-4 flow-2 type-118">
+                                Claude
+                              </span>
+                            </div>
+                          </div>
+                          <div className="box-219 row-44">
+                            <div className="text-12 row-10">
+                              <span className="text-71 row-25">
+                                <picture className="image-72 flow-2">
+                                  <img className="image-82 flow-12" data-component="image" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
+                                </picture>
+                              </span>
+                              <span className="text-4 flow-2 type-119">
                                 ChatGPT
                               </span>
                             </div>
                           </div>
-                          <div className="box-173 flow-2" />
+                          <div className="box-220 flow-2" />
                         </div>
-                        <span className="text-86 row-2">
-                          <picture className="image-90 flow-2">
-                            <img className="image-91 flow-23" data-component="image" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/0cdccc0973b0.svg" width="12" />
+                        <span className="text-82 row-2">
+                          <picture className="image-80 flow-2">
+                            <img className="image-81 flow-12" data-component="image" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/0cdccc0973b0.svg" width="12" />
                           </picture>
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-155 stack-30">
-                  <div className="box-165 stack-4">
-                    <p className="flow-2 type-110">
+                <div className="box-202 stack-27">
+                  <div className="box-212 stack-4">
+                    <p className="flow-2 type-112">
                       Multiplayer AI
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       The more your team uses Brain², the more it knows, the more useful it gets for everyone.
                     </p>
                   </div>
-                  <div className="box-157 flow-3">
-                    <div className="box-174 flow-3" aria-hidden="true">
-                      <div className="box-175 flow-23">
-                        <div className="box-176 flow-2" />
-                        <div className="box-177 row-61">
-                          <div className="text-48 row-62">
-                            <div className="box-178 flow-32">
-                              <picture className="image-95 flow-2">
-                                <img className="image-96 flow-23" data-component="image" alt="Strategist avatar" height="60" src="/assets/cloned/images/05741c07a96e.png" width="60" />
+                  <div className="box-204 flow-3">
+                    <div className="box-221 flow-3" aria-hidden="true">
+                      <div className="box-222 flow-12">
+                        <div className="box-223 flow-2" />
+                        <div className="box-224 row-59">
+                          <div className="text-15 row-60">
+                            <div className="box-225 flow-13">
+                              <picture className="image-85 flow-2">
+                                <img className="image-86 flow-12" data-component="image" alt="Strategist avatar" height="60" src="/assets/cloned/images/05741c07a96e.png" width="60" />
                               </picture>
                             </div>
-                            <span className="text-4 flow-3 type-118">
+                            <span className="text-4 flow-3 type-120">
                               Strategist
                             </span>
                           </div>
-                          <div className="box-179 flow-30" />
+                          <div className="box-226 flow-30" />
                         </div>
                       </div>
-                      <div className="box-180 flow-23">
-                        <div className="box-181 row-61">
-                          <div className="text-48 row-62">
-                            <div className="box-182 flow-32">
-                              <picture className="image-97 flow-2">
-                                <img className="image-98 flow-23" data-component="image" alt="Developer avatar" height="61" src="/assets/cloned/images/7418c4202a5d.png" width="61" />
+                      <div className="box-227 flow-12">
+                        <div className="box-228 row-59">
+                          <div className="text-15 row-60">
+                            <div className="box-229 flow-13">
+                              <picture className="image-87 flow-2">
+                                <img className="image-88 flow-12" data-component="image" alt="Developer avatar" height="61" src="/assets/cloned/images/7418c4202a5d.png" width="61" />
                               </picture>
                             </div>
-                            <span className="text-4 flow-3 type-118">
+                            <span className="text-4 flow-3 type-120">
                               Developer
                             </span>
                           </div>
-                          <div className="box-183 flow-30" />
+                          <div className="box-230 flow-30" />
                         </div>
                       </div>
-                      <div className="box-184 flow-23">
-                        <div className="box-185 row-61">
-                          <div className="box-186 row-62">
-                            <div className="box-187 flow-32">
-                              <picture className="image-99 flow-2">
-                                <img className="image-100 flow-23" data-component="image" alt="Visual Designer avatar" height="67" src="/assets/cloned/images/91bf19a4242c.png" width="67" />
+                      <div className="box-231 flow-12">
+                        <div className="box-232 row-59">
+                          <div className="box-233 row-60">
+                            <div className="box-234 flow-13">
+                              <picture className="image-89 flow-2">
+                                <img className="image-90 flow-12" data-component="image" alt="Visual Designer avatar" height="67" src="/assets/cloned/images/91bf19a4242c.png" width="67" />
                               </picture>
                             </div>
-                            <span className="text-87 flow-3 type-118">
+                            <span className="text-83 flow-3 type-120">
                               Visual Designer
                             </span>
                           </div>
-                          <div className="box-188 flow-30" />
+                          <div className="box-235 flow-30" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="box-154 grid-9" aria-label="Brain 2 feature highlights - row 2">
-                <div className="box-155 stack-30">
-                  <div className="box-165 stack-4">
-                    <p className="flow-2 type-110">
+              <div className="box-201 grid-4" aria-label="Brain 2 feature highlights - row 2">
+                <div className="box-202 stack-27">
+                  <div className="box-212 stack-4">
+                    <p className="flow-2 type-112">
                       {"Connected Apps & Any MCP"}
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       Brain² taps Google Drive, GitHub, Salesforce, and more to get you answers and insights.
                     </p>
                   </div>
-                  <div className="box-45 flow-3">
-                    <div className="box-189 row-46" aria-hidden="true" role="presentation">
-                      <div className="box-190 flow-2" />
-                      <div className="box-191 flow-2">
-                        <div className="box-192 flow-2" />
-                        <Illustration17 />
-                        <div className="box-193 row-2">
-                          <Icon38 />
+                  <div className="box-191 flow-3">
+                    <div className="box-236 row-47" aria-hidden="true" role="presentation">
+                      <div className="box-237 flow-2" />
+                      <div className="box-238 flow-2">
+                        <div className="box-239 flow-2" />
+                        <Illustration20 />
+                        <div className="box-240 row-2">
+                          <Icon79 />
                         </div>
-                        <div className="box-194 row-2">
-                          <Icon39 />
+                        <div className="box-241 row-2">
+                          <Icon80 />
                         </div>
-                        <div className="box-195 row-46">
-                          <picture className="image-102 flow-30">
-                            <img className="image-103 flow-23" data-component="image" alt="" aria-hidden="true" height="72" sizes="72px" src="/assets/cloned/svg/61176a9dcceb.svg" width="72" />
+                        <div className="box-242 row-47">
+                          <picture className="image-92 flow-30">
+                            <img className="image-93 flow-12" data-component="image" alt="" aria-hidden="true" height="72" sizes="72px" src="/assets/cloned/svg/61176a9dcceb.svg" width="72" />
                           </picture>
                         </div>
-                        <div className="box-196 row-2">
-                          <Icon40 />
+                        <div className="box-243 row-2">
+                          <Icon81 />
                         </div>
-                        <div className="box-197 row-2">
-                          <Icon41 />
+                        <div className="box-244 row-2">
+                          <Icon82 />
                         </div>
                       </div>
-                      <div className="box-198 row-4 type-2">
-                        <span className="text-88 flow-30">
-                          <Icon42 />
+                      <div className="box-245 row-4 type-2">
+                        <span className="text-84 flow-30">
+                          <Icon83 />
                         </span>
-                        <span className="flow-2 type-119">
+                        <span className="flow-2 type-121">
                           MCP Online
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-155 stack-30">
-                  <div className="box-156 stack-4">
-                    <p className="flow-2 type-110">
+                <div className="box-202 stack-27">
+                  <div className="box-203 stack-4">
+                    <p className="flow-2 type-112">
                       Ambient Intelligence
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       Brain² surfaces relevant context, related tasks, and smart suggestions before you even ask.
                     </p>
                   </div>
-                  <div className="box-157 flow-3">
-                    <div className="box-199 flow-2" aria-hidden="true">
-                      <div className="box-200 row-63">
-                        <div className="box-201 flow-2" />
-                        <span className="text-17 row-55">
-                          <Icon43 />
+                  <div className="box-204 flow-3">
+                    <div className="box-246 flow-2" aria-hidden="true">
+                      <div className="box-247 row-61">
+                        <div className="box-248 flow-2" />
+                        <span className="text-85 row-25">
+                          <Icon84 />
                         </span>
-                        <span className="text-19 flow-33 type-120">
+                        <span className="text-18 flow-11 type-122">
                           Gathering Data
                         </span>
-                        <picture className="image-104 flow-2">
-                          <img className="image-105 flow-23" data-component="image" alt="" aria-hidden="true" height="30" sizes="30px" src="/assets/cloned/svg/61176a9dcceb.svg" width="30" />
+                        <picture className="image-94 flow-2">
+                          <img className="image-95 flow-12" data-component="image" alt="" aria-hidden="true" height="30" sizes="30px" src="/assets/cloned/svg/61176a9dcceb.svg" width="30" />
                         </picture>
                       </div>
-                      <div className="box-202 row-64 type-2" aria-hidden="true">
-                        <span className="text-89 flow-30" />
-                        <span className="text-14 flow-2 type-121">
+                      <div className="box-249 row-28 type-2" aria-hidden="true">
+                        <span className="text-86 flow-30" />
+                        <span className="box-45 flow-2 type-123">
                           Improve Billing Error Handling
                         </span>
                       </div>
-                      <div className="box-203 row-64 type-2" aria-hidden="true">
-                        <span className="text-90 flow-30" />
-                        <span className="text-14 flow-2 type-121">
+                      <div className="box-250 row-28 type-2" aria-hidden="true">
+                        <span className="text-87 flow-30" />
+                        <span className="box-45 flow-2 type-123">
                           Optimize Dashboard Load Time
                         </span>
                       </div>
-                      <div className="box-204 row-64 type-2" aria-hidden="true">
-                        <span className="text-89 flow-30" />
-                        <span className="text-14 flow-2 type-122">
+                      <div className="box-251 row-28 type-2" aria-hidden="true">
+                        <span className="text-86 flow-30" />
+                        <span className="box-45 flow-2 type-124">
                           Improve Billing Error Handling
                         </span>
                       </div>
-                      <div className="box-205 row-64 type-2" aria-hidden="true">
-                        <span className="text-89 flow-30" />
-                        <span className="text-14 flow-2 type-123">
+                      <div className="box-252 row-28 type-2" aria-hidden="true">
+                        <span className="text-86 flow-30" />
+                        <span className="box-45 flow-2 type-125">
                           Improve Billing Error Handling
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-155 stack-30">
-                  <div className="box-165 stack-4">
-                    <p className="flow-2 type-110">
+                <div className="box-202 stack-27">
+                  <div className="box-212 stack-4">
+                    <p className="flow-2 type-112">
                       Deep Search
                     </p>
-                    <p className="text-81 flow-2 type-111">
+                    <p className="text-77 flow-2 type-113">
                       Ask something complex. Brain² checks your workspace, apps, and the web for answers.
                     </p>
                   </div>
-                  <div className="box-157 flow-3">
-                    <div className="box-206 flow-3" aria-hidden="true" role="presentation">
-                      <div className="box-207 flow-2 type-124">
-                        <p className="text-91 flow-2">
-                          <strong className="text-14 flow-4 type-125">
+                  <div className="box-204 flow-3">
+                    <div className="box-253 flow-3" aria-hidden="true" role="presentation">
+                      <div className="box-254 flow-2 type-126">
+                        <p className="text-88 flow-2">
+                          <strong className="box-45 flow-4 type-127">
                             {"Growth & Acquisition, Week of Apr 21"}
                           </strong>
                           {" "}
-                          <br className="text-14 flow-4" />
+                          <br className="box-45 flow-4" />
                           Paid ROAS holding at 4.2x across search, up from 3.8x last week. Activation rate hit 38%, up 4pts month-over-month — best since December.
                         </p>
-                        <p className="text-92 flow-2">
-                          <strong className="text-14 flow-4 type-125">
+                        <p className="text-89 flow-2">
+                          <strong className="box-45 flow-4 type-127">
                             {"Growth & Acquisition Update for the Week of April 21"}
                           </strong>
                           {" "}
-                          <br className="text-14 flow-4" />
+                          <br className="box-45 flow-4" />
                           This week, we are excited to report that our Paid Return on Ad Spend (ROAS) has shown remarkable strength, now standing at an impressive 4.2x in search. This marks a significant increase from last week's figure of 3.8x, indicating that our advertising strategies are effectively resonating with our target audience. Additionally, our activation rate has reached 38%, which is a notable rise of 4 points compared to last month. This is particularly encouraging as it represents the highest activation rate we have seen since December, showcasing our ongoing efforts to enhance user engagement and conversion.
                         </p>
                       </div>
-                      <div className="box-208 flow-2">
-                        <picture className="image-106 flow-2 type-126">
-                          <img className="image-107 flow-23" data-component="image" alt="" aria-hidden="true" height="99" sizes="174px" src="/assets/cloned/svg/367664727c56.svg" width="174" />
+                      <div className="box-255 flow-2">
+                        <picture className="image-96 flow-2 type-128">
+                          <img className="image-97 flow-12" data-component="image" alt="" aria-hidden="true" height="99" sizes="174px" src="/assets/cloned/svg/367664727c56.svg" width="174" />
                         </picture>
-                        <picture className="image-108 flow-2 type-127">
-                          <img className="image-109 flow-23" data-component="image" alt="" aria-hidden="true" height="138" sizes="127px" src="/assets/cloned/svg/648c215e047f.svg" width="127" />
+                        <picture className="image-98 flow-2 type-129">
+                          <img className="image-99 flow-12" data-component="image" alt="" aria-hidden="true" height="138" sizes="127px" src="/assets/cloned/svg/648c215e047f.svg" width="127" />
                         </picture>
-                        <picture className="image-110 flow-2">
-                          <img className="image-111 flow-23" data-component="image" alt="" aria-hidden="true" height="109" sizes="127px" src="/assets/cloned/svg/9388c34faa92.svg" width="127" />
+                        <picture className="image-100 flow-2">
+                          <img className="image-101 flow-12" data-component="image" alt="" aria-hidden="true" height="109" sizes="127px" src="/assets/cloned/svg/9388c34faa92.svg" width="127" />
                         </picture>
                       </div>
-                      <div className="box-209 flow-2" />
-                      <div className="section-2 flow-2">
-                        <Illustration18 />
+                      <div className="box-256 flow-2" />
+                      <div className="section-3 flow-2">
+                        <Illustration21 />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="box-210 flow-34" aria-label="Brain 2 feature highlights">
-                <div className="box-211 stack-30">
-                  <div className="box-212 stack-4">
-                    <p className="text-5 flow-2 type-128">
+              <div className="box-257 flow-32" aria-label="Brain 2 feature highlights">
+                <div className="box-258 stack-27">
+                  <div className="box-259 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       {"Memory & Preferences"}
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       Brain² keeps track of how you like to work, and gets smarter every time you use ClickUp.
                     </p>
                   </div>
-                  <div className="box-213 flow-3">
-                    <div className="box-214 row-59" aria-hidden="true" role="presentation">
-                      <div className="box-215 flow-2" aria-hidden="true" />
-                      <div className="box-216 flow-2">
-                        <div className="box-217 stack-31">
-                          <div className="box-218 row-60">
-                            <span className="text-94 flow-29 type-112">
+                  <div className="box-260 flow-3">
+                    <div className="box-261 row-57" aria-hidden="true" role="presentation">
+                      <div className="box-262 flow-2" aria-hidden="true" />
+                      <div className="box-263 flow-2">
+                        <div className="box-264 stack-28">
+                          <div className="box-265 row-58">
+                            <span className="text-91 flow-29 type-114">
                               Memory Updated
                             </span>
-                            <picture className="image-113 flow-30">
-                              <img className="image-114 flow-23" alt="brain mark" height="18" sizes="(max-width: 768px) 100vw, 50vw" src="/assets/cloned/svg/61176a9dcceb.svg" width="18" />
+                            <picture className="image-103 flow-30">
+                              <img className="image-104 flow-12" alt="brain mark" height="18" sizes="(max-width: 768px) 100vw, 50vw" src="/assets/cloned/svg/61176a9dcceb.svg" width="18" />
                             </picture>
                           </div>
-                          <div className="box-219 flow-2">
-                            <div className="box-220 stack-32" id="brain2-memory-preference-values-clarity">
-                              <span className="text-5 flow-2 type-113">
+                          <div className="box-266 flow-2">
+                            <div className="box-267 stack-29" id="brain2-memory-preference-values-clarity">
+                              <span className="text-5 flow-2 type-115">
                                 User Preference:
                               </span>
-                              <span className="text-95 flow-2 type-129">
+                              <span className="text-92 flow-2 type-131">
                                 Values clarity
                               </span>
                             </div>
                           </div>
                         </div>
-                        <span className="text-96 flow-2" aria-hidden="true" />
+                        <span className="text-93 flow-2" aria-hidden="true" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-211 stack-30">
-                  <div className="box-221 stack-4">
-                    <p className="text-5 flow-2 type-128">
+                <div className="box-258 stack-27">
+                  <div className="box-268 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       Every AI, Unlimited
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       GPT, Claude Opus, Gemini, and more. Every model runs with full knowledge of your work.
                     </p>
                   </div>
-                  <div className="box-213 flow-3">
-                    <div className="box-222 row-46" aria-hidden="true">
-                      <div className="box-223 row-2">
-                        <span className="text-97 row-2">
-                          <picture className="image-115 flow-2">
-                            <img className="image-116 flow-23" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/11f4c2bd267d.svg" width="12" />
+                  <div className="box-260 flow-3">
+                    <div className="box-269 row-47" aria-hidden="true">
+                      <div className="box-270 row-2">
+                        <span className="text-94 row-2">
+                          <picture className="image-105 flow-2">
+                            <img className="image-106 flow-12" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/11f4c2bd267d.svg" width="12" />
                           </picture>
                         </span>
-                        <div className="box-224 flow-2">
-                          <div className="box-225 row-45">
-                            <div className="box-226 row-65">
-                              <span className="text-98 row-55">
-                                <picture className="image-117 flow-2">
-                                  <img className="image-118 flow-23" alt="Gemini logo" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
+                        <div className="box-271 flow-2">
+                          <div className="box-272 row-44">
+                            <div className="box-273 row-62">
+                              <span className="text-95 row-25">
+                                <picture className="image-107 flow-2">
+                                  <img className="image-108 flow-12" alt="Gemini logo" aria-hidden="true" height="16" src="/assets/cloned/svg/3cd8b944a0eb.svg" width="16" />
                                 </picture>
                               </span>
-                              <span className="text-99 flow-2 type-130">
+                              <span className="text-96 flow-2 type-132">
                                 Gemini
                               </span>
                             </div>
                           </div>
-                          <div className="box-227 row-45">
-                            <div className="box-226 row-10">
-                              <Icon44 />
+                          <div className="box-274 row-44">
+                            <div className="box-273 row-10">
+                              <Icon85 />
                             </div>
                           </div>
-                          <div className="box-228 row-66">
-                            <div className="box-229 row-67">
-                              <span className="text-100 row-68">
-                                <picture className="image-119 flow-35">
-                                  <img className="image-120 flow-36" alt="Claude logo" aria-hidden="true" height="19" src="/assets/cloned/svg/e21ad16cb32f.svg" width="18" />
+                          <div className="box-275 row-63">
+                            <div className="box-276 row-64">
+                              <span className="text-97 row-65">
+                                <picture className="image-109 flow-33">
+                                  <img className="image-110 flow-34" alt="Claude logo" aria-hidden="true" height="19" src="/assets/cloned/svg/e21ad16cb32f.svg" width="18" />
                                 </picture>
                               </span>
-                              <span className="text-101 flow-35 type-115">
+                              <span className="text-98 flow-33 type-117">
                                 Claude
                               </span>
                             </div>
                           </div>
-                          <div className="box-230 row-45">
-                            <div className="box-226 row-4">
-                              <span className="text-102 row-55">
-                                <picture className="image-121 flow-2">
-                                  <img className="image-122 flow-23" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
+                          <div className="box-277 row-44">
+                            <div className="box-273 row-4">
+                              <span className="text-99 row-25">
+                                <picture className="image-111 flow-2">
+                                  <img className="image-112 flow-12" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
                                 </picture>
                               </span>
-                              <span className="text-99 flow-2 type-131">
+                              <span className="text-96 flow-2 type-133">
                                 ChatGPT
                               </span>
                             </div>
                           </div>
-                          <div className="box-231 flow-37">
-                            <div className="box-232 flow-38">
-                              <span className="text-103 flow-39">
-                                <picture className="image-123 flow-40">
-                                  <img className="image-124 flow-41" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
+                          <div className="box-278 flow-35">
+                            <div className="box-279 flow-36">
+                              <span className="text-100 flow-37">
+                                <picture className="image-113 flow-38">
+                                  <img className="image-114 flow-39" alt="ChatGPT logo" aria-hidden="true" height="16" src="/assets/cloned/svg/34cf8aeb0bfe.svg" width="16" />
                                 </picture>
                               </span>
-                              <span className="text-104 flow-40 type-132">
+                              <span className="text-101 flow-38 type-134">
                                 ChatGPT
                               </span>
                             </div>
                           </div>
-                          <div className="box-233 flow-2" />
+                          <div className="box-280 flow-2" />
                         </div>
-                        <span className="text-105 row-2">
-                          <picture className="image-115 flow-2">
-                            <img className="image-116 flow-23" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/0cdccc0973b0.svg" width="12" />
+                        <span className="text-102 row-2">
+                          <picture className="image-105 flow-2">
+                            <img className="image-106 flow-12" alt="" aria-hidden="true" height="14" src="/assets/cloned/svg/0cdccc0973b0.svg" width="12" />
                           </picture>
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-211 stack-30">
-                  <div className="box-221 stack-4">
-                    <p className="text-5 flow-2 type-128">
+                <div className="box-258 stack-27">
+                  <div className="box-268 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       Multiplayer AI
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       The more your team uses Brain², the more it knows, the more useful it gets for everyone.
                     </p>
                   </div>
-                  <div className="box-213 flow-3">
-                    <div className="box-234 flow-3" aria-hidden="true">
-                      <div className="box-235 flow-23">
-                        <div className="box-236 flow-2" />
-                        <div className="box-237 row-61">
-                          <div className="box-238 row-62">
-                            <div className="box-239 flow-32">
-                              <picture className="image-125 flow-2">
-                                <img className="image-126 flow-23" alt="Visual Designer avatar" height="67" src="/assets/cloned/images/91bf19a4242c.png" width="67" />
+                  <div className="box-260 flow-3">
+                    <div className="box-281 flow-3" aria-hidden="true">
+                      <div className="box-282 flow-12">
+                        <div className="box-283 flow-2" />
+                        <div className="box-284 row-59">
+                          <div className="box-285 row-60">
+                            <div className="box-286 flow-13">
+                              <picture className="image-115 flow-2">
+                                <img className="image-116 flow-12" alt="Visual Designer avatar" height="67" src="/assets/cloned/images/91bf19a4242c.png" width="67" />
                               </picture>
                             </div>
-                            <span className="text-106 flow-3 type-118">
+                            <span className="text-103 flow-3 type-120">
                               Visual Designer
                             </span>
                           </div>
-                          <div className="box-240 flow-30" />
+                          <div className="box-287 flow-30" />
                         </div>
                       </div>
-                      <div className="box-241 flow-23">
-                        <div className="box-242 row-61">
-                          <div className="text-48 row-62">
-                            <div className="box-243 flow-32">
-                              <picture className="image-127 flow-2">
-                                <img className="image-128 flow-23" alt="Strategist avatar" height="60" src="/assets/cloned/images/05741c07a96e.png" width="60" />
+                      <div className="box-288 flow-12">
+                        <div className="box-289 row-59">
+                          <div className="text-15 row-60">
+                            <div className="box-290 flow-13">
+                              <picture className="image-117 flow-2">
+                                <img className="image-118 flow-12" alt="Strategist avatar" height="60" src="/assets/cloned/images/05741c07a96e.png" width="60" />
                               </picture>
                             </div>
-                            <span className="text-99 flow-3 type-118">
+                            <span className="text-96 flow-3 type-120">
                               Strategist
                             </span>
                           </div>
-                          <div className="box-244 flow-30" />
+                          <div className="box-291 flow-30" />
                         </div>
                       </div>
-                      <div className="box-245 flow-23">
-                        <div className="box-246 row-61">
-                          <div className="text-48 row-62">
-                            <div className="box-247 flow-32">
-                              <picture className="image-129 flow-2">
-                                <img className="image-130 flow-23" alt="Developer avatar" height="61" src="/assets/cloned/images/7418c4202a5d.png" width="61" />
+                      <div className="box-292 flow-12">
+                        <div className="box-293 row-59">
+                          <div className="text-15 row-60">
+                            <div className="box-294 flow-13">
+                              <picture className="image-119 flow-2">
+                                <img className="image-120 flow-12" alt="Developer avatar" height="61" src="/assets/cloned/images/7418c4202a5d.png" width="61" />
                               </picture>
                             </div>
-                            <span className="text-99 flow-3 type-118">
+                            <span className="text-96 flow-3 type-120">
                               Developer
                             </span>
                           </div>
-                          <div className="box-248 flow-30" />
+                          <div className="box-295 flow-30" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-211 stack-30">
-                  <div className="box-221 stack-4">
-                    <p className="text-5 flow-2 type-128">
+                <div className="box-258 stack-27">
+                  <div className="box-268 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       {"Connected Apps & Any MCP"}
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       Brain² taps Google Drive, GitHub, Salesforce, and more to get you answers and insights.
                     </p>
                   </div>
-                  <div className="box-249 flow-3">
-                    <div className="box-250 row-46" aria-hidden="true" role="presentation">
-                      <div className="box-251 flow-2" />
-                      <div className="box-252 flow-2">
-                        <div className="box-253 flow-2" />
-                        <Icon45 />
-                        <div className="box-254 row-2">
-                          <Icon46 />
+                  <div className="box-296 flow-3">
+                    <div className="box-297 row-47" aria-hidden="true" role="presentation">
+                      <div className="box-298 flow-2" />
+                      <div className="box-299 flow-2">
+                        <div className="box-300 flow-2" />
+                        <Icon86 />
+                        <div className="box-301 row-2">
+                          <Icon87 />
                         </div>
-                        <div className="box-255 row-2">
-                          <Icon47 />
+                        <div className="box-302 row-2">
+                          <Icon88 />
                         </div>
-                        <div className="box-256 row-46">
-                          <picture className="image-131 flow-30">
-                            <img className="image-132 flow-23" alt="" aria-hidden="true" height="72" sizes="72px" src="/assets/cloned/svg/61176a9dcceb.svg" width="72" />
+                        <div className="box-303 row-47">
+                          <picture className="image-121 flow-30">
+                            <img className="image-122 flow-12" alt="" aria-hidden="true" height="72" sizes="72px" src="/assets/cloned/svg/61176a9dcceb.svg" width="72" />
                           </picture>
                         </div>
-                        <div className="box-257 row-2">
-                          <Icon48 />
+                        <div className="box-304 row-2">
+                          <Icon89 />
                         </div>
-                        <div className="box-258 row-2">
-                          <Icon49 />
+                        <div className="box-305 row-2">
+                          <Icon90 />
                         </div>
                       </div>
-                      <div className="box-259 row-69 type-2">
-                        <span className="text-107 flow-30">
-                          <Icon50 />
+                      <div className="box-306 row-66 type-2">
+                        <span className="text-104 flow-30">
+                          <Icon91 />
                         </span>
-                        <span className="text-5 flow-2 type-133">
+                        <span className="text-5 flow-2 type-135">
                           MCP Online
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-211 stack-30">
-                  <div className="box-212 stack-4">
-                    <p className="text-5 flow-2 type-128">
+                <div className="box-258 stack-27">
+                  <div className="box-259 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       Ambient Intelligence
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       Brain² surfaces relevant context, related tasks, and smart suggestions before you even ask.
                     </p>
                   </div>
-                  <div className="box-213 flow-3">
-                    <div className="box-260 flow-2" aria-hidden="true">
-                      <div className="box-261 row-63">
-                        <div className="box-262 flow-2" />
-                        <span className="text-108 row-55">
-                          <Icon51 />
+                  <div className="box-260 flow-3">
+                    <div className="box-307 flow-2" aria-hidden="true">
+                      <div className="box-308 row-61">
+                        <div className="box-309 flow-2" />
+                        <span className="text-105 row-25">
+                          <Icon92 />
                         </span>
-                        <span className="text-109 flow-33 type-134">
+                        <span className="text-106 flow-11 type-136">
                           Gathering Data
                         </span>
-                        <picture className="image-133 flow-2">
-                          <img className="image-134 flow-23" alt="" aria-hidden="true" height="30" sizes="30px" src="/assets/cloned/svg/61176a9dcceb.svg" width="30" />
+                        <picture className="image-123 flow-2">
+                          <img className="image-124 flow-12" alt="" aria-hidden="true" height="30" sizes="30px" src="/assets/cloned/svg/61176a9dcceb.svg" width="30" />
                         </picture>
                       </div>
-                      <div className="box-263 row-64 type-2" aria-hidden="true">
-                        <span className="text-110 flow-30" />
-                        <span className="text-111 flow-2 type-135">
+                      <div className="box-310 row-28 type-2" aria-hidden="true">
+                        <span className="text-107 flow-30" />
+                        <span className="text-108 flow-2 type-137">
                           Improve Billing Error Handling
                         </span>
                       </div>
-                      <div className="box-264 row-64 type-2" aria-hidden="true">
-                        <span className="text-112 flow-30" />
-                        <span className="text-111 flow-2 type-135">
+                      <div className="box-311 row-28 type-2" aria-hidden="true">
+                        <span className="text-109 flow-30" />
+                        <span className="text-108 flow-2 type-137">
                           Optimize Dashboard Load Time
                         </span>
                       </div>
-                      <div className="box-265 row-64 type-2" aria-hidden="true">
-                        <span className="text-110 flow-30" />
-                        <span className="text-111 flow-2 type-122">
+                      <div className="box-312 row-28 type-2" aria-hidden="true">
+                        <span className="text-107 flow-30" />
+                        <span className="text-108 flow-2 type-124">
                           Improve Billing Error Handling
                         </span>
                       </div>
-                      <div className="box-266 row-64 type-2" aria-hidden="true">
-                        <span className="text-110 flow-30" />
-                        <span className="text-111 flow-2 type-123">
+                      <div className="box-313 row-28 type-2" aria-hidden="true">
+                        <span className="text-107 flow-30" />
+                        <span className="text-108 flow-2 type-125">
                           Improve Billing Error Handling
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="box-211 stack-30">
-                  <div className="box-221 stack-4">
-                    <p className="text-5 flow-2 type-128">
+                <div className="box-258 stack-27">
+                  <div className="box-268 stack-4">
+                    <p className="text-5 flow-2 type-130">
                       Deep Search
                     </p>
-                    <p className="text-93 flow-2 type-111">
+                    <p className="text-90 flow-2 type-113">
                       Ask something complex. Brain² checks your workspace, apps, and the web for answers.
                     </p>
                   </div>
-                  <div className="box-213 flow-3">
-                    <div className="box-267 flow-3" aria-hidden="true" role="presentation">
-                      <div className="box-268 flow-2 type-124">
-                        <p className="text-113 flow-2">
-                          <strong className="text-14 flow-4 type-125">
+                  <div className="box-260 flow-3">
+                    <div className="box-314 flow-3" aria-hidden="true" role="presentation">
+                      <div className="box-315 flow-2 type-126">
+                        <p className="text-110 flow-2">
+                          <strong className="box-45 flow-4 type-127">
                             {"Growth & Acquisition, Week of Apr 21"}
                           </strong>
                           {" "}
-                          <br className="text-14 flow-4" />
+                          <br className="box-45 flow-4" />
                           Paid ROAS holding at 4.2x across search, up from 3.8x last week. Activation rate hit 38%, up 4pts month-over-month — best since December.
                         </p>
-                        <p className="text-114 flow-2">
-                          <strong className="text-14 flow-4 type-125">
+                        <p className="text-111 flow-2">
+                          <strong className="box-45 flow-4 type-127">
                             {"Growth & Acquisition Update for the Week of April 21"}
                           </strong>
                           {" "}
-                          <br className="text-14 flow-4" />
+                          <br className="box-45 flow-4" />
                           This week, we are excited to report that our Paid Return on Ad Spend (ROAS) has shown remarkable strength, now standing at an impressive 4.2x in search. This marks a significant increase from last week's figure of 3.8x, indicating that our advertising strategies are effectively resonating with our target audience. Additionally, our activation rate has reached 38%, which is a notable rise of 4 points compared to last month. This is particularly encouraging as it represents the highest activation rate we have seen since December, showcasing our ongoing efforts to enhance user engagement and conversion.
                         </p>
                       </div>
-                      <div className="box-208 flow-2">
-                        <picture className="image-106 flow-2 type-126">
-                          <img className="image-135 flow-23" alt="" aria-hidden="true" height="99" sizes="174px" src="/assets/cloned/svg/367664727c56.svg" width="174" />
+                      <div className="box-255 flow-2">
+                        <picture className="image-96 flow-2 type-128">
+                          <img className="image-125 flow-12" alt="" aria-hidden="true" height="99" sizes="174px" src="/assets/cloned/svg/367664727c56.svg" width="174" />
                         </picture>
-                        <picture className="image-108 flow-2 type-127">
-                          <img className="image-136 flow-23" alt="" aria-hidden="true" height="138" sizes="127px" src="/assets/cloned/svg/648c215e047f.svg" width="127" />
+                        <picture className="image-98 flow-2 type-129">
+                          <img className="image-126 flow-12" alt="" aria-hidden="true" height="138" sizes="127px" src="/assets/cloned/svg/648c215e047f.svg" width="127" />
                         </picture>
-                        <picture className="image-110 flow-2">
-                          <img className="image-137 flow-23" alt="" aria-hidden="true" height="109" sizes="127px" src="/assets/cloned/svg/9388c34faa92.svg" width="127" />
+                        <picture className="image-100 flow-2">
+                          <img className="image-127 flow-12" alt="" aria-hidden="true" height="109" sizes="127px" src="/assets/cloned/svg/9388c34faa92.svg" width="127" />
                         </picture>
                       </div>
-                      <div className="box-209 flow-2" />
-                      <div className="box-269 flow-2">
-                        <Icon52 />
+                      <div className="box-256 flow-2" />
+                      <div className="box-316 flow-2">
+                        <Icon93 />
                       </div>
                     </div>
                   </div>
@@ -967,32 +967,32 @@ export default function ProductGridSection() {
             </div>
           </section>
         </div>
-        <div className="box-270 flow-42">
-          <div className="box-271 flow-2" aria-hidden="true">
-            <div className="box-272 flow-3">
-              <div className="box-273 flow-2" aria-hidden="true">
-                <div className="box-174 flow-3">
+        <div className="box-317 flow-40">
+          <div className="box-318 flow-2" aria-hidden="true">
+            <div className="box-319 flow-3">
+              <div className="box-320 flow-2" aria-hidden="true">
+                <div className="box-221 flow-3">
                   <div className="box-5 flow-2">
-                    <img className="box-274 flow-23" height="470" src="/assets/cloned/images/1024f4d621d9.png" width="1280" alt="" />
+                    <img className="box-321 flow-12" height="470" src="/assets/cloned/images/1024f4d621d9.png" width="1280" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="box-275 flow-2" aria-hidden="true" />
-          <div className="box-276 stack-33 type-28">
-            <h3 className="flow-2 type-136" data-component="heading">
+          <div className="box-322 flow-2" aria-hidden="true" />
+          <div className="box-323 stack-30 type-28">
+            <h3 className="flow-2 type-138" data-component="heading">
               The only AI that actually knows your work
             </h3>
-            <div className="box-277 stack-34">
-              <div className="box-278 flow-2">
-                <button className="btn-17 row-70 type-137" data-component="button" type="button">
-                  <span className="flow-2 type-138">
+            <div className="box-324 stack-31">
+              <div className="box-325 flow-2">
+                <button className="btn-17 row-67 type-139" data-component="button" type="button">
+                  <span className="flow-2 type-140">
                     Get Started with Brain
                   </span>
                 </button>
               </div>
-              <a className="link-15 row-2 type-139" data-component="link" aria-label="Learn more" href="/brain">
+              <a className="link-14 row-2 type-141" data-component="link" aria-label="Learn more" href="/brain">
                 Learn more
               </a>
             </div>

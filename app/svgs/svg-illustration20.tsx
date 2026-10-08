@@ -1,20 +1,48 @@
 export default function Illustration20() {
   return (
-    <svg className="image-165 flow-5" data-component="image" aria-label="ClickUp" fill="none" height="22" role="img" viewBox="0 0 221 55" width="88" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" clipRule="evenodd" d="M1.28515 43.116C0.747147 42.46 0.864838 41.4945 1.52638 40.9633L7.79313 35.9317C8.33977 35.4928 9.13896 35.5919 9.58466 36.133C13.8413 41.3008 18.3581 43.6931 23.3577 43.6931C28.3226 43.6931 32.7163 41.3346 36.7865 36.2242C37.2234 35.6758 38.0206 35.5623 38.5751 35.9914L44.9275 40.9075C45.5983 41.4266 45.7334 42.3897 45.2067 43.0545C39.1887 50.6508 31.8205 54.6531 23.3577 54.6531C14.9195 54.6531 7.48548 50.6758 1.28515 43.116Z" fill="url(#paint0_linear__r_h_)" />
-      <path fillRule="evenodd" clipRule="evenodd" d="M23.661 14.753C23.4248 14.5438 23.0697 14.5437 22.8333 14.7527L9.20668 26.8019C8.68576 27.2626 7.88898 27.2091 7.43428 26.683L2.11948 20.5338C1.67111 20.0151 1.72475 19.2319 2.23964 18.7791L22.4222 1.03072C22.894 0.615856 23.6005 0.615948 24.0722 1.03094L44.2593 18.7927C44.7745 19.246 44.8275 20.03 44.378 20.5486L39.0504 26.6947C38.5951 27.2198 37.7988 27.2724 37.2785 26.8116L23.661 14.753Z" fill="url(#paint1_linear__r_h_)" />
-      <path d="M72.3911 45.34C67.5613 45.34 63.5365 43.7748 60.2719 40.6444C57.0073 37.4692 55.3974 33.3997 55.3974 28.4357C55.3974 23.427 57.0521 19.3127 60.3166 16.0929C63.6259 12.8283 67.6508 11.2184 72.4359 11.2184C78.3389 11.2184 83.5712 13.7674 86.6122 17.7475L81.2905 23.3376C78.7414 20.6096 75.9688 19.2233 72.9725 19.2233C70.4234 19.2233 68.3216 20.073 66.5775 21.8171C64.8781 23.5612 64.0284 25.7525 64.0284 28.391C64.0284 30.9401 64.8781 33.0866 66.5775 34.8307C68.3216 36.5301 70.4234 37.3798 72.9278 37.3798C76.1924 37.3798 79.0545 35.9487 81.4247 33.1313L86.97 38.4531C85.4495 40.4655 83.3924 42.1201 80.8433 43.417C78.2942 44.7139 75.4768 45.34 72.3911 45.34ZM96.3526 10.7264V44.8481H88.4818V10.7264H96.3526ZM103.812 17.9711C101.174 17.9711 99.2507 16.0482 99.2507 13.4097C99.2507 10.8606 101.263 8.93762 103.812 8.93762C106.361 8.93762 108.329 10.8606 108.329 13.4097C108.329 16.0482 106.361 17.9711 103.812 17.9711ZM107.792 20.1624V44.8481H99.8768V20.1624H107.792ZM122.944 45.3847C119.053 45.3847 115.923 44.1773 113.463 41.7624C111.048 39.3475 109.841 36.2618 109.841 32.4605C109.841 28.6593 111.048 25.5736 113.508 23.1587C115.967 20.7438 119.143 19.5364 123.078 19.5364C128.221 19.5364 132.738 22.0407 134.839 26.7363L128.534 30.0456C127.282 27.9438 125.538 26.8705 123.257 26.8705C121.602 26.8705 120.261 27.4071 119.187 28.4804C118.159 29.5537 117.622 30.8953 117.622 32.4605C117.622 35.7251 119.992 38.14 123.167 38.14C125.448 38.14 127.55 36.8879 128.444 34.9649L134.75 38.7214C132.603 42.8357 128.176 45.3847 122.944 45.3847ZM162.2 44.8481H152.808L145.519 35.0543L144.356 36.1276V44.8481H136.485V10.7264H144.356V27.3177L151.78 20.1624H161.395L150.796 30.0904L162.2 44.8481ZM162.728 32.0133V11.7997H171.135V31.8792C171.135 35.591 173.282 37.3798 176.367 37.3798C179.408 37.3798 181.555 35.5015 181.555 31.8792V11.7997H190.007V32.0133C190.007 41.7624 183.254 45.4295 176.367 45.4295C169.525 45.4295 162.728 41.7624 162.728 32.0133ZM208.692 19.5364C212.224 19.5364 215.087 20.7885 217.367 23.2929C219.648 25.7525 220.766 28.8382 220.766 32.4605C220.766 36.0829 219.603 39.1686 217.323 41.7177C215.042 44.222 212.18 45.4742 208.736 45.4742C206.008 45.4742 203.638 44.5798 201.715 42.791V54.9996H193.8V20.1624H201.581V22.4432C203.504 20.5202 205.874 19.5364 208.692 19.5364ZM212.716 32.55C212.716 29.3301 210.391 26.8705 207.171 26.8705C203.951 26.8705 201.581 29.3301 201.581 32.55C201.581 34.1152 202.118 35.4568 203.146 36.5748C204.219 37.6928 205.561 38.2295 207.171 38.2295C208.781 38.2295 210.123 37.6928 211.151 36.5748C212.18 35.4568 212.716 34.1152 212.716 32.55Z" fill="#202020" />
+    <svg className="image-91 flow-2" data-component="image" fill="none" viewBox="0 0 360 216" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
       <defs>
-        <linearGradient id="paint0_linear__r_h_" x1="0.336445" y1="27.6185" x2="46.134" y2="27.6185" gradientUnits="userSpaceOnUse">
-          <stop offset="0.225962" stopColor="#6647F0" />
-          <stop offset="0.793269" stopColor="#0091FF" />
+        <linearGradient id="_r_7_paint0_linear_810_4036" x1="179.5" y1="0" x2="179.5" y2="216" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="0.524038" stopColor="#737373" />
+          <stop offset="1" stopColor="#737373" stopOpacity="0" />
         </linearGradient>
-        <linearGradient id="paint1_linear__r_h_" x1="0.336445" y1="27.1739" x2="46.134" y2="27.1739" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#FF02F0" />
-          <stop offset="0.778846" stopColor="#F76808" />
-          <stop offset="1" stopColor="#F76808" />
+        <linearGradient id="_r_7_paint1_linear_810_4036" x1="130.65" y1="156.004" x2="130.65" y2="55.0002" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#0091FF" stopOpacity="0.24" />
+          <stop offset="0.374091" stopColor="#FA24CE" />
+          <stop offset="0.52" stopColor="#FC6D7B" />
+          <stop offset="0.584519" stopColor="#FD9A46" />
+          <stop offset="0.649038" stopColor="#F687C6" />
+          <stop offset="0.948736" stopColor="#4FB9FA" stopOpacity="0.34" />
+        </linearGradient>
+        <linearGradient id="_r_7_paint2_linear_810_4036" x1="228.353" y1="156.004" x2="228.353" y2="55.0002" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#0091FF" stopOpacity="0.24" />
+          <stop offset="0.374091" stopColor="#FA24CE" />
+          <stop offset="0.52" stopColor="#FC6D7B" />
+          <stop offset="0.584519" stopColor="#FD9A46" />
+          <stop offset="0.649038" stopColor="#F687C6" />
+          <stop offset="0.948736" stopColor="#4FB9FA" stopOpacity="0.34" />
         </linearGradient>
       </defs>
+      <mask id="_r_7_mask0_810_4036" maskUnits="userSpaceOnUse" x="-2" y="0" width="363" height="216" style={{ maskType: "alpha" }}>
+        <rect x="-1.5" width="362" height="216" fill="url(#_r_7_paint0_linear_810_4036)" />
+      </mask>
+      <g mask="url(#_r_7_mask0_810_4036)">
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL1___KfAb" d="M114.93 107.554H54.6172C41.8639 107.554 29.5822 102.732 20.2357 94.0549L-74.6499 5.96631" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL2__s_wC5" d="M114.93 107.554H54.6172C41.8639 107.554 29.5822 112.377 20.2357 121.053L-74.6499 209.142" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL3__wAT_w" d="M114.93 87.5467L64.5015 88.4217C51.1884 88.6527 38.322 83.6199 28.6989 74.4172L-70.5908 -20.5349" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL4__xWYzK" d="M114.93 127.561L64.5015 126.686C51.1884 126.455 38.322 131.487 28.6989 140.69L-70.5908 235.642" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL5__eWICX" d="M114.926 63.3857L69.6414 64.1728C56.3129 64.4044 43.4328 59.3602 33.8064 50.1388L-57.2607 -37.0977" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineL6__PA3Ua" d="M114.933 151.722L69.5612 150.934C56.2842 150.703 43.4499 155.708 33.8337 164.865L-38.2852 233.545" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR1__utn2i" d="M246.071 107.554H306.383C319.137 107.554 331.418 102.732 340.765 94.0549L435.65 5.96631" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR2___0xDE" d="M246.071 107.554H306.383C319.137 107.554 331.418 112.377 340.765 121.053L435.65 209.142" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR3__37RL1" d="M246.07 87.5467L296.498 88.4217C309.812 88.6527 322.678 83.6199 332.301 74.4172L431.591 -20.5349" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR4__tgev5" d="M246.07 127.561L296.498 126.686C309.812 126.455 322.678 131.487 332.301 140.69L431.591 235.642" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR5__MGhLt" d="M246.075 63.3857L291.36 64.1728C304.688 64.4044 317.568 59.3602 327.195 50.1388L418.262 -37.0977" stroke="#3D3D3E" strokeWidth="1.01067" />
+        <path className="ConnectedAppsCardVisual_line__gFxhV ConnectedAppsCardVisual_lineR6__b8Lto" d="M246.067 151.722L291.439 150.934C304.716 150.703 317.55 155.708 327.166 164.865L399.285 233.545" stroke="#3D3D3E" strokeWidth="1.01067" />
+      </g>
+      <path className="ConnectedAppsCardVisual_cardBorderLine__W7i8J ConnectedAppsCardVisual_cardBorderLineLeft__TXfpW" d="M152.501 55.0002H129.501V156C129.501 156 145.153 156 152.501 156" stroke="url(#_r_7_paint1_linear_810_4036)" />
+      <path className="ConnectedAppsCardVisual_cardBorderLine__W7i8J ConnectedAppsCardVisual_cardBorderLineRight__4poJ_" d="M206.502 55.0002H229.502V156C229.502 156 213.851 156 206.502 156" stroke="url(#_r_7_paint2_linear_810_4036)" />
     </svg>
   );
 }

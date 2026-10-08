@@ -25,18 +25,18 @@ import Icon11 from "./svgs/svg-icon11";
 import Icon12 from "./svgs/svg-icon12";
 import Icon13 from "./svgs/svg-icon13";
 import Icon14 from "./svgs/svg-icon14";
-import Icon19 from "./svgs/svg-icon19";
-import Icon20 from "./svgs/svg-icon20";
-import Icon21 from "./svgs/svg-icon21";
-import Icon22 from "./svgs/svg-icon22";
-import Icon23 from "./svgs/svg-icon23";
-import Icon24 from "./svgs/svg-icon24";
-import Icon25 from "./svgs/svg-icon25";
-import Icon26 from "./svgs/svg-icon26";
-import Icon27 from "./svgs/svg-icon27";
-import Icon28 from "./svgs/svg-icon28";
-import Icon29 from "./svgs/svg-icon29";
-import Icon30 from "./svgs/svg-icon30";
+import Icon60 from "./svgs/svg-icon60";
+import Icon61 from "./svgs/svg-icon61";
+import Icon62 from "./svgs/svg-icon62";
+import Icon63 from "./svgs/svg-icon63";
+import Icon64 from "./svgs/svg-icon64";
+import Icon65 from "./svgs/svg-icon65";
+import Icon66 from "./svgs/svg-icon66";
+import Icon67 from "./svgs/svg-icon67";
+import Icon68 from "./svgs/svg-icon68";
+import Icon69 from "./svgs/svg-icon69";
+import Icon70 from "./svgs/svg-icon70";
+import Icon71 from "./svgs/svg-icon71";
 
 export default function Page() {
   return (
@@ -203,58 +203,58 @@ export default function Page() {
                 </div>
                 <HeroSection />
                 <div className="flow-2">
-                  <div className="box-88 flow-9">
-                    <div className="box-89 row-43">
-                      <div className="text-5 flow-2 type-70">
+                  <div className="box-134 flow-9">
+                    <div className="box-135 row-45">
+                      <div className="text-5 flow-2 type-71">
                         Trusted by the best
                       </div>
-                      <ul className="list row-44 type-71">
-                        <li className="list-item-8 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon19 />
+                      <ul className="list-2 row-46 type-72">
+                        <li className="list-item-8 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon60 />
                           </div>
-                          <div className="box-91 row-2">
-                            <Icon20 />
-                          </div>
-                        </li>
-                        <li className="list-item-9 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon21 />
-                          </div>
-                          <div className="box-91 row-2">
-                            <Icon22 />
+                          <div className="box-137 row-2">
+                            <Icon61 />
                           </div>
                         </li>
-                        <li className="list-item-10 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon23 />
+                        <li className="list-item-9 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon62 />
                           </div>
-                          <div className="box-91 row-2">
-                            <Icon24 />
-                          </div>
-                        </li>
-                        <li className="list-item-11 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon25 />
-                          </div>
-                          <div className="box-91 row-2">
-                            <Icon26 />
+                          <div className="box-137 row-2">
+                            <Icon63 />
                           </div>
                         </li>
-                        <li className="list-item-12 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon27 />
+                        <li className="list-item-10 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon64 />
                           </div>
-                          <div className="box-91 row-2">
-                            <Icon28 />
+                          <div className="box-137 row-2">
+                            <Icon65 />
                           </div>
                         </li>
-                        <li className="list-item-13 row-45 type-72">
-                          <div className="box-90 flow-20">
-                            <Icon29 />
+                        <li className="list-item-11 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon66 />
                           </div>
-                          <div className="box-91 row-2">
-                            <Icon30 />
+                          <div className="box-137 row-2">
+                            <Icon67 />
+                          </div>
+                        </li>
+                        <li className="list-item-12 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon68 />
+                          </div>
+                          <div className="box-137 row-2">
+                            <Icon69 />
+                          </div>
+                        </li>
+                        <li className="list-item-13 row-44 type-73">
+                          <div className="box-136 flow-20">
+                            <Icon70 />
+                          </div>
+                          <div className="box-137 row-2">
+                            <Icon71 />
                           </div>
                         </li>
                       </ul>
