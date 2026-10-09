@@ -1,22 +1,115 @@
 (() => {
   const replaceBrand = (value) => value.replace(/ClickUp/g, "Flozio").replace(/\u2122/g, "");
+  const logoLinkSelector = 'a[class*="logoButton_"], a[class*="LogoButton_"], a[data-flozio-brandmark="true"], a[aria-label="ClickUp Home"]';
 
   const setAttribute = (element, name, value) => {
     if (element.getAttribute(name) !== value) element.setAttribute(name, value);
   };
 
-  const updateLogo = (image) => {
-    const link = image.closest("a");
-    if (!link) return;
+  const muteClickUpTelemetry = () => {
+    const hosts = new Set(["data.web.clickup.com", "io.web.clickup.com"]);
+    window.dataLayer = Array.isArray(window.dataLayer) ? window.dataLayer : [];
+    if (!window.dataLayer.some((entry) => entry?.event === "gtagGet")) {
+      window.dataLayer.push({ event: "gtagGet", gtagResult: {} });
+    }
 
+    const nativeFetch = window.fetch.bind(window);
+    window.fetch = (input, init) => {
+      const value = typeof input === "string" || input instanceof URL ? input : input.url;
+      try {
+        const url = new URL(value, window.location.href);
+        if (hosts.has(url.hostname) || url.hostname.endsWith(".amplitude.com")) {
+          const payload = url.pathname.endsWith("/settings")
+            ? { integrations: {}, remotePlugins: [] }
+            : url.hostname.endsWith(".amplitude.com")
+              ? { config: {}, success: true }
+              : { success: true };
+          return Promise.resolve(new Response(JSON.stringify(payload), {
+            status: 200,
+            headers: { "Content-Type": "application/json" },
+          }));
+        }
+      } catch {
+        // Keep browser handling unchanged for inputs that are not URLs.
+      }
+      return nativeFetch(input, init);
+    };
+  };
+
+  const skipMissingRoutePrefetches = () => {
+    const missingChunks = new Set([
+      "/_next/static/chunks/7075-92bc532091f5a36f.js",
+      "/_next/static/chunks/6597-bcd2cb7f55d14372.js",
+      "/_next/static/chunks/pages/v4-efd057466295528e.js",
+      "/_next/static/chunks/pages/brain/agents-45c5e4e5979b1562.js",
+    ]);
+    const missingData = /\/_next\/data\/[^/]+\/features\/(tasks|project-time-tracking|calendar|whiteboards)\.json$/;
+
+    const shouldSkipLink = (node) => {
+      if (!(node instanceof HTMLLinkElement)) return false;
+      try {
+        const url = new URL(node.href, window.location.href);
+        if (url.hostname === "pages.clickup.com" && url.pathname === "/js/forms2/js/forms2.min.js") return true;
+        return node.relList.contains("prefetch") && missingChunks.has(url.pathname);
+      } catch {
+        return false;
+      }
+    };
+
+    for (const method of ["appendChild", "insertBefore"]) {
+      const original = Node.prototype[method];
+      Node.prototype[method] = function (node, reference) {
+        if (shouldSkipLink(node)) return node;
+        return method === "appendChild"
+          ? original.call(this, node)
+          : original.call(this, node, reference);
+      };
+    }
+
+    const nativeAppend = Element.prototype.append;
+    Element.prototype.append = function (...nodes) {
+      return nativeAppend.apply(this, nodes.filter((node) => !shouldSkipLink(node)));
+    };
+
+    const nativePrepend = Element.prototype.prepend;
+    Element.prototype.prepend = function (...nodes) {
+      return nativePrepend.apply(this, nodes.filter((node) => !shouldSkipLink(node)));
+    };
+
+    const nativeFetch = window.fetch.bind(window);
+    window.fetch = (input, init) => {
+      const value = typeof input === "string" || input instanceof URL ? input : input.url;
+      try {
+        const url = new URL(value, window.location.href);
+        if (url.origin === window.location.origin && missingData.test(url.pathname)) {
+          return Promise.resolve(new Response('{"pageProps":{}}', {
+            status: 200,
+            headers: { "Content-Type": "application/json" },
+          }));
+        }
+      } catch {
+        // Let the browser handle unusual fetch inputs unchanged.
+      }
+      return nativeFetch(input, init);
+    };
+  };
+
+  const updateBrandLink = (link) => {
     setAttribute(link, "data-flozio-brandmark", "true");
     setAttribute(link, "aria-label", "Flozio Home");
-    setAttribute(image, "src", "/Flozio_Logo_32x32.png");
-    setAttribute(image, "alt", "Flozio");
-    setAttribute(image, "aria-label", "Flozio");
-    setAttribute(image, "width", "32");
-    setAttribute(image, "height", "32");
-    setAttribute(image, "data-flozio-logo", "true");
+
+    link.querySelectorAll("img").forEach((image) => {
+      setAttribute(image, "src", "/Flozio_Logo_32x32.png");
+      setAttribute(image, "alt", "Flozio");
+      setAttribute(image, "aria-label", "Flozio");
+      setAttribute(image, "width", "32");
+      setAttribute(image, "height", "32");
+      setAttribute(image, "data-flozio-logo", "true");
+    });
+
+    link.querySelectorAll("svg[aria-label]").forEach((svg) => {
+      setAttribute(svg, "aria-label", "Flozio");
+    });
 
     const tracking = link.getAttribute("data-segment-props");
     if (tracking?.includes("ClickUp")) {
@@ -89,22 +182,20 @@
       if (value?.includes("ClickUp")) setAttribute(element, name, replaceBrand(value));
     }
 
-    if (element instanceof HTMLImageElement &&
-        (element.dataset.flozioLogo === "true" || element.src.includes("clickup-logo.svg"))) {
-      updateLogo(element);
-    }
-
     if (element instanceof HTMLAnchorElement) {
-      const logo = element.querySelector('img[data-flozio-logo="true"], img[src*="clickup-logo.svg"]');
-      if (logo) updateLogo(logo);
+      const isLogo = element.dataset.flozioBrandmark === "true" ||
+        String(element.className).toLowerCase().includes("logobutton_") ||
+        element.getAttribute("aria-label") === "ClickUp Home" ||
+        element.querySelector('img[src*="clickup-logo.svg"], svg[aria-label*="ClickUp"]');
+      if (isLogo) updateBrandLink(element);
     }
 
-    element.querySelectorAll?.('img[data-flozio-logo="true"], img[src*="clickup-logo.svg"]').forEach(updateLogo);
+    element.querySelectorAll?.(logoLinkSelector).forEach(updateBrandLink);
   };
 
   const applyToDocument = () => {
     document.querySelectorAll("title, meta, link").forEach(updateMetadata);
-    document.querySelectorAll('img[src*="clickup-logo.svg"], img[data-flozio-logo="true"]').forEach(updateLogo);
+    document.querySelectorAll(logoLinkSelector).forEach(updateBrandLink);
     updateText(document.body);
   };
 
@@ -122,10 +213,18 @@
         block-size: 32px !important;
       }
       a[data-flozio-brandmark="true"] img {
-        display: block !important;
-        inline-size: 30px !important;
-        block-size: 30px !important;
-        object-fit: contain !important;
+        display: none !important;
+      }
+      a[data-flozio-brandmark="true"] > svg {
+        display: none !important;
+      }
+      a[data-flozio-brandmark="true"]::before {
+        content: "";
+        display: block;
+        flex: 0 0 30px;
+        inline-size: 30px;
+        block-size: 30px;
+        background: url("/Flozio_Logo_32x32.png") center / contain no-repeat;
       }
       a[data-flozio-brandmark="true"]::after {
         content: "Flozio";
@@ -138,6 +237,8 @@
   };
 
   const start = () => {
+    skipMissingRoutePrefetches();
+    muteClickUpTelemetry();
     ensureStyles();
     applyToDocument();
 
@@ -169,9 +270,6 @@
     });
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", start, { once: true });
-  } else {
-    start();
-  }
+  if (document.body) start();
+  else document.addEventListener("DOMContentLoaded", start, { once: true });
 })();
