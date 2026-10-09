@@ -1,4 +1,3 @@
-import Illustration from "../svgs/svg-illustration";
 import Icon2 from "../svgs/svg-icon2";
 /** Navbar2 section. */
 export default function Navbar2() {
@@ -7,8 +6,9 @@ export default function Navbar2() {
       <div className="box-10 flow-2" />
       <div className="box-11 row-8">
         <div className="row-9">
-          <a className="link-3 stack" data-component="link" aria-label="ClickUp Home" href="/">
-            <Illustration />
+          <a className="link-3 flozio-brand-link" data-component="link" aria-label="Flozio Home" href="/">
+            <img className="flozio-brand-mark" src="/logo.png" width="30" height="30" alt="" />
+            <span className="flozio-brand-name">Flozio</span>
           </a>
           <div className="row-10">
             <button className="btn row-11 type-12" data-component="button" aria-expanded="false" aria-haspopup="true" type="button">
