@@ -85,13 +85,13 @@ export default function HeroSection() {
             <div className="box-35 flow-2">
               <h1 className="heading stack-3 type-33" data-component="heading">
                 <span className="flow-2 type-2">
-                  One Workspace built to think and work
+                  Sales engagement that learns what wins
                 </span>
               </h1>
               <p className="text-9 flow-2 type-34">
-                {"ClickUp connects your work, knowledge, and conversations to "}
+                {"Flozio brings leads, outreach, calls, and deal insights together. "}
                 <br className="flow-4" />
-                AI that can find answers, take action, and build alongside you.
+                Every outcome helps AI find better-fit prospects, personalize outreach, and guide next steps.
               </p>
             </div>
             <div className="box-36 row-21">
