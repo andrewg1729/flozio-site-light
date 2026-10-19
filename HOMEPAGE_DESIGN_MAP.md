@@ -16,7 +16,9 @@ For website work, follow these sources in order:
 
 - `/` is rewritten to `public/clickup-reference.html` in `next.config.mjs`.
 - The page is a saved, mostly minified HTML snapshot. Its rendered styles and scripts live under `public/assets/clickup-reference/responses/` and `public/assets/clickup-reference/next/`; `next.config.mjs` rewrites their asset URLs.
-- The root page is not currently assembled from reusable React page components. Do not assume a hashed CSS-module class is a portable component or a design token. Use those class names to locate the matching source styles and section in the snapshot.
+- This snapshot is the canonical homepage source. `app/page.tsx` is a fallback redirect, and React components under `app/sections/` are a dormant older reconstruction. Editing those components does not change `/`.
+- A future React migration must first match the current Flozio page's copy, sections, styling, responsive behavior, and interactions; do not change the root rewrite before that parity review.
+- Do not assume a hashed CSS-module class is a portable component or a design token. Use those class names to locate the matching source styles and section in the snapshot.
 - Before adding another route, preserve `/` and understand how the new route will load the specific styles and assets it needs. Do not replace or refactor the homepage as a shortcut for adding pages.
 - The snapshot retains ClickUp source names, content, assets, and colors alongside Flozio changes. Reuse visual structure only when it serves Flozio. Never carry over ClickUp identity, claims, customer proof, or product terminology as Flozio facts.
 

@@ -1,5 +1,12 @@
 # Flozio site instructions
 
+## Homepage source of truth
+
+- The visible `/` homepage is `public/clickup-reference.html`, served by the `beforeFiles` rewrite in `next.config.mjs`.
+- Make visible homepage edits in that snapshot and its referenced assets under `public/assets/clickup-reference/`.
+- `app/page.tsx` is only a fallback redirect. The older React components under `app/sections/` are not the rendered homepage; do not use them as the source for homepage edits.
+- A React migration requires a separate parity review before changing the root rewrite.
+
 For website, copy, or visual work, read `BRAND.md`, `DESIGN_GUARDRAILS.md`, and `HOMEPAGE_DESIGN_MAP.md` before editing.
 
 - Treat the current homepage as the visual source of truth. Extend its actual layout, typography, spacing, color roles, and product-preview language; do not start from a generic SaaS template.

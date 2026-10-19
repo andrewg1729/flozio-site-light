@@ -3,6 +3,8 @@ const nextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
+        // The saved homepage snapshot is canonical until a React replacement has
+        // been migrated and reviewed against the current page.
         { source: "/", destination: "/clickup-reference.html" },
         { source: "/_next/static/:path*", destination: "/assets/clickup-reference/next/:path*" },
         { source: "/_next/data/:buildId/:path*", destination: "/assets/clickup-reference/next-data/:buildId/:path*" },

@@ -79,7 +79,7 @@ export default function GalleryShowcaseSection2() {
             </li>
             <li className="list-item-24 flow-47 type-185">
               <button className="btn-28 row-42 type-186" data-component="button" aria-controls="bottom-nav-column-link-list-2" type="button">
-                <div className="link-20 flow-2" data-component="link" href="/features">
+                <div className="link-20 flow-2">
                   Product
                 </div>
                 <Icon102 />
@@ -144,7 +144,7 @@ export default function GalleryShowcaseSection2() {
             </li>
             <li className="list-item-24 flow-47 type-185">
               <button className="btn-28 row-42 type-186" data-component="button" aria-controls="bottom-nav-column-link-list-3" type="button">
-                <div className="link-20 flow-2" data-component="link" href="/compare">
+                <div className="link-20 flow-2">
                   Compare
                 </div>
                 <Icon102 />

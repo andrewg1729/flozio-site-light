@@ -20,7 +20,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="box-9 row-5">
-            <div className="link-2 row-6 type-8" data-component="link" href="/brain">
+            <div className="link-2 row-6 type-8">
               <strong className="row-7 type-9">
                 <span className="text-2 flow-2 type-10">
                   {" "}
