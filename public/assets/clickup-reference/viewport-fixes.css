@@ -4,3 +4,226 @@
     display: none !important;
   }
 }
+
+/* Flozio demo: these classes are in the captured HTML but their source CSS
+   module was not included in the local asset bundle. */
+.HomeHeroLongTitle_ctaButton__A7WFO,
+.HomeHero4o_ctaButton__wsaMK {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.OverviewHeroTabs0226_wrapper__3Gfq6 {
+  width: 100%;
+  padding: 0 24px 72px;
+}
+
+.OverviewHeroTabs0226_containerWrapper__Ubhe8 {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.OverviewHeroTabs0226_container__ynJxo {
+  position: relative;
+  width: 100%;
+}
+
+.OverviewHeroTabs0226_featurePicker__VW32b {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.OverviewHeroTabs0226_features__WC5Gw {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  border-bottom: 1px solid #e8e8eb;
+}
+
+.OverviewHeroTabs0226_featureTab__RkvQU {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: #666875;
+  font: 500 14px/20px Inter, Arial, sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.OverviewHeroTabs0226_featureTab__RkvQU:hover {
+  color: #202124;
+  background: #f7f8fa;
+}
+
+.OverviewHeroTabs0226_selected__sqbFu {
+  border-bottom-color: #0091ff;
+  color: #0077df;
+}
+
+.OverviewHeroTabs0226_featureIcon__xIa8l {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.OverviewHeroTabs0226_featureContact__56ksX {
+  white-space: nowrap;
+}
+
+.OverviewHeroTabs0226_activateContainer__D8Pmk[data-active="false"] {
+  display: none;
+}
+
+.OverviewHeroTabs0226_activateContainer__D8Pmk[data-active="true"] {
+  position: absolute;
+  z-index: 5;
+  top: 48px;
+  left: 24px;
+}
+
+.OverviewHeroTabs0226_activateWrapper__HZjit {
+  display: inline-flex;
+  padding: 8px;
+  border: 1px solid #e7e8ed;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(25, 32, 48, 0.14);
+}
+
+.OverviewHeroTabs0226_preview__T0a97 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e4e5e9;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 32px rgba(25, 32, 48, 0.08);
+}
+
+.OverviewHeroTabs0226_previewMedia__T0GmQ {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 320px;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.OverviewHeroTabs0226_previewLayer__AZM8H {
+  display: none;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.OverviewHeroTabs0226_active__3jHUo {
+  display: block;
+}
+
+.OverviewHeroTabs0226_projectsAnimation__85LVq {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 320px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.OverviewHeroTabs0226_projectsAnimation__85LVq > .list-view__scale {
+  transform-origin: top center !important;
+}
+
+@media (max-width: 900px) {
+  .OverviewHeroTabs0226_wrapper__3Gfq6 {
+    padding: 0 16px 48px;
+  }
+
+  .OverviewHeroTabs0226_features__WC5Gw {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+
+  .OverviewHeroTabs0226_features__WC5Gw::-webkit-scrollbar {
+    display: none;
+  }
+
+  .OverviewHeroTabs0226_previewMedia__T0GmQ,
+  .OverviewHeroTabs0226_projectsAnimation__85LVq {
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .OverviewHeroTabs0226_wrapper__3Gfq6 {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .OverviewHeroTabs0226_featureTab__RkvQU {
+    min-height: 36px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 12px;
+  }
+
+  .OverviewHeroTabs0226_preview__T0a97 {
+    border-radius: 8px;
+  }
+}
+.HomeHeroLongTitle_ctaButton__A7WFO {
+  background: #202020;
+  color: #fff;
+}
+
+.HomeHeroLongTitle_rainbowStronglight__Q7PIf {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.HomeHeroLongTitle_rainbowStronglight__Q7PIf::before,
+.HomeHeroLongTitle_rainbowStronglight__Q7PIf::after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.HomeHeroLongTitle_rainbowStronglight__Q7PIf::before {
+  inset: 2px;
+  z-index: 2;
+  border-radius: 12px;
+  background: #fff;
+  filter: blur(1px);
+}
+
+.HomeHeroLongTitle_rainbowStronglight__Q7PIf::after {
+  inset: 4px;
+  z-index: 3;
+  border-radius: 11px;
+  background: #202020;
+}
+
+.HomeHeroLongTitle_ctaButtonText__E_QzE {
+  position: relative;
+  z-index: 4;
+}
+.OverviewHeroTabs0226_projectsAnimation__85LVq > .list-view__scale {
+  left: calc(50% - 480px) !important;
+}
