@@ -1,0 +1,292 @@
+.FlozioLearningLoop {
+  width: 100%;
+  padding: 88px 24px 36px;
+  background: #fff;
+}
+
+.FlozioLearningLoop_inner {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.FlozioLearningLoop_intro {
+  max-width: 840px;
+  margin: 0 auto 44px;
+  text-align: center;
+}
+
+.FlozioLearningLoop_eyebrow {
+  margin: 0 0 12px;
+  color: #277ed0;
+  font: 650 12px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.FlozioLearningLoop_title {
+  max-width: 800px;
+  margin: 0 auto 16px;
+  background: linear-gradient(97deg, #202020 43.17%, #8f8f8f 110.86%);
+  background-clip: text;
+  color: transparent;
+  font: 650 48px/1.2 "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -1.68px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.FlozioLearningLoop_description {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #747984;
+  font: 400 18px/1.6 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.24px;
+}
+
+.FlozioLearningLoop_flow {
+  overflow: hidden;
+  border: 1px solid #e5e8ed;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 32px rgba(25, 32, 48, 0.06);
+}
+
+.FlozioLearningLoop_flowHeader {
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 26px;
+  border-bottom: 1px solid #e9ebef;
+}
+
+.FlozioLearningLoop_flowName {
+  color: #28364a;
+  font: 600 13px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.1px;
+}
+
+.FlozioLearningLoop_exampleLabel {
+  color: #7c8491;
+  font: 500 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.FlozioLearningLoop_stages {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  padding: 32px 26px 30px;
+  list-style: none;
+}
+
+.FlozioLearningLoop_stages::before {
+  position: absolute;
+  top: 48px;
+  right: calc(12.5% + 26px);
+  left: calc(12.5% + 26px);
+  height: 1px;
+  background: #d9e4ee;
+  content: "";
+}
+
+.FlozioLearningLoop_stage {
+  position: relative;
+  min-width: 0;
+  padding: 0 22px;
+  text-align: center;
+}
+
+.FlozioLearningLoop_stageMarker {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  margin: 0 auto 17px;
+  border: 1px solid #cbd9e6;
+  border-radius: 50%;
+  background: #fff;
+  color: #1976c9;
+  font: 600 11px/1 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.FlozioLearningLoop_stageName {
+  margin: 0 0 8px;
+  color: #277ed0;
+  font: 650 11px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.FlozioLearningLoop_stageTitle {
+  margin: 0 0 8px;
+  color: #202a38;
+  font: 600 17px/1.35 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.35px;
+}
+
+.FlozioLearningLoop_stageDescription {
+  max-width: 230px;
+  margin: 0 auto;
+  color: #737b87;
+  font: 400 14px/1.55 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_feedback {
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 14px 24px;
+  border-top: 1px solid #e9ebef;
+  color: #4c5b6e;
+  font: 500 13px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.FlozioLearningLoop_feedback svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  color: #2484d8;
+}
+
+@media (max-width: 900px) {
+  .FlozioLearningLoop {
+    padding: 72px 20px 28px;
+  }
+
+  .FlozioLearningLoop_stages {
+    display: block;
+    padding: 28px 26px 8px;
+  }
+
+  .FlozioLearningLoop_stages::before {
+    top: 44px;
+    right: auto;
+    bottom: 38px;
+    left: 42px;
+    width: 1px;
+    height: auto;
+  }
+
+  .FlozioLearningLoop_stage {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr);
+    column-gap: 18px;
+    padding: 0 0 26px;
+    text-align: left;
+  }
+
+  .FlozioLearningLoop_stageMarker {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    margin: 0;
+  }
+
+  .FlozioLearningLoop_stageBody {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .FlozioLearningLoop_stageDescription {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .FlozioLearningLoop {
+    padding: 60px 16px 20px;
+  }
+
+  .FlozioLearningLoop_intro {
+    margin-bottom: 30px;
+  }
+
+  .FlozioLearningLoop_eyebrow {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .FlozioLearningLoop_title {
+    margin-bottom: 12px;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: -1.36px;
+  }
+
+  .FlozioLearningLoop_description {
+    font-size: 16px;
+    line-height: 1.55;
+    letter-spacing: -0.16px;
+  }
+
+  .FlozioLearningLoop_flow {
+    border-radius: 12px;
+  }
+
+  .FlozioLearningLoop_flowHeader {
+    min-height: 52px;
+    padding: 12px 16px;
+  }
+
+  .FlozioLearningLoop_flowName {
+    font-size: 12px;
+  }
+
+  .FlozioLearningLoop_exampleLabel {
+    font-size: 9px;
+  }
+
+  .FlozioLearningLoop_stages {
+    padding: 24px 18px 8px;
+  }
+
+  .FlozioLearningLoop_stages::before {
+    top: 40px;
+    bottom: 30px;
+    left: 34px;
+  }
+
+  .FlozioLearningLoop_stage {
+    padding: 0 0 22px;
+  }
+
+  .FlozioLearningLoop_stageMarker {
+    width: 30px;
+    height: 30px;
+  }
+
+  .FlozioLearningLoop_stageName {
+    margin-bottom: 5px;
+    padding-top: 2px;
+    font-size: 10px;
+  }
+
+  .FlozioLearningLoop_stageTitle {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .FlozioLearningLoop_stageDescription {
+    font-size: 13px;
+  }
+
+  .FlozioLearningLoop_feedback {
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 13px 16px;
+    font-size: 12px;
+    text-align: left;
+  }
+}
