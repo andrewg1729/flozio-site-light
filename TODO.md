@@ -23,7 +23,7 @@ Recreate the interactive product preview below the hero CTA using Flozio's own i
 
 **Status:** In progress
 
-The goal is to inspect the original components, their motion, and source code in a local browser lab, then tag each entry by what it is useful for. Catalog complete, inspectable public components and examples from each source; record paid, unavailable, stale, or source-only items instead of presenting them as runnable previews.
+The goal is to inspect the original components, their motion, and source code in a local browser lab, then tag each entry by what it is useful for. Catalog complete, inspectable public components and examples from each source; record paid, unavailable, stale, or source-only items instead of presenting them as runnable previews. Follow [`COMPONENT_REVIEW_PROCESS.md`](COMPONENT_REVIEW_PROCESS.md) as the single review procedure. The old docs-page iframe is evidence only; new library previews must import the actual source into a library-isolated local workspace.
 
 ### Current lab
 
@@ -46,12 +46,17 @@ The goal is to inspect the original components, their motion, and source code in
 
 Process these one library at a time in the order below. Before starting each new library, send a brief preview of one standout component and explain its motion/interaction and likely use. Keep the lab backed by each library's real preview and source where available; don't substitute screenshot grids or invented demos. After the local catalog is in place, tag every component by its visual behavior and plausible Flozio use. Check current availability and license/paid boundaries as part of each library's inventory.
 
-1. [ ] Aceternity UI — https://ui.aceternity.com/components
-   - Official AI catalog currently lists 114 free components, 23 Pro components, 17 templates, and 182 Pro blocks; inventory and preview the free components first, and mark Pro-only entries clearly.
-   - The official CLI exposes component registry JSON, so use the registry source plus each docs example rather than treating a docs-page iframe as a completed local preview.
-2. [ ] Kokonut UI — source URL and current catalog to verify
-3. [ ] ReactBits — source URL and current catalog to verify
-4. [ ] Ruixen UI — source URL and current catalog to verify
+1. [~] Aceternity UI — https://ui.aceternity.com/components
+   - First library in progress. Snapshot from the official registry index currently records 114 UI components, 182 blocks, and 4 pages (inventory SHA-256 and retrieval date are in `component-research/aceternity/catalog.json`). This is a registry inventory, not an audited/approved count; free/pro and docs availability still need item-level reconciliation.
+   - Use the library-isolated native preview described in `COMPONENT_REVIEW_PROCESS.md`. Aceternity's license restricts redistribution of source; imported source must remain in the ignored local workspace, with only links and hashes in tracked files.
+   - [x] Add an official-registry refresh script and metadata-only manifest.
+   - [x] Cache all 114 `registry:ui` source records locally; 114/114 succeeded. Source JSON stays under the gitignored `.component-lab-cache/aceternity/registry/` and must never be committed.
+   - [x] Add a generator for a separate, ignored Next preview app and import Tracing Beam's exact source; the generated route compiled and returned the preview plus source panel.
+   - [ ] Scale the native preview generator to all components and their official examples/props; batch-audit motion and record per-item completion. The first route has not had visual or scroll-motion verification yet.
+   - [ ] Reconcile every component docs route and check each item’s license/access, dependencies, and any missing/stale items. Inventory blocks/pages separately; do not import paid content without confirming access.
+2. [ ] Kokonut UI — https://kokonutui.com/
+3. [ ] ReactBits — https://reactbits.dev/
+4. [ ] Ruixen UI — https://ruixen.com/
 5. [ ] Efferd — https://efferd.com/
 6. [ ] UI Layouts — https://www.ui-layouts.com/
 7. [ ] Fancy Components — https://www.fancycomponents.dev/ (listed twice in the request; track once)
@@ -63,6 +68,5 @@ Process these one library at a time in the order below. Before starting each new
 
 ### Inspection and tagging notes
 
-- Use each library's functioning local docs/demo surface and source code to inspect interactions; don't produce a screenshot for every catalog item. Use a small number of targeted browser checks to confirm the local preview flow works, then inspect individual entries through the same lab.
-- For each component, capture its name, source link, props/dependencies where published, what the motion does, how to trigger it, and the visual/use-case tags. Mark source-only or inaccessible previews clearly.
+- Follow [`COMPONENT_REVIEW_PROCESS.md`](COMPONENT_REVIEW_PROCESS.md). It defines completion, evidence fields, import isolation, batch browser review, licensing, and Flozio fit checks.
 - Potential-use tags are research hints, not approval to place a component on the marketing homepage. Homepage use still needs to match `BRAND.md`, `DESIGN_GUARDRAILS.md`, and `HOMEPAGE_DESIGN_MAP.md`.

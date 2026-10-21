@@ -6,6 +6,7 @@
     "dev": "node scripts/dev.mjs",
     "dev:homepage": "next dev -p 38471",
     "setup:component-lab": "node scripts/setup-magicui-lab.mjs",
+    "prepare:aceternity-preview": "node scripts/prepare-aceternity-preview.mjs",
     "build": "next build",
     "start": "next start -p 38471"
   },

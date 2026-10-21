@@ -9,6 +9,8 @@ const homepageNext = resolve(root, 'node_modules/next/dist/bin/next');
 const magicRoot = resolve(root, '.magicui-source');
 const magicApp = resolve(magicRoot, 'apps/www');
 const magicNext = resolve(magicApp, 'node_modules/next/dist/bin/next');
+const aceternityApp = resolve(root, '.component-lab-cache/aceternity-app');
+const aceternityNext = resolve(aceternityApp, 'node_modules/next/dist/bin/next');
 const children = [];
 
 function launch(label, command, args, options) {
@@ -59,6 +61,14 @@ if (existsSync(magicNext)) {
   console.log('Component Lab docs: http://localhost:38472/docs/components');
 } else {
   console.warn('Magic UI docs are not installed in .magicui-source; the Component Lab preview server will not start.');
+}
+
+if (existsSync(aceternityNext) && existsSync(resolve(aceternityApp, 'app/page.tsx'))) {
+  launch('Aceternity native component previews', process.execPath, [aceternityNext, 'dev', '-p', '38473'], {
+    cwd: aceternityApp,
+    env: { ...process.env, PORT: '38473', NEXT_DIST_DIR: '.next-flozio-aceternity' },
+  });
+  console.log('Aceternity native previews: http://localhost:38473');
 }
 
 console.log('Flozio: http://localhost:38471');

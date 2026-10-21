@@ -17,3 +17,10 @@ For website, copy, or visual work, read `BRAND.md`, `DESIGN_GUARDRAILS.md`, and 
 - Prefer specific, product-led visuals and code-native UI where useful. Do not add generic AI decoration, fake metrics, redundant card grids, or motion without purpose.
 - For visual implementation, render and inspect the changed page at desktop and mobile sizes. Report what was actually inspected; do not claim visual verification from source review alone.
 - Do not change global styles, route behavior, dependencies, or other page content to solve a section-level request unless the user asks for it.
+
+## Component library research
+
+- For component-library cataloging or preview work, read `COMPONENT_REVIEW_PROCESS.md` and `TODO.md` first.
+- `TODO.md` is the library queue; the process guide defines what counts as a complete review. Do not treat the docs-page iframe or a catalog scan as completion.
+- Keep each library's imported source and dependencies in an isolated local workspace. Check redistribution terms before committing source; retain source links and hashes when source cannot be committed.
+- Before moving to a new library, report one actual standout component with its observed behavior and likely Flozio use. Do not claim full library coverage until the manifest proves it.

@@ -10,3 +10,4 @@ coverage/
 *.log
 .ditto-work/
 .magicui-source/
+.component-lab-cache/
