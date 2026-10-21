@@ -1,32 +1,32 @@
 .FlozioLearningLoop {
-  width: 100%;
-  padding: 88px 24px 36px;
+  width: 100vw;
+  margin-inline-start: 0;
+  padding: 80px 24px 76px;
   background: #fff;
 }
 
 .FlozioLearningLoop_inner {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
 .FlozioLearningLoop_intro {
-  max-width: 840px;
-  margin: 0 auto 44px;
+  max-width: 900px;
+  margin: 0 auto 42px;
   text-align: center;
 }
 
 .FlozioLearningLoop_eyebrow {
   margin: 0 0 12px;
-  color: #277ed0;
-  font: 650 12px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #2484d8;
+  font: 650 11px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 .FlozioLearningLoop_title {
-  max-width: 800px;
-  margin: 0 auto 16px;
+  max-width: 850px;
+  margin: 0 auto 14px;
   background: linear-gradient(97deg, #202020 43.17%, #8f8f8f 110.86%);
   background-clip: text;
   color: transparent;
@@ -37,299 +37,451 @@
 }
 
 .FlozioLearningLoop_description {
-  max-width: 760px;
+  max-width: 780px;
   margin: 0 auto;
   color: #747984;
-  font: 400 18px/1.6 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font: 400 18px/1.55 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: -0.24px;
 }
 
 .FlozioLearningLoop_flow {
   overflow: hidden;
-  border: 1px solid #e5e8ed;
-  border-radius: 16px;
+  margin: 0;
+  border: 1px solid #e4e7eb;
+  border-radius: 12px;
   background: #fff;
-  box-shadow: 0 10px 32px rgba(25, 32, 48, 0.06);
 }
 
 .FlozioLearningLoop_flowHeader {
   display: flex;
-  min-height: 58px;
+  min-height: 48px;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px 26px;
-  border-bottom: 1px solid #e9ebef;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e8eaee;
+  color: #4b5564;
+  font: 550 12px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.FlozioLearningLoop_flowName {
-  color: #28364a;
-  font: 600 13px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: -0.1px;
+.FlozioLearningLoop_workspaceName,
+.FlozioLearningLoop_workspaceName > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
+
+.FlozioLearningLoop_workspaceName img {
+  display: block;
+  width: 18px;
+  height: 21px;
+  object-fit: contain;
+}
+
+.FlozioLearningLoop_workspaceName > span { gap: 7px; }
+.FlozioLearningLoop_workspaceDivider { color: #bdc2ca; }
 
 .FlozioLearningLoop_exampleLabel {
   color: #7c8491;
   font: 500 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 
-.FlozioLearningLoop_scene {
-  position: relative;
+.FlozioLearningLoop_app {
   display: grid;
-  min-height: 326px;
-  grid-template-columns: minmax(240px, 0.95fr) minmax(280px, 1.02fr) minmax(330px, 1.18fr);
+  min-height: 345px;
+  grid-template-columns: 174px minmax(0, 1fr);
+}
+
+.FlozioLearningLoop_nav {
+  padding: 24px 12px;
+  border-right: 1px solid #e8eaee;
+  background: #fbfbfc;
+}
+
+.FlozioLearningLoop_navLabel {
+  margin: 0 0 12px 10px;
+  color: #858c97;
+  font: 600 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.09em;
+}
+
+.FlozioLearningLoop_navItem {
+  display: flex;
+  min-height: 36px;
   align-items: center;
-  gap: 42px;
-  padding: 34px 42px 58px;
-  background: #fbfcfe;
+  gap: 10px;
+  margin: 2px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #596271;
+  font: 500 12px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  white-space: nowrap;
 }
 
-.FlozioLearningLoop_wires {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+.FlozioLearningLoop_navItemActive {
+  background: #eaf5ff;
+  color: #1476c5;
+  font-weight: 600;
 }
 
-.FlozioLearningLoop_wires path {
-  fill: none;
-  stroke: #c9d8e5;
-  stroke-width: 1.25;
-  vector-effect: non-scaling-stroke;
-}
-
-.FlozioLearningLoop_wires .FlozioLearningLoop_returnWire {
-  stroke: #a9c6dc;
-  stroke-dasharray: 4 5;
-}
-
-.FlozioLearningLoop_sources,
-.FlozioLearningLoop_learning,
-.FlozioLearningLoop_actions {
-  position: relative;
-  z-index: 1;
-  min-width: 0;
-}
-
-.FlozioLearningLoop_sceneLabel {
-  margin: 0 0 16px;
-  color: #657387;
-  font: 650 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.11em;
-}
-
-.FlozioLearningLoop_sources {
-  padding-right: 6px;
-}
-
-.FlozioLearningLoop_signal {
-  display: grid;
-  min-height: 54px;
-  grid-template-columns: 30px minmax(0, 1fr);
-  align-items: center;
-  gap: 12px;
-  position: relative;
-  margin: 0 0 10px;
-  padding: 4px 12px 4px 0;
-}
-
-.FlozioLearningLoop_signal:last-child { margin-bottom: 0; }
-
-.FlozioLearningLoop_signalGlyph {
-  display: grid;
-  width: 30px;
-  height: 30px;
+.FlozioLearningLoop_navGlyph {
+  display: inline-grid;
+  width: 18px;
+  height: 18px;
   place-items: center;
-  border: 1px solid #d9e4ed;
-  border-radius: 9px;
-  background: #fff;
-  color: #367fb6;
+  color: #7d8795;
+  font-size: 15px;
+  line-height: 1;
 }
 
-.FlozioLearningLoop_signalGlyph svg {
-  width: 16px;
-  height: 16px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.35;
-}
+.FlozioLearningLoop_navItemActive .FlozioLearningLoop_navGlyph { color: #1476c5; }
 
-.FlozioLearningLoop_signalText,
-.FlozioLearningLoop_action > span:nth-child(2) {
-  display: grid;
+.FlozioLearningLoop_content {
   min-width: 0;
-  gap: 3px;
+  padding: 21px 24px 18px;
 }
 
-.FlozioLearningLoop_signalText strong,
-.FlozioLearningLoop_action strong {
-  color: #26364a;
-  font: 600 13px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: -0.12px;
+.FlozioLearningLoop_topline {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  color: #818995;
+  font: 600 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.08em;
 }
 
-.FlozioLearningLoop_signalText small,
-.FlozioLearningLoop_action small {
-  color: #778292;
+.FlozioLearningLoop_sync {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #687384;
+  font: 500 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+.FlozioLearningLoop_sync i,
+.FlozioLearningLoop_match i,
+.FlozioLearningLoop_risk i {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 6px;
+  border-radius: 50%;
+  background: #2b94dc;
+}
+
+.FlozioLearningLoop_workspaceHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 11px 0 18px;
+}
+
+.FlozioLearningLoop_workspaceHeading h3 {
+  margin: 0 0 4px;
+  color: #242a33;
+  font: 650 19px/1.25 "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.45px;
+}
+
+.FlozioLearningLoop_workspaceHeading p {
+  margin: 0;
+  color: #7a828d;
   font: 400 11px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.FlozioLearningLoop_learning {
-  padding: 24px 24px 21px;
-  border: 1px solid #d9e7f1;
-  border-radius: 14px;
-  background: #fff;
-  box-shadow: 0 8px 22px rgba(29, 73, 109, 0.07);
-}
-
-.FlozioLearningLoop_learningMark {
-  display: grid;
-  width: 40px;
-  height: 40px;
-  place-items: center;
-  margin-bottom: 18px;
-  border: 1px solid #d9e7f1;
-  border-radius: 11px;
-  background: #f5faff;
-}
-
-.FlozioLearningLoop_learningMark img { display: block; width: 24px; height: 24px; object-fit: contain; }
-
-.FlozioLearningLoop_learning .FlozioLearningLoop_sceneLabel { margin-bottom: 8px; color: #2874b5; }
-
-.FlozioLearningLoop_learning h3 {
-  margin: 0 0 8px;
-  color: #202d3d;
-  font: 650 20px/1.25 "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: -0.6px;
-}
-
-.FlozioLearningLoop_learningCopy {
-  max-width: 260px;
-  margin: 0;
-  color: #6d7987;
-  font: 400 12px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-.FlozioLearningLoop_learningSignals {
-  display: flex;
+.FlozioLearningLoop_filter {
+  display: inline-flex;
+  min-height: 28px;
   align-items: center;
-  gap: 8px;
-  margin-top: 18px;
-  color: #315671;
-  font: 600 10px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  gap: 12px;
+  padding: 0 9px;
+  border: 1px solid #e3e6ea;
+  border-radius: 5px;
+  color: #626c7a;
+  font: 500 10px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  white-space: nowrap;
 }
 
-.FlozioLearningLoop_learningSignals i {
-  width: 4px;
-  height: 4px;
-  flex: 0 0 4px;
-  border-radius: 50%;
-  background: #49a7d8;
-}
+.FlozioLearningLoop_filter b { color: #8e96a1; font-size: 11px; }
 
-.FlozioLearningLoop_actions { padding-left: 4px; }
-.FlozioLearningLoop_actions .FlozioLearningLoop_sceneLabel { margin-bottom: 8px; }
-
-.FlozioLearningLoop_action {
+.FlozioLearningLoop_panels {
   display: grid;
+  grid-template-columns: minmax(0, 1.48fr) minmax(235px, 0.82fr);
+  min-height: 228px;
+  border-top: 1px solid #e8eaee;
+}
+
+.FlozioLearningLoop_queue { min-width: 0; }
+
+.FlozioLearningLoop_tableHead,
+.FlozioLearningLoop_row {
+  display: grid;
+  grid-template-columns: minmax(145px, 1.08fr) minmax(140px, 1fr) minmax(72px, 0.55fr);
+  align-items: center;
+  gap: 12px;
+}
+
+.FlozioLearningLoop_tableHead {
+  min-height: 32px;
+  padding: 0 12px;
+  color: #7d8590;
+  font: 600 8px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.07em;
+}
+
+.FlozioLearningLoop_row {
   min-height: 58px;
-  grid-template-columns: 43px minmax(0, 1fr) 18px;
+  padding: 7px 12px;
+  border-top: 1px solid #eff0f2;
+  color: #4e5967;
+  font: 500 10px/1.35 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_rowActive {
+  border-left: 2px solid #2484d8;
+  background: #f4faff;
+}
+
+.FlozioLearningLoop_record {
+  display: flex;
+  min-width: 0;
   align-items: center;
-  gap: 10px;
-  padding: 8px 0;
-  border-bottom: 1px solid #e5ebf0;
+  gap: 9px;
 }
 
-.FlozioLearningLoop_action:last-child { border-bottom: 0; }
-
-.FlozioLearningLoop_actionKey {
-  color: #4380ae;
-  font: 650 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.1em;
+.FlozioLearningLoop_recordIcon {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  place-items: center;
+  border: 1px solid #dceaf5;
+  border-radius: 6px;
+  background: #fff;
+  color: #2a84c8;
+  font: 650 10px/1 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-style: normal;
 }
 
-.FlozioLearningLoop_action > svg {
-  width: 17px;
-  height: 17px;
+.FlozioLearningLoop_recordIconCyan { color: #2a9ba8; border-color: #d9eeee; }
+.FlozioLearningLoop_recordIconGray { color: #6f7885; border-color: #e3e6e9; }
+
+.FlozioLearningLoop_record > span { display: grid; min-width: 0; gap: 3px; }
+.FlozioLearningLoop_record strong { overflow: hidden; color: #343b45; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.FlozioLearningLoop_record small { color: #828a95; font-size: 9px; font-weight: 400; }
+
+.FlozioLearningLoop_match,
+.FlozioLearningLoop_risk {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 6px;
+  color: #2079ba;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.FlozioLearningLoop_match i { background: #2b94dc; }
+.FlozioLearningLoop_matchQuiet { color: #63727f; }
+.FlozioLearningLoop_matchQuiet i { background: #8ba6b8; }
+.FlozioLearningLoop_risk { color: #9a6e37; }
+.FlozioLearningLoop_risk i { background: #d39a4a; }
+
+.FlozioLearningLoop_review {
+  color: #4d7695;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.FlozioLearningLoop_review b { margin-left: 4px; color: #2484d8; font-size: 12px; }
+
+.FlozioLearningLoop_queueFoot {
+  display: flex;
+  min-height: 34px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 12px;
+  border-top: 1px solid #eff0f2;
+  color: #7c8591;
+  font: 400 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_queueFoot svg {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
   fill: none;
-  stroke: #7b9ab4;
+  stroke: #92a9b9;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 1.4;
+  stroke-width: 1.2;
 }
+
+.FlozioLearningLoop_detail {
+  min-width: 0;
+  padding: 17px 20px 15px;
+  border-left: 1px solid #e8eaee;
+  background: #fcfdfe;
+}
+
+.FlozioLearningLoop_detailTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.FlozioLearningLoop_detailLabel {
+  color: #788391;
+  font: 600 8px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.FlozioLearningLoop_fit {
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: #eaf5ff;
+  color: #1976bd;
+  font: 600 9px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_detail h4 {
+  margin: 14px 0 6px;
+  color: #303842;
+  font: 600 13px/1.35 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.12px;
+}
+
+.FlozioLearningLoop_detailCopy {
+  margin: 0;
+  color: #6f7987;
+  font: 400 10px/1.55 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_signalLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 15px;
+}
+
+.FlozioLearningLoop_signalLine span {
+  padding: 4px 7px;
+  border: 1px solid #e5ebef;
+  border-radius: 4px;
+  background: #fff;
+  color: #596777;
+  font: 500 8px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_recommendation {
+  display: grid;
+  gap: 7px;
+  padding-top: 12px;
+  border-top: 1px solid #e7eaed;
+}
+
+.FlozioLearningLoop_recommendation strong {
+  color: #3d4652;
+  font: 500 10px/1.45 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_textAction {
+  margin-top: 2px;
+  color: #1478c5;
+  font: 600 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_textAction b { padding-left: 3px; font-size: 11px; }
 
 .FlozioLearningLoop_feedback {
   display: flex;
-  min-height: 58px;
+  min-height: 50px;
   align-items: center;
   justify-content: center;
   gap: 9px;
-  padding: 14px 24px;
-  border-top: 1px solid #e9ebef;
-  color: #4c5b6e;
-  font: 500 13px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 12px 20px;
+  border-top: 1px solid #e8eaee;
+  color: #596777;
+  font: 500 11px/1.45 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   text-align: center;
 }
 
 .FlozioLearningLoop_feedback svg {
-  width: 17px;
-  height: 17px;
-  flex: 0 0 17px;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
   color: #2484d8;
 }
 
-@media (max-width: 1040px) {
-  .FlozioLearningLoop_scene {
-    grid-template-columns: minmax(180px, 0.9fr) minmax(245px, 1.05fr) minmax(260px, 1.15fr);
-    gap: 22px;
-    padding-right: 28px;
-    padding-left: 28px;
-  }
-
-  .FlozioLearningLoop_learning { padding: 20px; }
-  .FlozioLearningLoop_wires { opacity: 0.65; }
+@media (max-width: 980px) {
+  .FlozioLearningLoop { padding: 72px 20px 64px; }
+  .FlozioLearningLoop_app { grid-template-columns: 145px minmax(0, 1fr); }
+  .FlozioLearningLoop_content { padding: 18px 16px 15px; }
+  .FlozioLearningLoop_panels { grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.9fr); }
+  .FlozioLearningLoop_tableHead,
+  .FlozioLearningLoop_row { grid-template-columns: minmax(116px, 1fr) minmax(105px, 1fr) 70px; gap: 8px; }
+  .FlozioLearningLoop_detail { padding-right: 14px; padding-left: 14px; }
 }
 
-@media (max-width: 880px) {
-  .FlozioLearningLoop { padding: 72px 20px 28px; }
-  .FlozioLearningLoop_scene {
-    display: grid;
-    min-height: 0;
-    grid-template-columns: 1fr;
-    gap: 22px;
-    padding: 24px 24px 34px;
-  }
-  .FlozioLearningLoop_wires { display: none; }
-  .FlozioLearningLoop_sources { padding: 0; }
-  .FlozioLearningLoop_signal { margin-bottom: 4px; }
-  .FlozioLearningLoop_learning { max-width: none; }
-  .FlozioLearningLoop_actions { padding: 0; }
-  .FlozioLearningLoop_sceneLabel { margin-bottom: 10px; }
-}
-
-@media (max-width: 600px) {
-  .FlozioLearningLoop { padding: 60px 16px 20px; }
-  .FlozioLearningLoop_intro { margin-bottom: 30px; }
+@media (max-width: 700px) {
+  .FlozioLearningLoop { padding: 60px 16px 52px; }
+  .FlozioLearningLoop_intro { margin-bottom: 28px; }
   .FlozioLearningLoop_eyebrow { margin-bottom: 10px; font-size: 10px; }
   .FlozioLearningLoop_title { margin-bottom: 12px; font-size: 34px; line-height: 1.2; letter-spacing: -1.36px; }
-  .FlozioLearningLoop_description { font-size: 16px; line-height: 1.55; letter-spacing: -0.16px; }
-  .FlozioLearningLoop_flow { border-radius: 12px; }
-  .FlozioLearningLoop_flowHeader { min-height: 52px; padding: 12px 16px; }
-  .FlozioLearningLoop_flowName { font-size: 12px; }
-  .FlozioLearningLoop_exampleLabel { font-size: 9px; }
-  .FlozioLearningLoop_scene { gap: 18px; padding: 20px 17px 30px; }
-  .FlozioLearningLoop_learning { padding: 20px 17px; }
-  .FlozioLearningLoop_learning h3 { font-size: 18px; }
-  .FlozioLearningLoop_signalText strong,
-  .FlozioLearningLoop_action strong { font-size: 12px; }
-  .FlozioLearningLoop_signalText small,
-  .FlozioLearningLoop_action small { font-size: 10px; }
-  .FlozioLearningLoop_action { grid-template-columns: 37px minmax(0, 1fr) 16px; gap: 7px; }
-  .FlozioLearningLoop_feedback { justify-content: flex-start; gap: 8px; padding: 13px 16px; font-size: 12px; text-align: left; }
+  .FlozioLearningLoop_description { font-size: 16px; line-height: 1.5; letter-spacing: -0.16px; }
+  .FlozioLearningLoop_flow { border-radius: 9px; }
+  .FlozioLearningLoop_flowHeader { min-height: 44px; padding: 9px 12px; }
+  .FlozioLearningLoop_workspaceName { font-size: 11px; }
+  .FlozioLearningLoop_workspaceName img { width: 16px; height: 19px; }
+  .FlozioLearningLoop_exampleLabel { font-size: 8px; }
+  .FlozioLearningLoop_app { display: block; min-height: 0; }
+  .FlozioLearningLoop_nav {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 9px;
+    border-right: 0;
+    border-bottom: 1px solid #e8eaee;
+    scrollbar-width: none;
+  }
+  .FlozioLearningLoop_nav::-webkit-scrollbar { display: none; }
+  .FlozioLearningLoop_navLabel { display: none; }
+  .FlozioLearningLoop_navItem { min-height: 30px; gap: 5px; margin: 0; padding: 0 7px; font-size: 9px; }
+  .FlozioLearningLoop_navGlyph { width: 14px; height: 14px; font-size: 12px; }
+  .FlozioLearningLoop_content { padding: 15px 12px 12px; }
+  .FlozioLearningLoop_topline { font-size: 8px; }
+  .FlozioLearningLoop_sync { gap: 4px; font-size: 8px; }
+  .FlozioLearningLoop_sync i { width: 5px; height: 5px; flex-basis: 5px; }
+  .FlozioLearningLoop_workspaceHeading { align-items: center; margin: 10px 0 13px; }
+  .FlozioLearningLoop_workspaceHeading h3 { font-size: 16px; }
+  .FlozioLearningLoop_workspaceHeading p { font-size: 10px; }
+  .FlozioLearningLoop_filter { min-height: 26px; gap: 5px; padding: 0 6px; font-size: 9px; }
+  .FlozioLearningLoop_panels { grid-template-columns: minmax(0, 1fr); }
+  .FlozioLearningLoop_tableHead { display: none; }
+  .FlozioLearningLoop_row {
+    min-height: 59px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4px 8px;
+    padding: 8px 9px;
+  }
+  .FlozioLearningLoop_record { grid-column: 1; grid-row: 1; }
+  .FlozioLearningLoop_match,
+  .FlozioLearningLoop_risk { grid-column: 1; grid-row: 2; padding-left: 35px; font-size: 8px; }
+  .FlozioLearningLoop_review { grid-column: 2; grid-row: 1 / span 2; font-size: 8px; }
+  .FlozioLearningLoop_recordIcon { width: 24px; height: 24px; flex-basis: 24px; }
+  .FlozioLearningLoop_record strong { font-size: 9px; }
+  .FlozioLearningLoop_queueFoot { min-height: 31px; padding: 0 9px; font-size: 8px; }
+  .FlozioLearningLoop_detail { padding: 15px 12px 14px; border-top: 1px solid #e8eaee; border-left: 0; }
+  .FlozioLearningLoop_detail h4 { margin-top: 10px; }
+  .FlozioLearningLoop_signalLine { margin: 10px 0 12px; }
+  .FlozioLearningLoop_feedback { justify-content: flex-start; gap: 7px; padding: 11px 12px; font-size: 9px; text-align: left; }
+  .FlozioLearningLoop_feedback svg { width: 14px; height: 14px; flex-basis: 14px; }
 }
