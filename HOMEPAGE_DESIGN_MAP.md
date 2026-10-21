@@ -16,6 +16,7 @@ For website work, follow these sources in order:
 
 - `/` is rewritten to `public/clickup-reference.html` in `next.config.mjs`.
 - The page is a saved, mostly minified HTML snapshot. Its rendered styles and scripts live under `public/assets/clickup-reference/responses/` and `public/assets/clickup-reference/next/`; `next.config.mjs` rewrites their asset URLs.
+- The snapshot also loads the original Next.js page bundles, which hydrate the `#__next` tree. Custom markup inserted directly inside that tree can be removed during hydration even though it appears in the served HTML. For custom homepage sections, keep the section markup in a `<template>` outside `#__next`, then mount it into the intended location after hydration with a small public script; keep section content in the template and mounting behavior in the script.
 - This snapshot is the canonical homepage source. `app/page.tsx` is a fallback redirect, and React components under `app/sections/` are a dormant older reconstruction. Editing those components does not change `/`.
 - A future React migration must first match the current Flozio page's copy, sections, styling, responsive behavior, and interactions; do not change the root rewrite before that parity review.
 - Do not assume a hashed CSS-module class is a portable component or a design token. Use those class names to locate the matching source styles and section in the snapshot.
