@@ -40,6 +40,7 @@ The goal is to inspect the original components, their motion, and source code in
 - [x] Map all 170 example source files to their exact docs preview IDs and anchors. Add source hashes, component imports, configured props, event signals, inherited use tags, and motion notes to the searchable catalog.
 - [x] Run the browser audit against all 170 mapped previews individually. Inspect computed animation styles, SVG attributes, and canvas fingerprints; sample before/activation/follow-up frames; and apply source-matched pointer sweep, hover, click, press-and-hold, drag, or scroll input. All 170 rendered; Globe was verified with software WebGL, and its canvas fingerprint and frame changed during initialization and drag sampling.
 - [x] Check the Grid Beams catalog record against the pinned official registry, docs, source tree, and public search. Its registry URL returns 404 and no official component page/source is available; retain it as an unsupported, unverified historical name rather than infer behavior from third-party lookalikes.
+- [x] Make the local Magic UI preview work without network access: replace Google Font downloads with system fallbacks and give its Next app an isolated build directory. The isolated docs app served the full audit; an already-running `npm run dev` process must be restarted to load this startup fix.
 
 ### Library sequence
 

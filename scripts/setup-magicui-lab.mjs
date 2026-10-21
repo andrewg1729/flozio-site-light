@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { prepareMagicUIDocs } from './prepare-magicui-docs.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const magicRoot = resolve(root, '.magicui-source');
@@ -27,6 +28,8 @@ if (magicSourceMissing) {
     run('git', ['-c', `safe.directory=${magicRoot}`, 'checkout', '--detach', sourceCommit], magicRoot);
   }
 }
+
+prepareMagicUIDocs();
 
 const pnpm = process.platform === 'win32' ? 'pnpm.cmd' : 'pnpm';
 run(pnpm, ['install', '--filter', 'www...'], magicRoot);

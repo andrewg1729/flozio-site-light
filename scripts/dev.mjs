@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import { spawn } from 'node:child_process';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { prepareMagicUIDocs } from './prepare-magicui-docs.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const homepageNext = resolve(root, 'node_modules/next/dist/bin/next');
@@ -50,9 +51,10 @@ launch('Flozio homepage', process.execPath, [homepageNext, 'dev', '-p', '38471']
 });
 
 if (existsSync(magicNext)) {
+  prepareMagicUIDocs();
   launch('Magic UI local docs', process.execPath, [magicNext, 'dev', '-p', '38472'], {
     cwd: magicApp,
-    env: { ...process.env, PORT: '38472' },
+    env: { ...process.env, PORT: '38472', FLOZIO_MAGICUI_DIST_DIR: '.next-flozio-component-lab' },
   });
   console.log('Component Lab docs: http://localhost:38472/docs/components');
 } else {
