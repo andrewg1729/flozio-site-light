@@ -19,9 +19,9 @@
   let query = '';
   let active = 0;
 
-  const localDocsUrl = (url) => {
+  const localDocsUrl = (url, anchor = null) => {
     try {
-      return `${localDocsOrigin}${new URL(url).pathname}#examples`;
+      return `${localDocsOrigin}${new URL(url).pathname}${anchor ? `#${anchor}` : ''}`;
     } catch {
       return `${localDocsOrigin}/docs/components`;
     }
@@ -57,9 +57,34 @@
     if (item.kind === 'example') {
       const description = document.createElement('p');
       description.textContent = item.component
-        ? `Official example variant for ${item.componentTitle}. The live frame shows its component documentation; use the source link to inspect the exact demo implementation.`
+        ? `Official ${item.componentTitle} variant. The frame opens this specific preview in the local Magic UI docs; the source link opens the exact example implementation.`
         : 'Official example source. Its component association is not explicit in Magic UI’s index; open the source to inspect its implementation.';
       details.append(description);
+      appendRow(details, 'Docs preview', item.previewId ? `${item.previewId}${item.anchor ? ` — #${item.anchor}` : ' — first preview on page'}` : 'No matching preview ID found');
+      appendRow(details, 'What it does', item.reviewDescription);
+      appendRow(details, 'Motion model', item.motionProfile?.mechanism);
+      appendRow(details, 'Trigger / lifecycle', [item.motionProfile?.trigger, item.motionProfile?.lifecycle].filter(Boolean));
+      appendRow(details, 'Use tags', item.fitTags);
+      if (item.sourceAudit) {
+        appendRow(details, 'Component usage', item.sourceAudit.componentUsage?.map((usage) => {
+          const props = usage.props.map((prop) => `${prop.name}=${prop.value}`).join(', ');
+          return `${usage.component}${props ? ` (${props})` : ''}`;
+        }) || []);
+        appendRow(details, 'Source signals', item.sourceAudit.detectableInteractions);
+        appendRow(details, 'Source SHA-256', item.sourceAudit.sha256);
+      }
+      if (item.runtimeAudit) {
+        const audit = item.runtimeAudit;
+        appendRow(details, 'Runtime audit', audit.status);
+        if (audit.status === 'preview-rendered') appendRow(details, 'Observed', [
+          `Animations before/after: ${audit.runningAnimationsBeforeInput}/${audit.runningAnimationsAfterInput}`,
+          `Action: ${audit.action}${audit.actionHadTarget ? ' (target found)' : ''}`,
+          `SVG/style/canvas state changed: ${audit.animatedStateChanged ? `yes (${audit.motionStateChanges?.length || 0} sampled property changes)` : 'not detected in sample'}`,
+          `Activation frame changed: ${audit.activatedFrameChanged ? 'yes' : 'no; inconclusive'}`,
+          `Frame changed: ${audit.frameChangedDuringSample ? 'yes' : 'no; inconclusive'}`,
+          `Code tab: ${audit.codeTabPresent ? 'available' : 'not detected'}`,
+        ]);
+      }
       if (item.rawUrl) appendRow(details, 'Demo source', item.rawUrl);
       return;
     }
@@ -90,6 +115,10 @@
     appendRow(details, 'Evidence basis', item.motionProfile?.evidence);
     appendRow(details, 'Search / fit tags', item.fitTags);
     appendRow(details, 'Review status', item.reviewStatus);
+    if (item.exampleRuntimeAudit) {
+      appendRow(details, 'Example variants', `${item.exampleRuntimeAudit.renderedVariantCount}/${item.exampleRuntimeAudit.variantCount} rendered`);
+      if (item.exampleRuntimeAudit.unavailable?.length) appendRow(details, 'Variant limits', item.exampleRuntimeAudit.unavailable.map((entry) => `${entry.name}: ${entry.status}${entry.reason ? ` (${entry.reason.split('\n')[0]})` : ''}`));
+    }
     if (item.runtimeMotionAudit) {
       const audit = item.runtimeMotionAudit;
       appendRow(details, 'Live preview audit', audit.status);
@@ -135,7 +164,7 @@
     title.textContent = item.title;
     note.textContent = item.reviewDescription || item.description || 'Official Magic UI catalog entry.';
     frame.title = `${item.title} live preview from Magic UI`;
-    const docsHref = item.legacyDocsUrl || localDocsUrl(item.docsUrl);
+    const docsHref = item.legacyDocsUrl || localDocsUrl(item.docsUrl, item.kind === 'example' ? item.anchor : null);
     frame.src = docsHref;
     openDocs.href = docsHref;
     openDocs.textContent = item.legacyDocsUrl ? 'Open official v3 docs ↗' : 'Open local docs ↗';
@@ -165,8 +194,10 @@
 
   const filteredItems = () => items.map((item, index) => ({ item, index })).filter(({ item }) => {
     const kindMatch = kind === 'All' || (kind === 'Components' ? item.kind !== 'example' : item.kind === 'example');
-    const text = [item.title, item.description, item.reviewDescription, item.interaction, item.componentTitle,
+    const text = [item.title, item.description, item.reviewDescription, item.interaction, item.componentTitle, item.previewId, item.sectionHeading,
       item.motionProfile?.mechanism, item.motionProfile?.trigger, item.motionProfile?.lifecycle, item.motionProfile?.evidence,
+      ...(item.sourceAudit?.componentUsage || []).flatMap((usage) => [usage.component, ...usage.props.map((prop) => `${prop.name} ${prop.value}`)]),
+      ...(item.sourceAudit?.detectableInteractions || []),
       ...(item.behaviorTags || []), ...(item.fitTags || [])].join(' ').toLowerCase();
     return kindMatch && (!query || text.includes(query));
   });
@@ -178,7 +209,7 @@
       button.type = 'button';
       button.className = index === active ? 'lab-item-active' : 'lab-item';
       const itemTitle = document.createElement('span');
-      itemTitle.className = 'lab-item-title';
+          itemTitle.className = 'lab-item-title';
       itemTitle.textContent = item.title;
       const itemSource = document.createElement('span');
       itemSource.className = 'lab-item-source';
@@ -220,10 +251,20 @@
           rawUrl: item.rawUrl,
           component: item.component,
           componentTitle: component?.title,
+          reviewDescription: component?.reviewDescription,
+          interaction: component?.interaction,
+          motionProfile: component?.motionProfile,
+          fitTags: component?.fitTags || [],
+          behaviorTags: component?.behaviorTags || [],
+          sourceAudit: item.sourceAudit,
+          runtimeAudit: item.runtimeAudit,
+          previewId: item.previewId,
+          sectionHeading: item.sectionHeading,
+          anchor: item.anchor,
         };
       });
       items = [...components, ...examples];
-      countRoot.textContent = `${catalog.source.componentReviewCount} motion profiles · ${catalog.source.motionProfileSourceReviewedCount} checked against source · ${catalog.source.legacyDocsBehaviorCount} legacy docs-only · ${catalog.source.legacyUnverifiedCount} historical entries unverified · ${catalog.source.officialExampleCount} official example variants`;
+      countRoot.textContent = `${catalog.source.componentReviewCount} component profiles · ${catalog.source.exampleSourceInventoryCount}/${catalog.source.officialExampleCount} example sources extracted · ${catalog.source.exampleDocPreviewMappedCount} exact previews mapped · ${catalog.source.exampleRuntimeRenderedCount}/${catalog.source.officialExampleCount} rendered in browser · ${catalog.source.legacyDocsBehaviorCount} legacy docs-only · ${catalog.source.legacyUnverifiedCount} historical entries unverified`;
       renderFilters();
       const firstInteractiveDemo = items.findIndex((item) => item.name === 'cool-mode');
       selectPreview(firstInteractiveDemo >= 0 ? firstInteractiveDemo : 0);

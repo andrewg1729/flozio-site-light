@@ -36,8 +36,10 @@ The goal is to inspect the original components, their motion, and source code in
 - [x] Add a per-component motion profile for all 85 catalog records: mechanism, trigger, lifecycle, fit tags, and evidence status. Checked all 78 available current component sources; classified five stale entries from official v3 docs and marked Arc Timeline and Grid Beams unverified because no official source or component page could be recovered.
 - [x] Show each selected component's motion model and evidence basis in the lab; point five legacy entries to their official v3 demo/code pages instead of broken current source URLs.
 - [x] Correct motion descriptions that source review disproved, including Ripple vs. Ripple Button, Shiny Button, Animated List, Icon Cloud, Bento Grid, and Dotted Map.
-- [x] Resolve the Dotted Map behavior from its source: the map is static while its point markers pulse. Its local docs route returns a page, but the browser audit did not find a usable preview there.
-- [ ] Review every one of the 170 example variants as a separate demo. The browser audit sampled the first active preview on each distinct docs route, not every variant independently.
+- [x] Resolve the Dotted Map behavior from its source and inspect each of its three individual demo previews; the base map is static while configured point markers pulse.
+- [x] Map all 170 example source files to their exact docs preview IDs and anchors. Add source hashes, component imports, configured props, event signals, inherited use tags, and motion notes to the searchable catalog.
+- [x] Run the browser audit against all 170 mapped previews individually. Inspect computed animation styles, SVG attributes, and canvas fingerprints; sample before/activation/follow-up frames; and apply source-matched pointer sweep, hover, click, press-and-hold, drag, or scroll input. 169 rendered; the Globe preview failed because the isolated browser could not create a WebGL context.
+- [ ] Verify Globe's live rotation and drag interaction in a WebGL-capable browser, then update the variant runtime evidence and guide.
 
 ### Library sequence
 
