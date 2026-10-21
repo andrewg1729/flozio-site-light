@@ -75,68 +75,193 @@
   text-transform: uppercase;
 }
 
-.FlozioLearningLoop_stages {
+.FlozioLearningLoop_scene {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
-  margin: 0;
-  padding: 32px 26px 30px;
-  list-style: none;
+  min-height: 326px;
+  grid-template-columns: minmax(240px, 0.95fr) minmax(280px, 1.02fr) minmax(330px, 1.18fr);
+  align-items: center;
+  gap: 42px;
+  padding: 34px 42px 58px;
+  background: #fbfcfe;
 }
 
-.FlozioLearningLoop_stages::before {
+.FlozioLearningLoop_wires {
   position: absolute;
-  top: 48px;
-  right: calc(12.5% + 26px);
-  left: calc(12.5% + 26px);
-  height: 1px;
-  background: #d9e4ee;
-  content: "";
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
-.FlozioLearningLoop_stage {
-  position: relative;
-  min-width: 0;
-  padding: 0 22px;
-  text-align: center;
+.FlozioLearningLoop_wires path {
+  fill: none;
+  stroke: #c9d8e5;
+  stroke-width: 1.25;
+  vector-effect: non-scaling-stroke;
 }
 
-.FlozioLearningLoop_stageMarker {
+.FlozioLearningLoop_wires .FlozioLearningLoop_returnWire {
+  stroke: #a9c6dc;
+  stroke-dasharray: 4 5;
+}
+
+.FlozioLearningLoop_sources,
+.FlozioLearningLoop_learning,
+.FlozioLearningLoop_actions {
   position: relative;
   z-index: 1;
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  margin: 0 auto 17px;
-  border: 1px solid #cbd9e6;
-  border-radius: 50%;
-  background: #fff;
-  color: #1976c9;
-  font: 600 11px/1 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0.01em;
+  min-width: 0;
 }
 
-.FlozioLearningLoop_stageName {
+.FlozioLearningLoop_sceneLabel {
+  margin: 0 0 16px;
+  color: #657387;
+  font: 650 10px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0.11em;
+}
+
+.FlozioLearningLoop_sources {
+  padding-right: 6px;
+}
+
+.FlozioLearningLoop_signal {
+  display: grid;
+  min-height: 54px;
+  grid-template-columns: 30px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  margin: 0 0 10px;
+  padding: 4px 12px 4px 0;
+}
+
+.FlozioLearningLoop_signal:last-child { margin-bottom: 0; }
+
+.FlozioLearningLoop_signalGlyph {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid #d9e4ed;
+  border-radius: 9px;
+  background: #fff;
+  color: #367fb6;
+}
+
+.FlozioLearningLoop_signalGlyph svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.35;
+}
+
+.FlozioLearningLoop_signalText,
+.FlozioLearningLoop_action > span:nth-child(2) {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.FlozioLearningLoop_signalText strong,
+.FlozioLearningLoop_action strong {
+  color: #26364a;
+  font: 600 13px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.12px;
+}
+
+.FlozioLearningLoop_signalText small,
+.FlozioLearningLoop_action small {
+  color: #778292;
+  font: 400 11px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_learning {
+  padding: 24px 24px 21px;
+  border: 1px solid #d9e7f1;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(29, 73, 109, 0.07);
+}
+
+.FlozioLearningLoop_learningMark {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  margin-bottom: 18px;
+  border: 1px solid #d9e7f1;
+  border-radius: 11px;
+  background: #f5faff;
+}
+
+.FlozioLearningLoop_learningMark img { display: block; width: 24px; height: 24px; object-fit: contain; }
+
+.FlozioLearningLoop_learning .FlozioLearningLoop_sceneLabel { margin-bottom: 8px; color: #2874b5; }
+
+.FlozioLearningLoop_learning h3 {
   margin: 0 0 8px;
-  color: #277ed0;
-  font: 650 11px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #202d3d;
+  font: 650 20px/1.25 "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.6px;
+}
+
+.FlozioLearningLoop_learningCopy {
+  max-width: 260px;
+  margin: 0;
+  color: #6d7987;
+  font: 400 12px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_learningSignals {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  color: #315671;
+  font: 600 10px/1.3 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.FlozioLearningLoop_learningSignals i {
+  width: 4px;
+  height: 4px;
+  flex: 0 0 4px;
+  border-radius: 50%;
+  background: #49a7d8;
+}
+
+.FlozioLearningLoop_actions { padding-left: 4px; }
+.FlozioLearningLoop_actions .FlozioLearningLoop_sceneLabel { margin-bottom: 8px; }
+
+.FlozioLearningLoop_action {
+  display: grid;
+  min-height: 58px;
+  grid-template-columns: 43px minmax(0, 1fr) 18px;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5ebf0;
+}
+
+.FlozioLearningLoop_action:last-child { border-bottom: 0; }
+
+.FlozioLearningLoop_actionKey {
+  color: #4380ae;
+  font: 650 9px/1.4 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0.1em;
 }
 
-.FlozioLearningLoop_stageTitle {
-  margin: 0 0 8px;
-  color: #202a38;
-  font: 600 17px/1.35 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: -0.35px;
-}
-
-.FlozioLearningLoop_stageDescription {
-  max-width: 230px;
-  margin: 0 auto;
-  color: #737b87;
-  font: 400 14px/1.55 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+.FlozioLearningLoop_action > svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: #7b9ab4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
 }
 
 .FlozioLearningLoop_feedback {
@@ -159,134 +284,52 @@
   color: #2484d8;
 }
 
-@media (max-width: 900px) {
-  .FlozioLearningLoop {
-    padding: 72px 20px 28px;
+@media (max-width: 1040px) {
+  .FlozioLearningLoop_scene {
+    grid-template-columns: minmax(180px, 0.9fr) minmax(245px, 1.05fr) minmax(260px, 1.15fr);
+    gap: 22px;
+    padding-right: 28px;
+    padding-left: 28px;
   }
 
-  .FlozioLearningLoop_stages {
-    display: block;
-    padding: 28px 26px 8px;
-  }
+  .FlozioLearningLoop_learning { padding: 20px; }
+  .FlozioLearningLoop_wires { opacity: 0.65; }
+}
 
-  .FlozioLearningLoop_stages::before {
-    top: 44px;
-    right: auto;
-    bottom: 38px;
-    left: 42px;
-    width: 1px;
-    height: auto;
-  }
-
-  .FlozioLearningLoop_stage {
+@media (max-width: 880px) {
+  .FlozioLearningLoop { padding: 72px 20px 28px; }
+  .FlozioLearningLoop_scene {
     display: grid;
-    grid-template-columns: 34px minmax(0, 1fr);
-    column-gap: 18px;
-    padding: 0 0 26px;
-    text-align: left;
+    min-height: 0;
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 24px 24px 34px;
   }
-
-  .FlozioLearningLoop_stageMarker {
-    grid-column: 1;
-    grid-row: 1;
-    align-self: start;
-    margin: 0;
-  }
-
-  .FlozioLearningLoop_stageBody {
-    grid-column: 2;
-    text-align: left;
-  }
-
-  .FlozioLearningLoop_stageDescription {
-    max-width: none;
-    margin: 0;
-  }
+  .FlozioLearningLoop_wires { display: none; }
+  .FlozioLearningLoop_sources { padding: 0; }
+  .FlozioLearningLoop_signal { margin-bottom: 4px; }
+  .FlozioLearningLoop_learning { max-width: none; }
+  .FlozioLearningLoop_actions { padding: 0; }
+  .FlozioLearningLoop_sceneLabel { margin-bottom: 10px; }
 }
 
 @media (max-width: 600px) {
-  .FlozioLearningLoop {
-    padding: 60px 16px 20px;
-  }
-
-  .FlozioLearningLoop_intro {
-    margin-bottom: 30px;
-  }
-
-  .FlozioLearningLoop_eyebrow {
-    margin-bottom: 10px;
-    font-size: 10px;
-  }
-
-  .FlozioLearningLoop_title {
-    margin-bottom: 12px;
-    font-size: 34px;
-    line-height: 1.2;
-    letter-spacing: -1.36px;
-  }
-
-  .FlozioLearningLoop_description {
-    font-size: 16px;
-    line-height: 1.55;
-    letter-spacing: -0.16px;
-  }
-
-  .FlozioLearningLoop_flow {
-    border-radius: 12px;
-  }
-
-  .FlozioLearningLoop_flowHeader {
-    min-height: 52px;
-    padding: 12px 16px;
-  }
-
-  .FlozioLearningLoop_flowName {
-    font-size: 12px;
-  }
-
-  .FlozioLearningLoop_exampleLabel {
-    font-size: 9px;
-  }
-
-  .FlozioLearningLoop_stages {
-    padding: 24px 18px 8px;
-  }
-
-  .FlozioLearningLoop_stages::before {
-    top: 40px;
-    bottom: 30px;
-    left: 34px;
-  }
-
-  .FlozioLearningLoop_stage {
-    padding: 0 0 22px;
-  }
-
-  .FlozioLearningLoop_stageMarker {
-    width: 30px;
-    height: 30px;
-  }
-
-  .FlozioLearningLoop_stageName {
-    margin-bottom: 5px;
-    padding-top: 2px;
-    font-size: 10px;
-  }
-
-  .FlozioLearningLoop_stageTitle {
-    margin-bottom: 5px;
-    font-size: 16px;
-  }
-
-  .FlozioLearningLoop_stageDescription {
-    font-size: 13px;
-  }
-
-  .FlozioLearningLoop_feedback {
-    justify-content: flex-start;
-    gap: 8px;
-    padding: 13px 16px;
-    font-size: 12px;
-    text-align: left;
-  }
+  .FlozioLearningLoop { padding: 60px 16px 20px; }
+  .FlozioLearningLoop_intro { margin-bottom: 30px; }
+  .FlozioLearningLoop_eyebrow { margin-bottom: 10px; font-size: 10px; }
+  .FlozioLearningLoop_title { margin-bottom: 12px; font-size: 34px; line-height: 1.2; letter-spacing: -1.36px; }
+  .FlozioLearningLoop_description { font-size: 16px; line-height: 1.55; letter-spacing: -0.16px; }
+  .FlozioLearningLoop_flow { border-radius: 12px; }
+  .FlozioLearningLoop_flowHeader { min-height: 52px; padding: 12px 16px; }
+  .FlozioLearningLoop_flowName { font-size: 12px; }
+  .FlozioLearningLoop_exampleLabel { font-size: 9px; }
+  .FlozioLearningLoop_scene { gap: 18px; padding: 20px 17px 30px; }
+  .FlozioLearningLoop_learning { padding: 20px 17px; }
+  .FlozioLearningLoop_learning h3 { font-size: 18px; }
+  .FlozioLearningLoop_signalText strong,
+  .FlozioLearningLoop_action strong { font-size: 12px; }
+  .FlozioLearningLoop_signalText small,
+  .FlozioLearningLoop_action small { font-size: 10px; }
+  .FlozioLearningLoop_action { grid-template-columns: 37px minmax(0, 1fr) 16px; gap: 7px; }
+  .FlozioLearningLoop_feedback { justify-content: flex-start; gap: 8px; padding: 13px 16px; font-size: 12px; text-align: left; }
 }
