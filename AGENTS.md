@@ -23,4 +23,6 @@ For website, copy, or visual work, read `BRAND.md`, `DESIGN_GUARDRAILS.md`, and 
 - For component-library cataloging or preview work, read `COMPONENT_REVIEW_PROCESS.md` and `TODO.md` first.
 - `TODO.md` is the library queue; the process guide defines what counts as a complete review. Do not treat the docs-page iframe or a catalog scan as completion.
 - Keep each library's imported source and dependencies in an isolated local workspace. Check redistribution terms before committing source; retain source links and hashes when source cannot be committed.
-- Before moving to a new library, report one actual standout component with its observed behavior and likely Flozio use. Do not claim full library coverage until the manifest proves it.
+- Do not stop at an inventory, a sample preview, or a completed batch. Continue the active library item by item and variant by variant until each has a source/license review, imported live preview, observed motion/interaction, description, and searchable Flozio-fit tags. Do not ask whether to continue or move to another library while work remains.
+- When a genuine external blocker prevents a review, record evidence and the precise blocker, try reasonable alternatives, and continue all unblocked items. A blocked entry is not understood; keep the library in progress and do not claim 100% completion until the blocker is resolved and reviewed.
+- Before moving to a new library, report one fully reviewed standout component with observed behavior and likely Flozio use. The manifest must prove complete coverage first.

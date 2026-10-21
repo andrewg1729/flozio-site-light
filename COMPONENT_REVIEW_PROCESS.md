@@ -6,6 +6,10 @@ This is the operating procedure for the Flozio visual component lab. `TODO.md` i
 
 A component is not complete because its catalog tile or documentation page was opened. Mark it **reviewed** only when its actual implementation and runnable preview have both been checked, its motion and interaction are described from evidence, and its likely Flozio uses and limitations are recorded.
 
+**Do not stop the library review after inventory, setup, a sample component, or a batch. Continue through every entry and every published example variant until the completion criteria below are met. Do not ask whether to continue, move to the next library, or call the library complete while any reviewable entries remain. A turn ending or a batch finishing is only a checkpoint: record the exact cursor and resume with the next unreviewed item.**
+
+Keep working around ordinary implementation friction: find alternate official source routes, resolve dependencies, repair the preview harness, and retry failed builds or interactions. If an item is genuinely blocked by missing paid access, removed source, or an external service the workspace cannot reach, exhaust reasonable alternatives, record the evidence and exact blocker on that item, and continue reviewing the remaining items. A blocked item is not understood or complete; the library stays `In progress` until the blocker is resolved and the review is finished. Never silently drop an item or lower the completion standard to meet a time limit.
+
 Track each item through these statuses:
 
 1. `discovered` — found in the library's current official inventory.
@@ -16,7 +20,20 @@ Track each item through these statuses:
 6. `motion-verified` — the documented trigger was exercised (hover, click, drag, scroll, timer, or other input); motion lifecycle and reduced-motion/mobile behavior were checked where applicable.
 7. `tagged` — description, motion, dependencies, tradeoffs, and Flozio use tags have been recorded.
 
-Only items that pass all applicable stages may be marked `reviewed`. Mark `blocked`, `paid`, `unavailable`, `source-only`, `legacy`, or `rejected` explicitly. Never count those as understood runnable components.
+Only items that pass all applicable stages may be marked `reviewed`. Mark `blocked`, `paid`, `unavailable`, `source-only`, `legacy`, or `rejected` explicitly, with evidence and a reason. Those dispositions make the inventory honest; they do **not** mean the item's animation was understood. Do not mark the library complete while any item lacks a completed review or an explicitly reported unresolved blocker.
+
+### Required per-item completion record
+
+For every component and every published example/variant, record all of the following before marking it reviewed:
+
+- Read the actual implementation and its official example; record the source version/hash, imports, dependencies, configurable props, and any external assets.
+- Import and compile the real component in the library's isolated local app. Open its live preview and inspect the visible result at desktop and mobile widths.
+- Exercise the actual trigger (for example scroll, hover, click, drag, or timer) in the preview. Describe what moves or changes, what starts it, its timing/direction/repetition/settling behavior, and whether it loops or stops.
+- Check reduced-motion behavior and relevant keyboard/touch behavior. Record what was observed separately from what was inferred from source. If the effect cannot be observed, do not call motion verified.
+- Write a concise plain-language description and searchable tags for visual form, motion, interaction, content/assets required, constraints, and suitable Flozio jobs/sections. Include a specific fit judgment and why.
+- Save the preview/build result and evidence reference in the manifest. Failures need their exact error and a retry/blocker note; they cannot be counted as reviewed.
+
+If a library publishes variants, audit each variant separately; a component-level summary does not substitute for variant review. Reconcile final reviewed, variant-reviewed, and blocked counts against the complete official inventory before advancing the queue.
 
 ## Library-by-library workflow
 
@@ -49,6 +66,7 @@ Only items that pass all applicable stages may be marked `reviewed`. Mark `block
 - A visual contact sheet is for scanning appearance; it does not prove motion behavior. Pair it with source inspection and automated interaction/frame sampling, and inspect the actual preview for any ambiguous or failed signal.
 - Record what was visibly observed separately from what was inferred from source. A preview that renders is not automatically motion-verified.
 - Inspect responsive layout and reduced-motion behavior for components with motion. Record unsupported accessibility or browser behavior rather than assuming it works.
+- Batches are only a way to organize the work, not a stopping point. After each batch, persist completed rows and the next exact item/variant to review; continue until the whole inventory is reconciled.
 
 ### 5. Write a useful searchable record
 
@@ -74,4 +92,4 @@ Magic UI has an existing pinned source/docs workspace and a detailed source/runt
 
 ## Handoff rule for future chats
 
-Before starting another library, read this file and `TODO.md`, check the manifest's coverage and unresolved statuses, then give the user a short preview of one standout item: what it visibly does, how its motion is triggered, and a plausible Flozio use. Continue only with the next library marked in progress. Do not describe the whole library as done until its manifest shows complete coverage and no unexplained gaps.
+When continuing active library work, read this file and `TODO.md`, inspect the manifest's exact cursor, and resume at the next unreviewed item without restarting completed work or asking the user whether to continue. Send brief progress updates as useful, but keep working until the current library meets the completion criteria. Only after it is complete, report a standout item with its observed appearance, trigger/motion, and plausible Flozio use, then begin the next queued library. Never advance the queue while the current library has unfinished or unresolved items. Do not describe a library as done until every inventory entry and published variant is accounted for and every applicable review has evidence.
