@@ -83,7 +83,7 @@ const notes = {
   'video-text': ['Text is used as a mask so a video plays inside its letterforms.', 'The video plays continuously beneath the fixed text mask.', ['media mask', 'headline visual', 'high contrast needed']],
   'pixel-image': ['An image is divided into a grid of clipped tiles that fade in at staggered random delays, then shift from grayscale to color.', 'The tile reveal and color transition run automatically after mount; it is not hover-triggered.', ['image transition', 'staggered reveal', 'editorial media']],
   highlighter: ['A marker-like stroke draws behind text when the text enters view.', 'Scroll the text into view to animate the highlight stroke.', ['scroll reveal', 'text emphasis', 'editorial storytelling']],
-  'arc-timeline': ['A historical catalog name with no recoverable current official docs page or source; its design and motion are unverified.', 'Unknown until a specific official version/source is recovered.', ['unverified legacy entry', 'source unavailable']],
+  'arc-timeline': ['A catalog-only name for a component that Magic UI maintainers say never entered production; there is no released component or motion to inspect.', 'Not applicable; Magic UI maintainers report that it was never released.', ['unreleased registry entry', 'not installable']],
   'animated-theme-toggler': ['A theme switcher animates the transition between light and dark modes.', 'Activate the toggle; a circular mask transition reveals the next theme.', ['theme control', 'state transition', 'not marketing artwork']],
   'grid-beams': ['A historical catalog name with no recoverable current official docs page or source; its design and motion are unverified.', 'Unknown until a specific official version/source is recovered.', ['unverified legacy entry', 'source unavailable']],
   backlight: ['A backlight glow appears behind supplied media such as an image, video, or SVG.', 'The glow sits behind the media; no interaction is required.', ['media framing', 'glow effect', 'high decoration']],
@@ -98,7 +98,8 @@ const notes = {
   'text-3d-flip': ['Characters rotate in 3D with a staggered flip to reveal text.', 'Hover triggers the per-character 3D flip.', ['text interaction', 'headline accent', 'high decoration']],
 };
 
-const unresolved = new Set(['script-copy-btn', 'flip-text', 'scratch-to-reveal', 'box-reveal', 'iphone-15-pro', 'arc-timeline', 'grid-beams']);
+const unresolved = new Set(['script-copy-btn', 'flip-text', 'scratch-to-reveal', 'box-reveal', 'iphone-15-pro', 'grid-beams']);
+const unreleased = new Set(['arc-timeline']);
 const legacyDocs = {
   'script-copy-btn': 'https://v3.magicui.design/docs/components/script-copy-btn',
   'flip-text': 'https://v3.magicui.design/docs/components/flip-text',
@@ -181,7 +182,7 @@ const motionProfiles = {
   'video-text': ['Video playback is clipped by text glyphs; the letters themselves do not move.', 'Video playback starts according to the supplied media/browser.', 'Media motion inside a static mask.'],
   'pixel-image': ['Image tiles fade into place at randomized delays, then a delayed grayscale-to-color transition resolves the image.', 'On mount.', 'Finite staggered reveal; no hover trigger.'],
   highlighter: ['Rough Notation draws a hand-marked underline/box/highlight stroke around or behind the text.', 'On mount or once when entering view, depending on props.', 'Finite draw (600 ms default); redraws if measured layout changes.'],
-  'arc-timeline': ['Historical catalog name; no current official docs page or source was recoverable, so its animation and interaction are unverified.', 'Unknown.', 'Do not treat as understood or installable without a recoverable version/source.'],
+  'arc-timeline': ['No released implementation. A Magic UI maintainer states that Arc Timeline never entered production.', 'Not applicable; not a production component.', 'Exclude from component selection; do not infer behavior from third-party lookalikes.'],
   'animated-theme-toggler': ['Click starts a View Transition whose new-theme snapshot is revealed through a configurable circle, diamond, or star clip path.', 'Click/toggle.', 'Finite theme change transition; optional reveal origin is viewport center or toggle position.'],
   'grid-beams': ['Historical catalog name; no current official Magic UI docs page or source was recoverable, so beam behavior is unverified.', 'Unknown.', 'Do not treat as understood or installable without a recoverable version/source.'],
   backlight: ['Static layered glow behind supplied media.', 'None.', 'No motion in the component itself.'],
@@ -208,13 +209,16 @@ for (const component of catalog.components) {
     component.legacyDocsUrl = legacyDocs[component.name];
     component.sourceUrl = null;
   }
+  if (component.name === 'arc-timeline') component.sourceUrl = 'https://github.com/magicuidesign/magicui/discussions/864';
   const motionProfile = motionProfiles[component.name];
   if (!motionProfile) throw new Error(`Missing motion profile: ${component.name}`);
   component.motionProfile = {
     mechanism: motionProfile[0],
     trigger: motionProfile[1],
     lifecycle: motionProfile[2],
-    evidence: legacyDocs[component.name]
+    evidence: component.name === 'arc-timeline'
+      ? 'Magic UI maintainer discussion states Arc Timeline never entered production; no implementation was released'
+      : legacyDocs[component.name]
       ? 'official v3 docs only; current implementation source unavailable'
       : unresolved.has(component.name)
         ? 'no recoverable official source or component docs; behavior unverified'
@@ -224,6 +228,8 @@ for (const component of catalog.components) {
   component.fitTags = note[2];
   component.reviewStatus = unresolved.has(component.name)
     ? 'docs-reviewed-source-unresolved'
+    : unreleased.has(component.name)
+      ? 'officially-unreleased'
     : component.sourceStatus === 'docs-only'
       ? 'docs-reviewed-source-not-in-public-registry'
       : 'docs-and-source-reviewed';
@@ -239,7 +245,7 @@ catalog.source.docsOnlyReviewCount = catalog.components.filter((item) => item.re
 catalog.source.unresolvedReviewCount = catalog.components.filter((item) => item.reviewStatus === 'docs-reviewed-source-unresolved').length;
 catalog.source.motionProfileSourceReviewedCount = catalog.components.filter((item) => item.motionProfile.evidence.startsWith('checked against')).length;
 catalog.source.legacyDocsBehaviorCount = catalog.components.filter((item) => Boolean(item.legacyDocsUrl)).length;
-catalog.source.legacyUnverifiedCount = catalog.components.filter((item) => ['arc-timeline', 'grid-beams'].includes(item.name)).length;
+catalog.source.legacyUnverifiedCount = catalog.components.filter((item) => item.name === 'grid-beams').length;
 const runtimeByRoute = new Map();
 for (const item of catalog.components) {
   if (!item.runtimeMotionAudit || !item.docsUrl) continue;
@@ -255,7 +261,7 @@ fs.writeFileSync(path, `${JSON.stringify(catalog, null, 2)}\n`);
 const escapeCell = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ');
 const link = (label, url) => url ? `[${escapeCell(label)}](${url})` : '—';
 const rows = catalog.components.map((item) =>
-  `| ${link(item.title, item.legacyDocsUrl || item.docsUrl)} | ${escapeCell(item.reviewDescription)} | ${escapeCell(item.motionProfile.mechanism)} | ${escapeCell(item.motionProfile.trigger)} ${escapeCell(item.motionProfile.lifecycle)} | ${escapeCell(item.fitTags.join(', '))} | ${escapeCell(item.reviewStatus)} | ${escapeCell(item.exampleRuntimeAudit ? `${item.exampleRuntimeAudit.renderedVariantCount}/${item.exampleRuntimeAudit.variantCount} listed variants rendered; ${item.exampleRuntimeAudit.unavailable.map((entry) => `${entry.name}: ${entry.status}`).join('; ') || 'none unavailable'}` : item.runtimeMotionAudit ? `${item.runtimeMotionAudit.status}; page-level sample, not variant-level` : item.previewStatus)} | ${link('source', item.sourceUrl)} |`,
+  `| ${link(item.title, item.legacyDocsUrl || item.docsUrl)} | ${escapeCell(item.reviewDescription)} | ${escapeCell(item.motionProfile.mechanism)} | ${escapeCell(item.motionProfile.trigger)} ${escapeCell(item.motionProfile.lifecycle)} | ${escapeCell(item.fitTags.join(', '))} | ${escapeCell(item.reviewStatus)} | ${escapeCell(item.exampleRuntimeAudit ? `${item.exampleRuntimeAudit.renderedVariantCount}/${item.exampleRuntimeAudit.variantCount} listed variants rendered; ${item.exampleRuntimeAudit.unavailable.map((entry) => `${entry.name}: ${entry.status}`).join('; ') || 'none unavailable'}` : item.runtimeMotionAudit ? `${item.runtimeMotionAudit.status}; page-level sample, not variant-level` : item.previewStatus)} | ${link(item.name === 'arc-timeline' ? 'maintainer discussion' : 'source', item.sourceUrl)} |`,
 );
 const routeCount = catalog.source.runtimeDocsPageCount || 0;
 const renderedCount = catalog.source.runtimeMotionAuditCount || 0;
@@ -275,7 +281,7 @@ const exampleRows = catalog.examples.map((example) => {
   const previewUrl = component?.docsUrl ? `${component.docsUrl}${example.anchor ? `#${example.anchor}` : ''}` : null;
   return `| ${escapeCell(example.name)} | ${escapeCell(example.componentTitle || component?.title || example.component)} | ${escapeCell(usage)} | ${escapeCell(component?.motionProfile?.mechanism || 'No source-backed component motion profile')} | ${escapeCell(component?.fitTags?.join(', ') || 'unclassified')} | ${escapeCell(runtimeSummary)} | ${link('exact preview', previewUrl)} · ${link('source', example.rawUrl)} |`;
 });
-const guide = `# Magic UI component review\n\nGenerated from the local catalog and official Magic UI docs/source snapshot at commit ${catalog.source.sourceRepositoryCommit || 'not recorded'}. Use this as a searchable research index, not as automatic approval to put a component on the Flozio homepage. The current catalog has ${catalog.components.length} component entries and ${catalog.examples.length} official example variants.\n\n## Evidence and limitations\n\nAll ${exampleInventoryCount}/${catalog.examples.length} listed example TSX files were found in the pinned source checkout and statically extracted: source hash, imports, component JSX, configured props, and detectable pointer/click/scroll/animation signals. All ${exampleMappedCount}/${catalog.examples.length} entries map to a specific preview ID in the matching docs page. The source fields are an index for inspection; use the linked TSX for full implementation details.\n\nThe browser pass opened all ${catalog.examples.length} mapped previews across ${routeCount} docs routes, brought each into view, inspected active animation and transition state, sampled before, activation, and follow-up frames; checked computed motion styles, SVG attributes, and canvas fingerprints; and applied profile-matched pointer-sweep, hover, click, press-and-hold, drag, or scroll input. Animated Beam gets a 2.5-second follow-up for its longer default cycle. ${exampleRenderedCount}/${catalog.examples.length} previews rendered successfully. Globe is the remaining exception: the isolated browser cannot create the WebGL context required by Cobe/Phenomenon and throws ${catalog.examples.find((example) => example.sourceId === 'globe-demo')?.runtimeAudit?.runtimeExceptions?.[0]?.split('\n')[0] || 'a WebGL initialization error'}. The Globe source and drag/rotation behavior are still documented, but its live motion is not runtime-verified here. Unchanged pixels alone do not prove a demo has no motion; use each row’s source trigger and element-state sample as well.\n\nThe component table summarizes the source-reviewed motion model and use tags. Runtime counts there are aggregated from each listed variant; docs-only entries without examples retain their page-level audit status. The variant table records its exact configured use and individual browser status.\n\nSeven historical entries have no current source: five include behavior notes from the official v3 documentation and two remain unverified because no official page or source could be recovered. They are explicitly identified in the component table and lab.\n\n## Components\n\n| Component docs | What it does | Motion mechanism | Trigger / lifecycle | Search / fit tags | Source review | Variant runtime | Source |\n|---|---|---|---|---|---|---|---|\n${rows.join('\n')}\n\n## Official example variants (${catalog.examples.length})\n\n| Example | Component | Source configuration | Motion model | Search / fit tags | Runtime observation | Live preview / source |\n|---|---|---|---|---|---|---|\n${exampleRows.join('\n')}\n`;
+const guide = `# Magic UI component review\n\nGenerated from the local catalog and official Magic UI docs/source snapshot at commit ${catalog.source.sourceRepositoryCommit || 'not recorded'}. Use this as a searchable research index, not as automatic approval to put a component on the Flozio homepage. The current catalog has ${catalog.components.length} component entries and ${catalog.examples.length} official example variants.\n\n## Evidence and limitations\n\nAll ${exampleInventoryCount}/${catalog.examples.length} listed example TSX files were found in the pinned source checkout and statically extracted: source hash, imports, component JSX, configured props, and detectable pointer/click/scroll/animation signals. All ${exampleMappedCount}/${catalog.examples.length} entries map to a specific preview ID in the matching docs page. The source fields are an index for inspection; use the linked TSX for full implementation details.\n\nThe browser pass opened all ${catalog.examples.length} mapped previews across ${routeCount} docs routes, brought each into view, inspected active animation and transition state, sampled before, activation, and follow-up frames; checked computed motion styles, SVG attributes, and canvas fingerprints; and applied profile-matched pointer-sweep, hover, click, press-and-hold, drag, or scroll input. Animated Beam gets a 2.5-second follow-up for its longer default cycle. ${exampleRenderedCount}/${catalog.examples.length} previews rendered successfully. Globe required software WebGL; its canvas appeared, changed its frame fingerprint, and responded to the sampled drag input. The sample recorded no WebGL exception. Unchanged pixels alone do not prove a demo has no motion; use each row’s source trigger and element-state sample as well.\n\nThe component table summarizes the source-reviewed motion model and use tags. Runtime counts there are aggregated from each listed variant; docs-only entries without examples retain their page-level audit status. The variant table records its exact configured use and individual browser status.\n\nThe snapshot contains seven stale registry/history entries without current source. Five have behavior notes from official v3 documentation. Magic UI maintainers state Arc Timeline never entered production, so there is no released behavior to inspect ([discussion #864](https://github.com/magicuidesign/magicui/discussions/864)). Grid Beams remains an unresolved catalog name with no official source or component page; it is explicitly marked unsupported/unverified and must not be treated as an understood component.\n\n## Components\n\n| Component docs | What it does | Motion mechanism | Trigger / lifecycle | Search / fit tags | Source review | Variant runtime | Source |\n|---|---|---|---|---|---|---|---|\n${rows.join('\n')}\n\n## Official example variants (${catalog.examples.length})\n\n| Example | Component | Source configuration | Motion model | Search / fit tags | Runtime observation | Live preview / source |\n|---|---|---|---|---|---|---|\n${exampleRows.join('\n')}\n`;
 fs.writeFileSync('MAGIC_UI_COMPONENT_GUIDE.md', guide);
 const runtimeIndex = Object.fromEntries(catalog.components.filter((item) => item.runtimeMotionAudit).map((item) => [item.name, {
   url: item.docsUrl,

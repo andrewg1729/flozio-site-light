@@ -14,24 +14,24 @@
     "componentReviewCount": 85,
     "sourceReviewedCount": 68,
     "docsOnlyReviewCount": 10,
-    "unresolvedReviewCount": 7,
-    "runtimeMotionAuditCount": 76,
-    "runtimeMotionAuditUnavailableCount": 1,
-    "runtimeMotionAuditTimestamp": "2026-10-21T19:13:39.995Z",
+    "unresolvedReviewCount": 6,
+    "runtimeMotionAuditCount": 77,
+    "runtimeMotionAuditUnavailableCount": 0,
+    "runtimeMotionAuditTimestamp": "2026-10-21T20:57:31.955Z",
     "runtimeDocsPageCount": 77,
     "motionProfileSourceReviewedCount": 78,
     "legacyDocsBehaviorCount": 5,
-    "legacyUnverifiedCount": 2,
+    "legacyUnverifiedCount": 1,
     "sourceRepositoryCommit": "efe76fc5755eca1142dd4f74c1d6f0ace2887e3c",
     "exampleSourceReviewedCount": 170,
     "exampleDocPreviewMappedCount": 170,
     "exampleMappingAuditTimestamp": "2026-10-21T20:51:26.321Z",
-    "exampleRuntimeUnavailableCount": 1,
-    "exampleRuntimeAuditTimestamp": "2026-10-21T20:51:25.274Z",
+    "exampleRuntimeUnavailableCount": 0,
+    "exampleRuntimeAuditTimestamp": "2026-10-21T20:57:31.955Z",
     "exampleRuntimeAuditMethod": "Per-variant local docs preview: bring each preview into view; inspect Web Animations, computed animation/transition styles, SVG attribute values, and canvas frame fingerprints; apply profile-matched pointer-sweep/hover/click/press-and-hold/drag/scroll input where indicated; capture before, activation, and follow-up frames. Follow-up is about one second after activation, or 2.5 seconds for Animated Beam's longer default cycle. A matching screenshot alone is not treated as proof of no motion.",
     "exampleSourceInventoryCount": 170,
     "exampleSourceFilesMissingCount": 0,
-    "exampleRuntimeRenderedCount": 169
+    "exampleRuntimeRenderedCount": 170
   },
   "components": [
     {
@@ -1976,20 +1976,18 @@
         "integration map",
         "global reach"
       ],
-      "previewStatus": "docs-client-error",
+      "previewStatus": "runtime-preview-rendered",
       "runtimeMotionAudit": {
-        "status": "docs-client-error",
+        "status": "runtime-preview-rendered",
         "previewCount": 1,
         "runningAnimationsAtSample": 0,
-        "activeAnimationDetected": false,
+        "activeAnimationDetected": true,
         "interactionAttempted": true,
         "inputMode": "drag",
         "frameChangedBetweenSamples": true,
         "exampleVariantsVisited": 1,
-        "exampleVariantsRendered": 0,
-        "runtimeExceptions": [
-          "Globe Demo: TypeError: Cannot read properties of null (reading 'enable')"
-        ]
+        "exampleVariantsRendered": 1,
+        "runtimeExceptions": []
       },
       "motionProfile": {
         "mechanism": "WebGL globe rotates automatically; pointer drag adjusts its rotation and changes the cursor to grabbing.",
@@ -1999,17 +1997,10 @@
       },
       "exampleRuntimeAudit": {
         "variantCount": 1,
-        "renderedVariantCount": 0,
-        "unavailableVariantCount": 1,
-        "status": "some-example-variants-unavailable",
-        "unavailable": [
-          {
-            "name": "Globe Demo",
-            "sourceId": "globe-demo",
-            "status": "docs-client-error",
-            "reason": "TypeError: Cannot read properties of null (reading 'enable')"
-          }
-        ]
+        "renderedVariantCount": 1,
+        "unavailableVariantCount": 0,
+        "status": "all-example-variants-rendered",
+        "unavailable": []
       }
     },
     {
@@ -5955,29 +5946,29 @@
       "docsUrl": "https://magicui.design/docs/components",
       "docsStatus": "200",
       "registryUrl": "https://magicui.design/r/arc-timeline.json",
-      "sourceUrl": null,
+      "sourceUrl": "https://github.com/magicuidesign/magicui/discussions/864",
       "sourceStatus": "Error: https://magicui.design/r/arc-timeline.json: Error: 404 Not Found",
       "importPath": null,
       "installCommand": null,
       "dependencies": [],
       "props": [],
-      "reviewDescription": "A historical catalog name with no recoverable current official docs page or source; its design and motion are unverified.",
-      "interaction": "Unknown until a specific official version/source is recovered.",
+      "reviewDescription": "A catalog-only name for a component that Magic UI maintainers say never entered production; there is no released component or motion to inspect.",
+      "interaction": "Not applicable; Magic UI maintainers report that it was never released.",
       "behaviorTags": [
-        "unverified legacy entry",
-        "source unavailable"
+        "unreleased registry entry",
+        "not installable"
       ],
-      "reviewStatus": "docs-reviewed-source-unresolved",
+      "reviewStatus": "officially-unreleased",
       "fitTags": [
-        "unverified legacy entry",
-        "source unavailable"
+        "unreleased registry entry",
+        "not installable"
       ],
       "previewStatus": "component-specific-docs-page-unresolved",
       "motionProfile": {
-        "mechanism": "Historical catalog name; no current official docs page or source was recoverable, so its animation and interaction are unverified.",
-        "trigger": "Unknown.",
-        "lifecycle": "Do not treat as understood or installable without a recoverable version/source.",
-        "evidence": "no recoverable official source or component docs; behavior unverified"
+        "mechanism": "No released implementation. A Magic UI maintainer states that Arc Timeline never entered production.",
+        "trigger": "Not applicable; not a production component.",
+        "lifecycle": "Exclude from component selection; do not infer behavior from third-party lookalikes.",
+        "evidence": "Magic UI maintainer discussion states Arc Timeline never entered production; no implementation was released"
       }
     },
     {
@@ -11667,10 +11658,10 @@
         "detectableInteractions": []
       },
       "runtimeAudit": {
-        "status": "docs-client-error",
+        "status": "preview-rendered",
         "previewId": "globe-demo",
         "previewIndex": 0,
-        "pagePreviewCount": 0,
+        "pagePreviewCount": 1,
         "pageTitle": "Globe | React Components & Templates",
         "text": "Globe",
         "runningAnimationsBeforeInput": 0,
@@ -11682,17 +11673,18 @@
         "action": "drag",
         "actionHadTarget": true,
         "codeTabPresent": true,
-        "runtimeExceptions": [
-          "TypeError: Cannot read properties of null (reading 'enable')"
-        ],
+        "runtimeExceptions": [],
         "screenshotHashes": [
-          "7f4218aacb8014adbcb029dd5ab8cbe41aaca850abc8c9d11872980a2ed1847d",
-          "0327aa33f393f61b7815b75e5798b08a639386b9cc7d801390a49ada5a42afa9"
+          "e1974d1f229b44076755b4b52d7aeb27238edc582108bc39ec540af7d738eeeb",
+          "8e9cbab2306c06de1ea2c2e8909f4aa6a5ab163210ade11bc0ceb3a52b129cb3"
         ],
-        "activationScreenshotHash": "0327aa33f393f61b7815b75e5798b08a639386b9cc7d801390a49ada5a42afa9",
+        "activationScreenshotHash": "087f703f5adced74a06b09baa6ddd7ebca3c944a45f91361ea855e9ef66f9b44",
         "activatedFrameChanged": true,
-        "animatedStateChanged": false,
-        "motionStateChanges": [],
+        "animatedStateChanged": true,
+        "motionStateChanges": [
+          "canvas.size-full opacity-0 transition-opacity duration-500 contain- opacity: 0 ? 1",
+          "canvas.size-full opacity-0 transition-opacity duration-500 contain- canvasHash: 89719a5a ? 70041f4e"
+        ],
         "frameChangedDuringSample": true
       },
       "route": "/docs/components/globe",

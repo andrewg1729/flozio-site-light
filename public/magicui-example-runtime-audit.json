@@ -1175,10 +1175,10 @@
       "frameChangedDuringSample": false
     },
     "globe-demo": {
-      "status": "docs-client-error",
+      "status": "preview-rendered",
       "previewId": "globe-demo",
       "previewIndex": 0,
-      "pagePreviewCount": 0,
+      "pagePreviewCount": 1,
       "pageTitle": "Globe | React Components & Templates",
       "text": "Globe",
       "runningAnimationsBeforeInput": 0,
@@ -1190,17 +1190,18 @@
       "action": "drag",
       "actionHadTarget": true,
       "codeTabPresent": true,
-      "runtimeExceptions": [
-        "TypeError: Cannot read properties of null (reading 'enable')"
-      ],
+      "runtimeExceptions": [],
       "screenshotHashes": [
-        "7f4218aacb8014adbcb029dd5ab8cbe41aaca850abc8c9d11872980a2ed1847d",
-        "0327aa33f393f61b7815b75e5798b08a639386b9cc7d801390a49ada5a42afa9"
+        "e1974d1f229b44076755b4b52d7aeb27238edc582108bc39ec540af7d738eeeb",
+        "8e9cbab2306c06de1ea2c2e8909f4aa6a5ab163210ade11bc0ceb3a52b129cb3"
       ],
-      "activationScreenshotHash": "0327aa33f393f61b7815b75e5798b08a639386b9cc7d801390a49ada5a42afa9",
+      "activationScreenshotHash": "087f703f5adced74a06b09baa6ddd7ebca3c944a45f91361ea855e9ef66f9b44",
       "activatedFrameChanged": true,
-      "animatedStateChanged": false,
-      "motionStateChanges": [],
+      "animatedStateChanged": true,
+      "motionStateChanges": [
+        "canvas.size-full opacity-0 transition-opacity duration-500 contain- opacity: 0 ? 1",
+        "canvas.size-full opacity-0 transition-opacity duration-500 contain- canvasHash: 89719a5a ? 70041f4e"
+      ],
       "frameChangedDuringSample": true
     },
     "glyph-matrix-demo": {
@@ -4759,5 +4760,5 @@
       "frameChangedDuringSample": false
     }
   },
-  "finishedAt": "2026-10-21T20:51:25.274Z"
+  "finishedAt": "2026-10-21T20:57:31.955Z"
 }
