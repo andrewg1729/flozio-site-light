@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Flozio Component Lab</title>
+    <link rel="icon" href="/Flozio_Logo_32x32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="/component-lab.css?v=6">
+  </head>
+  <body>
+    <main class="lab-page">
+      <header class="lab-header">
+        <a class="lab-brand" href="/" aria-label="Flozio homepage">
+          <img src="/logo.png" alt="">
+          <span>Flozio</span>
+        </a>
+        <span class="lab-header-label">Component Lab</span>
+        <a class="lab-back" href="/">Back to homepage</a>
+      </header>
+
+      <section class="lab-intro">
+        <p class="lab-eyebrow">INTERNAL DESIGN RESEARCH</p>
+        <h1>Component Lab</h1>
+        <p>Official Magic UI components and examples. Select an entry to interact with its live demo, read the implementation, and inspect its source.</p>
+        <div class="lab-notice">These are third-party demos, not Flozio product screens. Treat any sample names, metrics, testimonials, and workflows as source-library content only.</div>
+        <p id="lab-counts" class="lab-counts">Loading official catalog…</p>
+      </section>
+
+      <section class="lab-layout" aria-label="Component previews">
+        <aside class="lab-sidebar">
+          <div id="lab-filters" class="lab-filters" aria-label="Filter catalog entries"></div>
+          <label class="lab-search-label" for="lab-search">Search the catalog</label>
+          <input id="lab-search" class="lab-search" type="search" placeholder="Search components and demos">
+          <div id="lab-list" class="lab-list"></div>
+        </aside>
+        <section class="lab-preview" aria-label="Selected live preview">
+          <div class="lab-preview-heading">
+            <div>
+              <p id="lab-source"></p>
+              <h2 id="lab-title">Loading preview…</h2>
+            </div>
+            <nav class="lab-preview-links" aria-label="Official component links">
+              <a id="lab-open-docs" href="https://magicui.design/docs/components" target="_blank" rel="noreferrer">Open live docs ↗</a>
+              <a id="lab-open-source" href="#" target="_blank" rel="noreferrer">Open source ↗</a>
+            </nav>
+          </div>
+          <p id="lab-note" class="lab-review-note"></p>
+          <p class="lab-embed-note">The frame runs Magic UI’s documentation app locally. Use its preview and Code controls to inspect the original interactive example.</p>
+          <section id="lab-details" class="lab-details" aria-label="Implementation details"></section>
+          <iframe id="lab-frame" class="lab-frame" title="Live component preview" allow="fullscreen"></iframe>
+        </section>
+      </section>
+    </main>
+    <script src="/component-lab.js?v=9"></script>
+  </body>
+</html>

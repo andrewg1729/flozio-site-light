@@ -9,3 +9,4 @@ coverage/
 *.tsbuildinfo
 *.log
 .ditto-work/
+.magicui-source/

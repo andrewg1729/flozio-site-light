@@ -1,0 +1,1138 @@
+{
+  "magic-card": {
+    "url": "https://magicui.design/docs/components/magic-card",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "android": {
+    "url": "https://magicui.design/docs/components/android",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "warp-background": {
+    "url": "https://magicui.design/docs/components/warp-background",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "line-shadow-text": {
+    "url": "https://magicui.design/docs/components/line-shadow-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "aurora-text": {
+    "url": "https://magicui.design/docs/components/aurora-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "morphing-text": {
+    "url": "https://magicui.design/docs/components/morphing-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "scroll-progress": {
+    "url": "https://magicui.design/docs/components/scroll-progress",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "lens": {
+    "url": "https://magicui.design/docs/components/lens",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "pointer": {
+    "url": "https://magicui.design/docs/components/pointer",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "smooth-cursor": {
+    "url": "https://magicui.design/docs/components/smooth-cursor",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "progressive-blur": {
+    "url": "https://magicui.design/docs/components/progressive-blur",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "neon-gradient-card": {
+    "url": "https://magicui.design/docs/components/neon-gradient-card",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 2,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "meteors": {
+    "url": "https://magicui.design/docs/components/meteors",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "grid-pattern": {
+    "url": "https://magicui.design/docs/components/grid-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "striped-pattern": {
+    "url": "https://magicui.design/docs/components/striped-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "interactive-grid-pattern": {
+    "url": "https://magicui.design/docs/components/interactive-grid-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "dot-pattern": {
+    "url": "https://magicui.design/docs/components/dot-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "flickering-grid": {
+    "url": "https://magicui.design/docs/components/flickering-grid",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "hero-video-dialog": {
+    "url": "https://magicui.design/docs/components/hero-video-dialog",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "click"
+  },
+  "code-comparison": {
+    "url": "https://magicui.design/docs/components/code-comparison",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "marquee": {
+    "url": "https://magicui.design/docs/components/marquee",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 8,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "glyph-matrix": {
+    "url": "https://magicui.design/docs/components/glyph-matrix",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "globe": {
+    "url": "https://magicui.design/docs/components/globe",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": true,
+    "inputMode": "drag"
+  },
+  "shimmer-button": {
+    "url": "https://magicui.design/docs/components/shimmer-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 2,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "tweet-card": {
+    "url": "https://magicui.design/docs/components/tweet-card",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "client-tweet-card": {
+    "url": "https://magicui.design/docs/components/tweet-card",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "bento-grid": {
+    "url": "https://magicui.design/docs/components/bento-grid",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 5,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "particles": {
+    "url": "https://magicui.design/docs/components/particles",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "number-ticker": {
+    "url": "https://magicui.design/docs/components/number-ticker",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "ripple": {
+    "url": "https://magicui.design/docs/components/ripple",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 8,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "retro-grid": {
+    "url": "https://magicui.design/docs/components/retro-grid",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "animated-list": {
+    "url": "https://magicui.design/docs/components/animated-list",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "animated-shiny-text": {
+    "url": "https://magicui.design/docs/components/animated-shiny-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "animated-grid-pattern": {
+    "url": "https://magicui.design/docs/components/animated-grid-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "border-beam": {
+    "url": "https://magicui.design/docs/components/border-beam",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 4,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "animated-beam": {
+    "url": "https://magicui.design/docs/components/animated-beam",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 5,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "text-reveal": {
+    "url": "https://magicui.design/docs/components/text-reveal",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 8,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "hyper-text": {
+    "url": "https://magicui.design/docs/components/hyper-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "animated-gradient-text": {
+    "url": "https://magicui.design/docs/components/animated-gradient-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 2,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "orbiting-circles": {
+    "url": "https://magicui.design/docs/components/orbiting-circles",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 9,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "dock": {
+    "url": "https://magicui.design/docs/components/dock",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "word-rotate": {
+    "url": "https://magicui.design/docs/components/word-rotate",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "avatar-circles": {
+    "url": "https://magicui.design/docs/components/avatar-circles",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "typing-animation": {
+    "url": "https://magicui.design/docs/components/typing-animation",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 9,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "sparkles-text": {
+    "url": "https://magicui.design/docs/components/sparkles-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "spinning-text": {
+    "url": "https://magicui.design/docs/components/spinning-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "comic-text": {
+    "url": "https://magicui.design/docs/components/comic-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "icon-cloud": {
+    "url": "https://magicui.design/docs/components/icon-cloud",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "drag"
+  },
+  "text-animate": {
+    "url": "https://magicui.design/docs/components/text-animate",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 9,
+      "demoRunningAnimations": 40,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "scroll-based-velocity": {
+    "url": "https://magicui.design/docs/components/scroll-based-velocity",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "shiny-button": {
+    "url": "https://magicui.design/docs/components/shiny-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "shine-border": {
+    "url": "https://magicui.design/docs/components/shine-border",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "animated-circular-progress-bar": {
+    "url": "https://magicui.design/docs/components/animated-circular-progress-bar",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "confetti": {
+    "url": "https://magicui.design/docs/components/confetti",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 8,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "click"
+  },
+  "cool-mode": {
+    "url": "https://magicui.design/docs/components/cool-mode",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "press-and-hold"
+  },
+  "pulsating-button": {
+    "url": "https://magicui.design/docs/components/pulsating-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 1,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "ripple-button": {
+    "url": "https://magicui.design/docs/components/ripple-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "click"
+  },
+  "file-tree": {
+    "url": "https://magicui.design/docs/components/file-tree",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "click"
+  },
+  "blur-fade": {
+    "url": "https://magicui.design/docs/components/blur-fade",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "safari": {
+    "url": "https://magicui.design/docs/components/safari",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 4,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "iphone-15-pro": {
+    "url": "https://magicui.design/docs/components/iphone",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "rainbow-button": {
+    "url": "https://magicui.design/docs/components/rainbow-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 2,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "interactive-hover-button": {
+    "url": "https://magicui.design/docs/components/interactive-hover-button",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "terminal": {
+    "url": "https://magicui.design/docs/components/terminal",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "video-text": {
+    "url": "https://magicui.design/docs/components/video-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "pixel-image": {
+    "url": "https://magicui.design/docs/components/pixel-image",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "highlighter": {
+    "url": "https://magicui.design/docs/components/highlighter",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": [
+        "detected-by-runtime-audit"
+      ]
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "animated-theme-toggler": {
+    "url": "https://magicui.design/docs/components/animated-theme-toggler",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 8,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": true,
+    "inputMode": "click"
+  },
+  "backlight": {
+    "url": "https://magicui.design/docs/components/backlight",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "dia-text-reveal": {
+    "url": "https://magicui.design/docs/components/dia-text-reveal",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 4,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "dotted-map": {
+    "url": "https://magicui.design/docs/components/dotted-map",
+    "status": "page-load-incomplete",
+    "first": {
+      "previewReady": false,
+      "previewCount": 0,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": false,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "floating-3d-particles": {
+    "url": "https://magicui.design/docs/components/floating-3d-particles",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "glare-hover": {
+    "url": "https://magicui.design/docs/components/glare-hover",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 3,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "hover-target-and-auto-sample"
+  },
+  "hexagon-pattern": {
+    "url": "https://magicui.design/docs/components/hexagon-pattern",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 4,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "kinetic-text": {
+    "url": "https://magicui.design/docs/components/kinetic-text",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "light-rays": {
+    "url": "https://magicui.design/docs/components/light-rays",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 1,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "noise-texture": {
+    "url": "https://magicui.design/docs/components/noise-texture",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 4,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  },
+  "text-3d-flip": {
+    "url": "https://magicui.design/docs/components/text-3d-flip",
+    "status": "runtime-preview-rendered",
+    "first": {
+      "previewReady": true,
+      "previewCount": 2,
+      "demoRunningAnimations": 0,
+      "animationNames": []
+    },
+    "second": null,
+    "frameChangedBetweenSamples": true,
+    "activated": false,
+    "inputMode": "pointer-hover-and-auto-sample"
+  }
+}
