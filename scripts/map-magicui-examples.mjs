@@ -108,10 +108,12 @@ catalog.examples = catalog.examples.map((example) => {
   const sourceId = path.basename(new URL(example.rawUrl).pathname, ".tsx");
   const record = records.flatMap((routeRecord) => routeRecord.examples).find((candidate) => candidate.sourceId === sourceId);
   const component = components.get(example.component);
+  const sourcePath = `apps/www/registry/example/${sourceId}.tsx`;
+  const commit = catalog.source.sourceRepositoryCommit;
   return record ? {
     ...example,
-    url: example.url.replace("/blob/main/", `/blob/${catalog.source.sourceRepositoryCommit}/`),
-    rawUrl: example.rawUrl.replace("/main/", `/${catalog.source.sourceRepositoryCommit}/`),
+    url: `https://github.com/magicuidesign/magicui/blob/${commit}/${sourcePath}`,
+    rawUrl: `https://raw.githubusercontent.com/magicuidesign/magicui/${commit}/${sourcePath}`,
     ...record,
     componentTitle: component?.title || null,
     reviewDescription: component?.reviewDescription || null,

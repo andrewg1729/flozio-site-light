@@ -90,9 +90,11 @@
     }
     if (item.kind === 'stale') {
       const status = document.createElement('p');
-      status.textContent = item.legacyDocsUrl
-        ? 'This is a legacy catalog entry. Current source is unavailable; its motion notes come from the linked official v3 documentation.'
-        : 'No current official source or component-specific docs could be recovered for this historical entry; its motion remains unverified.';
+      status.textContent = item.reviewStatus === 'officially-unreleased'
+        ? 'Magic UI maintainers say this entry never reached production; no released component exists to preview or audit.'
+        : item.legacyDocsUrl
+          ? 'This is a legacy catalog entry. Current source is unavailable; its motion notes come from the linked official v3 documentation.'
+          : 'No current official source or component-specific docs could be recovered for this historical entry; its motion remains unverified.';
       details.append(status);
       appendRow(details, 'What it appears to do', item.reviewDescription);
       appendRow(details, 'Try / motion', item.interaction);
@@ -124,7 +126,7 @@
       appendRow(details, 'Live preview audit', audit.status);
       appendRow(details, 'Browser evidence', [
         `Active preview nodes: ${audit.previewCount}`,
-        `Web Animations detected: ${audit.activeAnimationDetected ? 'yes' : 'no'}`,
+        `Motion signal detected: ${audit.activeAnimationDetected ? 'yes' : 'no in this sample'}`,
         `Frame changed between samples: ${audit.frameChangedBetweenSamples ? 'yes' : 'no'}`,
         `Input sampled: ${audit.inputMode || 'none'}`,
       ]);

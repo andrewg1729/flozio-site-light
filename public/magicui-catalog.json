@@ -25,7 +25,7 @@
     "sourceRepositoryCommit": "efe76fc5755eca1142dd4f74c1d6f0ace2887e3c",
     "exampleSourceReviewedCount": 170,
     "exampleDocPreviewMappedCount": 170,
-    "exampleMappingAuditTimestamp": "2026-10-21T20:51:26.321Z",
+    "exampleMappingAuditTimestamp": "2026-10-21T21:24:04.288Z",
     "exampleRuntimeUnavailableCount": 0,
     "exampleRuntimeAuditTimestamp": "2026-10-21T21:17:59.619Z",
     "exampleRuntimeAuditMethod": "Per-variant local docs preview: bring each preview into view; inspect Web Animations, computed animation/transition styles, SVG attribute values, and canvas frame fingerprints; apply profile-matched pointer-sweep/hover/click/press-and-hold/drag/scroll input where indicated; capture before, activation, and follow-up frames. Follow-up is about one second after activation, or 2.5 seconds for Animated Beam's longer default cycle. A matching screenshot alone is not treated as proof of no motion.",
@@ -6624,7 +6624,7 @@
   "examples": [
     {
       "name": "Magic Card Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/magic-card-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/magic-card-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/magic-card-demo.tsx",
       "component": "magic-card",
       "sourceStatus": "ok",
@@ -6773,7 +6773,7 @@
     },
     {
       "name": "Magic Card Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/magic-card-demo2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/magic-card-demo2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/magic-card-demo2.tsx",
       "component": "magic-card",
       "sourceStatus": "ok",
@@ -6952,7 +6952,7 @@
     },
     {
       "name": "Android Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/android-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo.tsx",
       "component": "android",
       "sourceStatus": "ok",
@@ -7046,7 +7046,7 @@
     },
     {
       "name": "Android Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/android-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo-2.tsx",
       "component": "android",
       "sourceStatus": "ok",
@@ -7144,7 +7144,7 @@
     },
     {
       "name": "Android Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/android-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/android-demo-3.tsx",
       "component": "android",
       "sourceStatus": "ok",
@@ -7242,7 +7242,7 @@
     },
     {
       "name": "Warp Background Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/warp-background-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/warp-background-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/warp-background-demo.tsx",
       "component": "warp-background",
       "sourceStatus": "ok",
@@ -7357,7 +7357,7 @@
     },
     {
       "name": "Line Shadow Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/line-shadow-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/line-shadow-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/line-shadow-text-demo.tsx",
       "component": "line-shadow-text",
       "sourceStatus": "ok",
@@ -7461,7 +7461,7 @@
     },
     {
       "name": "Aurora Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/aurora-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/aurora-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/aurora-text-demo.tsx",
       "component": "aurora-text",
       "sourceStatus": "ok",
@@ -7553,7 +7553,7 @@
     },
     {
       "name": "Morphing Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/morphing-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/morphing-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/morphing-text-demo.tsx",
       "component": "morphing-text",
       "sourceStatus": "ok",
@@ -7650,7 +7650,7 @@
     },
     {
       "name": "Scroll Progress Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/scroll-progress-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-progress-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-progress-demo.tsx",
       "component": "scroll-progress",
       "sourceStatus": "ok",
@@ -7744,7 +7744,7 @@
     },
     {
       "name": "Lens Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/lens-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo.tsx",
       "component": "lens",
       "sourceStatus": "ok",
@@ -7874,7 +7874,7 @@
     },
     {
       "name": "Lens Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/lens-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo-2.tsx",
       "component": "lens",
       "sourceStatus": "ok",
@@ -7996,7 +7996,7 @@
     },
     {
       "name": "Lens Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/lens-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/lens-demo-3.tsx",
       "component": "lens",
       "sourceStatus": "ok",
@@ -8114,7 +8114,7 @@
     },
     {
       "name": "Pointer Demo 1",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/pointer-demo-1.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pointer-demo-1.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pointer-demo-1.tsx",
       "component": "pointer",
       "sourceStatus": "ok",
@@ -8228,7 +8228,7 @@
     },
     {
       "name": "smooth-cursor-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/smooth-cursor-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/smooth-cursor-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/smooth-cursor-demo.tsx",
       "component": "smooth-cursor",
       "sourceStatus": "ok",
@@ -8317,7 +8317,7 @@
     },
     {
       "name": "Progressive Blur Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/progressive-blur-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/progressive-blur-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/progressive-blur-demo.tsx",
       "component": "progressive-blur",
       "sourceStatus": "ok",
@@ -8420,7 +8420,7 @@
     },
     {
       "name": "Neon Gradient Card Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/neon-gradient-card-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/neon-gradient-card-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/neon-gradient-card-demo.tsx",
       "component": "neon-gradient-card",
       "sourceStatus": "ok",
@@ -8514,7 +8514,7 @@
     },
     {
       "name": "Noise Texture Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/noise-texture-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo.tsx",
       "component": "noise-texture",
       "sourceStatus": "ok",
@@ -8614,7 +8614,7 @@
     },
     {
       "name": "Noise Texture Demo (newsletter card)",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/noise-texture-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-2.tsx",
       "component": "noise-texture",
       "sourceStatus": "ok",
@@ -8746,7 +8746,7 @@
     },
     {
       "name": "Noise Texture Demo (button)",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/noise-texture-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-3.tsx",
       "component": "noise-texture",
       "sourceStatus": "ok",
@@ -8851,7 +8851,7 @@
     },
     {
       "name": "Noise Texture Demo (input)",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/noise-texture-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/noise-texture-demo-4.tsx",
       "component": "noise-texture",
       "sourceStatus": "ok",
@@ -8961,7 +8961,7 @@
     },
     {
       "name": "Meteors Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/meteors-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/meteors-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/meteors-demo.tsx",
       "component": "meteors",
       "sourceStatus": "ok",
@@ -9055,7 +9055,7 @@
     },
     {
       "name": "Grid Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/grid-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-demo.tsx",
       "component": "grid-pattern",
       "sourceStatus": "ok",
@@ -9157,7 +9157,7 @@
     },
     {
       "name": "Striped Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/striped-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-demo.tsx",
       "component": "striped-pattern",
       "sourceStatus": "ok",
@@ -9249,7 +9249,7 @@
     },
     {
       "name": "Striped Pattern (Dashed)",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/striped-pattern-dashed.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-dashed.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-dashed.tsx",
       "component": "striped-pattern",
       "sourceStatus": "ok",
@@ -9341,7 +9341,7 @@
     },
     {
       "name": "Striped Pattern (Right)",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/striped-pattern-right.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-right.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/striped-pattern-right.tsx",
       "component": "striped-pattern",
       "sourceStatus": "ok",
@@ -9433,7 +9433,7 @@
     },
     {
       "name": "Grid Pattern Linear Gradient",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/grid-pattern-linear-gradient.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-linear-gradient.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-linear-gradient.tsx",
       "component": "grid-pattern",
       "sourceStatus": "ok",
@@ -9547,7 +9547,7 @@
     },
     {
       "name": "Grid Pattern Dashed",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/grid-pattern-dashed.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-dashed.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/grid-pattern-dashed.tsx",
       "component": "grid-pattern",
       "sourceStatus": "ok",
@@ -9665,7 +9665,7 @@
     },
     {
       "name": "Hexagon Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hexagon-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-demo.tsx",
       "component": "hexagon-pattern",
       "sourceStatus": "ok",
@@ -9767,7 +9767,7 @@
     },
     {
       "name": "Hexagon Pattern Linear Gradient",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hexagon-pattern-linear-gradient.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-linear-gradient.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-linear-gradient.tsx",
       "component": "hexagon-pattern",
       "sourceStatus": "ok",
@@ -9877,7 +9877,7 @@
     },
     {
       "name": "Hexagon Pattern Dashed",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hexagon-pattern-dashed.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-dashed.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-dashed.tsx",
       "component": "hexagon-pattern",
       "sourceStatus": "ok",
@@ -9981,7 +9981,7 @@
     },
     {
       "name": "Hexagon Pattern Spacing",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hexagon-pattern-spacing.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-spacing.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hexagon-pattern-spacing.tsx",
       "component": "hexagon-pattern",
       "sourceStatus": "ok",
@@ -10085,7 +10085,7 @@
     },
     {
       "name": "Dot Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dot-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-demo.tsx",
       "component": "dot-pattern",
       "sourceStatus": "ok",
@@ -10183,7 +10183,7 @@
     },
     {
       "name": "Dot Pattern Linear Gradient",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dot-pattern-linear-gradient.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-linear-gradient.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-linear-gradient.tsx",
       "component": "dot-pattern",
       "sourceStatus": "ok",
@@ -10301,7 +10301,7 @@
     },
     {
       "name": "Dot Pattern with glow effect",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dot-pattern-with-glow-effect.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-with-glow-effect.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dot-pattern-with-glow-effect.tsx",
       "component": "dot-pattern",
       "sourceStatus": "ok",
@@ -10424,7 +10424,7 @@
     },
     {
       "name": "Flickering Grid Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/flickering-grid-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/flickering-grid-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/flickering-grid-demo.tsx",
       "component": "flickering-grid",
       "sourceStatus": "ok",
@@ -10548,7 +10548,7 @@
     },
     {
       "name": "Flickering Grid Rounded Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/flickering-grid-rounded-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/flickering-grid-rounded-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/flickering-grid-rounded-demo.tsx",
       "component": "flickering-grid",
       "sourceStatus": "ok",
@@ -10672,7 +10672,7 @@
     },
     {
       "name": "Hero Video Dialog Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hero-video-dialog-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hero-video-dialog-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hero-video-dialog-demo.tsx",
       "component": "hero-video-dialog",
       "sourceStatus": "ok",
@@ -10814,7 +10814,7 @@
     },
     {
       "name": "Hero Video Dialog Top In Bottom Out Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hero-video-dialog-demo-top-in-bottom-out.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx",
       "component": "hero-video-dialog",
       "sourceStatus": "ok",
@@ -10951,7 +10951,7 @@
     },
     {
       "name": "Code Comparison Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/code-comparison-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/code-comparison-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/code-comparison-demo.tsx",
       "component": "code-comparison",
       "sourceStatus": "ok",
@@ -11092,7 +11092,7 @@
     },
     {
       "name": "Marquee Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/marquee-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-demo.tsx",
       "component": "marquee",
       "sourceStatus": "ok",
@@ -11216,7 +11216,7 @@
     },
     {
       "name": "Marquee Vertical Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/marquee-demo-vertical.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-demo-vertical.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-demo-vertical.tsx",
       "component": "marquee",
       "sourceStatus": "ok",
@@ -11348,7 +11348,7 @@
     },
     {
       "name": "Marquee Logos",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/marquee-logos.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-logos.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-logos.tsx",
       "component": "marquee",
       "sourceStatus": "ok",
@@ -11451,7 +11451,7 @@
     },
     {
       "name": "Marquee 3D",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/marquee-3d.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-3d.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/marquee-3d.tsx",
       "component": "marquee",
       "sourceStatus": "ok",
@@ -11621,7 +11621,7 @@
     },
     {
       "name": "Globe Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/globe-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/globe-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/globe-demo.tsx",
       "component": "globe",
       "sourceStatus": "ok",
@@ -11720,7 +11720,7 @@
     },
     {
       "name": "Glyph Matrix Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/glyph-matrix-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glyph-matrix-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glyph-matrix-demo.tsx",
       "component": "glyph-matrix",
       "sourceStatus": "ok",
@@ -11849,7 +11849,7 @@
     },
     {
       "name": "Glare Hover Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/glare-hover-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo.tsx",
       "component": "glare-hover",
       "sourceStatus": "ok",
@@ -11978,7 +11978,7 @@
     },
     {
       "name": "Glare Hover Demo — CTA",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/glare-hover-demo-cta.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo-cta.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo-cta.tsx",
       "component": "glare-hover",
       "sourceStatus": "ok",
@@ -12100,7 +12100,7 @@
     },
     {
       "name": "Glare Hover Demo — Alerts",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/glare-hover-demo-alert.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo-alert.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/glare-hover-demo-alert.tsx",
       "component": "glare-hover",
       "sourceStatus": "ok",
@@ -12264,7 +12264,7 @@
     },
     {
       "name": "Tweet Card Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/tweet-card-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-demo.tsx",
       "component": "tweet-card",
       "sourceStatus": "ok",
@@ -12359,7 +12359,7 @@
     },
     {
       "name": "Tweet Card Images",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/tweet-card-images.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-images.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-images.tsx",
       "component": "tweet-card",
       "sourceStatus": "ok",
@@ -12457,7 +12457,7 @@
     },
     {
       "name": "Tweet Card Meta Preview",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/tweet-card-meta-preview.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-meta-preview.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/tweet-card-meta-preview.tsx",
       "component": "tweet-card",
       "sourceStatus": "ok",
@@ -12555,7 +12555,7 @@
     },
     {
       "name": "Shimmer Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/shimmer-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shimmer-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shimmer-button-demo.tsx",
       "component": "shimmer-button",
       "sourceStatus": "ok",
@@ -12652,7 +12652,7 @@
     },
     {
       "name": "Bento Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/bento-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/bento-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/bento-demo.tsx",
       "component": "bento-grid",
       "sourceStatus": "ok",
@@ -12843,7 +12843,7 @@
     },
     {
       "name": "Bento Vertical Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/bento-demo-vertical.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/bento-demo-vertical.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/bento-demo-vertical.tsx",
       "component": "bento-grid",
       "sourceStatus": "ok",
@@ -12959,7 +12959,7 @@
     },
     {
       "name": "Number Ticker Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/number-ticker-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-demo.tsx",
       "component": "number-ticker",
       "sourceStatus": "ok",
@@ -13057,7 +13057,7 @@
     },
     {
       "name": "Number Ticker Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/number-ticker-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-demo-2.tsx",
       "component": "number-ticker",
       "sourceStatus": "ok",
@@ -13159,7 +13159,7 @@
     },
     {
       "name": "Number Ticker Decimal Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/number-ticker-decimal-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-decimal-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/number-ticker-decimal-demo.tsx",
       "component": "number-ticker",
       "sourceStatus": "ok",
@@ -13261,7 +13261,7 @@
     },
     {
       "name": "Ripple Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/ripple-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/ripple-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/ripple-demo.tsx",
       "component": "ripple",
       "sourceStatus": "ok",
@@ -13361,7 +13361,7 @@
     },
     {
       "name": "Retro Grid Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/retro-grid-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/retro-grid-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/retro-grid-demo.tsx",
       "component": "retro-grid",
       "sourceStatus": "ok",
@@ -13452,7 +13452,7 @@
     },
     {
       "name": "Animated List Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-list-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-list-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-list-demo.tsx",
       "component": "animated-list",
       "sourceStatus": "ok",
@@ -13551,7 +13551,7 @@
     },
     {
       "name": "Animated Shiny Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-shiny-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-shiny-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-shiny-text-demo.tsx",
       "component": "animated-shiny-text",
       "sourceStatus": "ok",
@@ -13663,7 +13663,7 @@
     },
     {
       "name": "Particles Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/particles-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/particles-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/particles-demo.tsx",
       "component": "particles",
       "sourceStatus": "ok",
@@ -13788,7 +13788,7 @@
     },
     {
       "name": "Animated Grid Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-grid-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-grid-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-grid-pattern-demo.tsx",
       "component": "animated-grid-pattern",
       "sourceStatus": "ok",
@@ -13904,7 +13904,7 @@
     },
     {
       "name": "Interactive Grid Pattern Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/interactive-grid-pattern-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-grid-pattern-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-grid-pattern-demo.tsx",
       "component": "interactive-grid-pattern",
       "sourceStatus": "ok",
@@ -14004,7 +14004,7 @@
     },
     {
       "name": "Interactive Grid Pattern Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/interactive-grid-pattern-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-grid-pattern-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-grid-pattern-demo-2.tsx",
       "component": "interactive-grid-pattern",
       "sourceStatus": "ok",
@@ -14120,7 +14120,7 @@
     },
     {
       "name": "Border Beam Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/border-beam-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo.tsx",
       "component": "border-beam",
       "sourceStatus": "ok",
@@ -14258,7 +14258,7 @@
     },
     {
       "name": "Border Beam Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/border-beam-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-2.tsx",
       "component": "border-beam",
       "sourceStatus": "ok",
@@ -14420,7 +14420,7 @@
     },
     {
       "name": "Border Beam Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/border-beam-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-3.tsx",
       "component": "border-beam",
       "sourceStatus": "ok",
@@ -14566,7 +14566,7 @@
     },
     {
       "name": "Border Beam Demo 4",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/border-beam-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/border-beam-demo-4.tsx",
       "component": "border-beam",
       "sourceStatus": "ok",
@@ -14681,7 +14681,7 @@
     },
     {
       "name": "Animated Beam Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-beam-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-demo.tsx",
       "component": "animated-beam",
       "sourceStatus": "ok",
@@ -14929,7 +14929,7 @@
     },
     {
       "name": "Animated Beam Unidirectional",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-beam-unidirectional.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-unidirectional.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-unidirectional.tsx",
       "component": "animated-beam",
       "sourceStatus": "ok",
@@ -15050,7 +15050,7 @@
     },
     {
       "name": "Animated Beam Bidirectional",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-beam-bidirectional.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-bidirectional.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-bidirectional.tsx",
       "component": "animated-beam",
       "sourceStatus": "ok",
@@ -15214,7 +15214,7 @@
     },
     {
       "name": "Animated Beam Multiple Inputs",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-beam-multiple-inputs.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-multiple-inputs.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-multiple-inputs.tsx",
       "component": "animated-beam",
       "sourceStatus": "ok",
@@ -15423,7 +15423,7 @@
     },
     {
       "name": "Animated Beam Multiple Outputs",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-beam-multiple-outputs.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-multiple-outputs.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-beam-multiple-outputs.tsx",
       "component": "animated-beam",
       "sourceStatus": "ok",
@@ -15656,7 +15656,7 @@
     },
     {
       "name": "Text Reveal Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-reveal-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-reveal-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-reveal-demo.tsx",
       "component": "text-reveal",
       "sourceStatus": "ok",
@@ -15749,7 +15749,7 @@
     },
     {
       "name": "Dia Text Reveal Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dia-text-reveal-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo.tsx",
       "component": "dia-text-reveal",
       "sourceStatus": "ok",
@@ -15849,7 +15849,7 @@
     },
     {
       "name": "Dia Text Reveal Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dia-text-reveal-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-2.tsx",
       "component": "dia-text-reveal",
       "sourceStatus": "ok",
@@ -15949,7 +15949,7 @@
     },
     {
       "name": "Dia Text Reveal Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dia-text-reveal-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-3.tsx",
       "component": "dia-text-reveal",
       "sourceStatus": "ok",
@@ -16049,7 +16049,7 @@
     },
     {
       "name": "Dia Text Reveal Demo 4",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dia-text-reveal-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dia-text-reveal-demo-4.tsx",
       "component": "dia-text-reveal",
       "sourceStatus": "ok",
@@ -16157,7 +16157,7 @@
     },
     {
       "name": "Animated Gradient Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-gradient-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-gradient-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-gradient-text-demo.tsx",
       "component": "animated-gradient-text",
       "sourceStatus": "ok",
@@ -16270,7 +16270,7 @@
     },
     {
       "name": "Animated Gradient Text Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-gradient-text-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-gradient-text-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-gradient-text-demo-2.tsx",
       "component": "animated-gradient-text",
       "sourceStatus": "ok",
@@ -16378,7 +16378,7 @@
     },
     {
       "name": "Orbiting Circles Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/orbiting-circles-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/orbiting-circles-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/orbiting-circles-demo.tsx",
       "component": "orbiting-circles",
       "sourceStatus": "ok",
@@ -16509,7 +16509,7 @@
     },
     {
       "name": "Dock Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dock-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo.tsx",
       "component": "dock",
       "sourceStatus": "ok",
@@ -16681,7 +16681,7 @@
     },
     {
       "name": "Dock Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dock-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo-2.tsx",
       "component": "dock",
       "sourceStatus": "ok",
@@ -16805,7 +16805,7 @@
     },
     {
       "name": "Dock Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dock-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dock-demo-3.tsx",
       "component": "dock",
       "sourceStatus": "ok",
@@ -16953,7 +16953,7 @@
     },
     {
       "name": "Word Rotate Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/word-rotate-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/word-rotate-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/word-rotate-demo.tsx",
       "component": "word-rotate",
       "sourceStatus": "ok",
@@ -17054,7 +17054,7 @@
     },
     {
       "name": "Hyper Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/hyper-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hyper-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/hyper-text-demo.tsx",
       "component": "hyper-text",
       "sourceStatus": "ok",
@@ -17143,7 +17143,7 @@
     },
     {
       "name": "Avatar Circles Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/avatar-circles-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/avatar-circles-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/avatar-circles-demo.tsx",
       "component": "avatar-circles",
       "sourceStatus": "ok",
@@ -17241,7 +17241,7 @@
     },
     {
       "name": "Typing Animation Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17332,7 +17332,7 @@
     },
     {
       "name": "Typing Animation Multiple Words",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-2.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17432,7 +17432,7 @@
     },
     {
       "name": "Typing Animation Custom Speed",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-3.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17544,7 +17544,7 @@
     },
     {
       "name": "Typing Animation Start on View",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-4.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17640,7 +17640,7 @@
     },
     {
       "name": "Typing Animation Without Cursor",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-5.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-5.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-5.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17734,7 +17734,7 @@
     },
     {
       "name": "Typing Animation Single Play",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-6.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-6.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-6.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17834,7 +17834,7 @@
     },
     {
       "name": "Typing Animation Cursor Blinking",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-7.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-7.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-7.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -17971,7 +17971,7 @@
     },
     {
       "name": "Typing Animation Cursor Styles",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/typing-animation-demo-8.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-8.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/typing-animation-demo-8.tsx",
       "component": "typing-animation",
       "sourceStatus": "ok",
@@ -18121,7 +18121,7 @@
     },
     {
       "name": "Scroll Based Velocity Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/scroll-based-velocity-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-based-velocity-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-based-velocity-demo.tsx",
       "component": "scroll-based-velocity",
       "sourceStatus": "ok",
@@ -18247,7 +18247,7 @@
     },
     {
       "name": "Scroll Based Velocity Images",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/scroll-based-velocity-images-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-based-velocity-images-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/scroll-based-velocity-images-demo.tsx",
       "component": "scroll-based-velocity",
       "sourceStatus": "ok",
@@ -18381,7 +18381,7 @@
     },
     {
       "name": "Sparkles Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/sparkles-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/sparkles-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/sparkles-text-demo.tsx",
       "component": "sparkles-text",
       "sourceStatus": "ok",
@@ -18470,7 +18470,7 @@
     },
     {
       "name": "Spinning Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/spinning-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/spinning-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/spinning-text-demo.tsx",
       "component": "spinning-text",
       "sourceStatus": "ok",
@@ -18561,7 +18561,7 @@
     },
     {
       "name": "Spinning Text Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/spinning-text-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/spinning-text-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/spinning-text-demo-2.tsx",
       "component": "spinning-text",
       "sourceStatus": "ok",
@@ -18669,7 +18669,7 @@
     },
     {
       "name": "Comic Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/comic-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/comic-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/comic-text-demo.tsx",
       "component": "comic-text",
       "sourceStatus": "ok",
@@ -18766,7 +18766,7 @@
     },
     {
       "name": "Icon Cloud Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/icon-cloud-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo.tsx",
       "component": "icon-cloud",
       "sourceStatus": "ok",
@@ -18860,7 +18860,7 @@
     },
     {
       "name": "Icon Cloud Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/icon-cloud-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo-2.tsx",
       "component": "icon-cloud",
       "sourceStatus": "ok",
@@ -18954,7 +18954,7 @@
     },
     {
       "name": "Icon Cloud Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/icon-cloud-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/icon-cloud-demo-3.tsx",
       "component": "icon-cloud",
       "sourceStatus": "ok",
@@ -19055,7 +19055,7 @@
     },
     {
       "name": "Text Animate Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19178,7 +19178,7 @@
     },
     {
       "name": "Text Animate Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-2.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19282,7 +19282,7 @@
     },
     {
       "name": "Text Animate Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-3.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19395,7 +19395,7 @@
     },
     {
       "name": "Text Animate Demo 4",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-4.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19496,7 +19496,7 @@
     },
     {
       "name": "Text Animate Demo 5",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-5.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-5.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-5.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19609,7 +19609,7 @@
     },
     {
       "name": "Text Animate Demo 6",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-6.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-6.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-6.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19728,7 +19728,7 @@
     },
     {
       "name": "Text Animate Demo 7",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-7.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-7.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-7.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19851,7 +19851,7 @@
     },
     {
       "name": "Text Animate Demo 8",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-8.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-8.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-8.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -19972,7 +19972,7 @@
     },
     {
       "name": "Text Animate Demo 9",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-animate-demo-9.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-9.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-animate-demo-9.tsx",
       "component": "text-animate",
       "sourceStatus": "ok",
@@ -20091,7 +20091,7 @@
     },
     {
       "name": "Shiny Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/shiny-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shiny-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shiny-button-demo.tsx",
       "component": "shiny-button",
       "sourceStatus": "ok",
@@ -20182,7 +20182,7 @@
     },
     {
       "name": "Animated Circular Progress Bar Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-circular-progress-bar-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-circular-progress-bar-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-circular-progress-bar-demo.tsx",
       "component": "animated-circular-progress-bar",
       "sourceStatus": "ok",
@@ -20297,7 +20297,7 @@
     },
     {
       "name": "Shine Border Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/shine-border-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shine-border-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shine-border-demo.tsx",
       "component": "shine-border",
       "sourceStatus": "ok",
@@ -20433,7 +20433,7 @@
     },
     {
       "name": "Shine Border Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/shine-border-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shine-border-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/shine-border-demo-2.tsx",
       "component": "shine-border",
       "sourceStatus": "ok",
@@ -20575,7 +20575,7 @@
     },
     {
       "name": "Confetti Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-demo.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -20690,7 +20690,7 @@
     },
     {
       "name": "Confetti Basic Cannon",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-basic-cannon.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-basic-cannon.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-basic-cannon.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -20779,7 +20779,7 @@
     },
     {
       "name": "Confetti Random Direction",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-random-direction.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-random-direction.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-random-direction.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -20873,7 +20873,7 @@
     },
     {
       "name": "Confetti Fireworks",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-fireworks.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-fireworks.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-fireworks.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -20959,7 +20959,7 @@
     },
     {
       "name": "Confetti Stars",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-stars.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-stars.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-stars.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -21044,7 +21044,7 @@
     },
     {
       "name": "Confetti Side Cannons",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-side-cannons.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-side-cannons.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-side-cannons.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -21130,7 +21130,7 @@
     },
     {
       "name": "Confetti Custom Shapes",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-custom-shapes.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-custom-shapes.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-custom-shapes.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -21215,7 +21215,7 @@
     },
     {
       "name": "Confetti Emoji",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/confetti-emoji.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-emoji.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/confetti-emoji.tsx",
       "component": "confetti",
       "sourceStatus": "ok",
@@ -21300,7 +21300,7 @@
     },
     {
       "name": "Cool Mode Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/cool-mode-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/cool-mode-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/cool-mode-demo.tsx",
       "component": "cool-mode",
       "sourceStatus": "ok",
@@ -21398,7 +21398,7 @@
     },
     {
       "name": "Cool Mode Custom",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/cool-mode-custom.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/cool-mode-custom.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/cool-mode-custom.tsx",
       "component": "cool-mode",
       "sourceStatus": "ok",
@@ -21501,7 +21501,7 @@
     },
     {
       "name": "Pulsating Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/pulsating-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pulsating-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pulsating-button-demo.tsx",
       "component": "pulsating-button",
       "sourceStatus": "ok",
@@ -21592,7 +21592,7 @@
     },
     {
       "name": "Pulsating Button Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/pulsating-button-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pulsating-button-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pulsating-button-demo-2.tsx",
       "component": "pulsating-button",
       "sourceStatus": "ok",
@@ -21696,7 +21696,7 @@
     },
     {
       "name": "Ripple Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/ripple-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/ripple-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/ripple-button-demo.tsx",
       "component": "ripple-button",
       "sourceStatus": "ok",
@@ -21788,7 +21788,7 @@
     },
     {
       "name": "File Tree Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/file-tree-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/file-tree-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/file-tree-demo.tsx",
       "component": "file-tree",
       "sourceStatus": "ok",
@@ -21910,7 +21910,7 @@
     },
     {
       "name": "Blur Fade Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/blur-fade-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/blur-fade-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/blur-fade-demo.tsx",
       "component": "blur-fade",
       "sourceStatus": "ok",
@@ -22029,7 +22029,7 @@
     },
     {
       "name": "Blur Fade Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/blur-fade-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/blur-fade-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/blur-fade-text-demo.tsx",
       "component": "blur-fade",
       "sourceStatus": "ok",
@@ -22143,7 +22143,7 @@
     },
     {
       "name": "Safari Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/safari-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo.tsx",
       "component": "safari",
       "sourceStatus": "ok",
@@ -22237,7 +22237,7 @@
     },
     {
       "name": "Safari Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/safari-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-2.tsx",
       "component": "safari",
       "sourceStatus": "ok",
@@ -22335,7 +22335,7 @@
     },
     {
       "name": "Safari Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/safari-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-3.tsx",
       "component": "safari",
       "sourceStatus": "ok",
@@ -22433,7 +22433,7 @@
     },
     {
       "name": "Safari Demo 4",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/safari-demo-4.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-4.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/safari-demo-4.tsx",
       "component": "safari",
       "sourceStatus": "ok",
@@ -22531,7 +22531,7 @@
     },
     {
       "name": "iPhone Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/iphone-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo.tsx",
       "component": "iphone-15-pro",
       "sourceStatus": "ok",
@@ -22620,7 +22620,7 @@
     },
     {
       "name": "iPhone Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/iphone-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo-2.tsx",
       "component": "iphone-15-pro",
       "sourceStatus": "ok",
@@ -22714,7 +22714,7 @@
     },
     {
       "name": "iPhone Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/iphone-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/iphone-demo-3.tsx",
       "component": "iphone-15-pro",
       "sourceStatus": "ok",
@@ -22808,7 +22808,7 @@
     },
     {
       "name": "Rainbow Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/rainbow-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/rainbow-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/rainbow-button-demo.tsx",
       "component": "rainbow-button",
       "sourceStatus": "ok",
@@ -22897,7 +22897,7 @@
     },
     {
       "name": "Rainbow Button Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/rainbow-button-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/rainbow-button-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/rainbow-button-demo-2.tsx",
       "component": "rainbow-button",
       "sourceStatus": "ok",
@@ -22991,7 +22991,7 @@
     },
     {
       "name": "Interactive Hover Button Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/interactive-hover-button-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-hover-button-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/interactive-hover-button-demo.tsx",
       "component": "interactive-hover-button",
       "sourceStatus": "ok",
@@ -23080,7 +23080,7 @@
     },
     {
       "name": "Terminal Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/terminal-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/terminal-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/terminal-demo.tsx",
       "component": "terminal",
       "sourceStatus": "ok",
@@ -23290,7 +23290,7 @@
     },
     {
       "name": "Terminal Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/terminal-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/terminal-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/terminal-demo-2.tsx",
       "component": "terminal",
       "sourceStatus": "ok",
@@ -23443,7 +23443,7 @@
     },
     {
       "name": "Video Text Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/video-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/video-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/video-text-demo.tsx",
       "component": "video-text",
       "sourceStatus": "ok",
@@ -23537,7 +23537,7 @@
     },
     {
       "name": "Pixel Image Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/pixel-image-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pixel-image-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/pixel-image-demo.tsx",
       "component": "pixel-image",
       "sourceStatus": "ok",
@@ -23662,7 +23662,7 @@
     },
     {
       "name": "Highlighter Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/highlighter-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/highlighter-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/highlighter-demo.tsx",
       "component": "highlighter",
       "sourceStatus": "ok",
@@ -23773,7 +23773,7 @@
     },
     {
       "name": "Animated Theme Toggler Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -23862,7 +23862,7 @@
     },
     {
       "name": "Animated Theme Toggler — Square",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-square-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-square-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-square-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -23961,7 +23961,7 @@
     },
     {
       "name": "Animated Theme Toggler — Diamond",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-diamond-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-diamond-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-diamond-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24060,7 +24060,7 @@
     },
     {
       "name": "Animated Theme Toggler — Rectangle",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-rectangle-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-rectangle-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-rectangle-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24159,7 +24159,7 @@
     },
     {
       "name": "Animated Theme Toggler — Hexagon",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-hexagon-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-hexagon-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-hexagon-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24258,7 +24258,7 @@
     },
     {
       "name": "Animated Theme Toggler — Triangle",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-triangle-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-triangle-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-triangle-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24357,7 +24357,7 @@
     },
     {
       "name": "Animated Theme Toggler — Star",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-star-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-star-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-star-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24456,7 +24456,7 @@
     },
     {
       "name": "Animated Theme Toggler — next-themes",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/animated-theme-toggler-next-themes-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-next-themes-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/animated-theme-toggler-next-themes-demo.tsx",
       "component": "animated-theme-toggler",
       "sourceStatus": "ok",
@@ -24565,7 +24565,7 @@
     },
     {
       "name": "light-rays-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/light-rays-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/light-rays-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/light-rays-demo.tsx",
       "component": "light-rays",
       "sourceStatus": "ok",
@@ -24654,7 +24654,7 @@
     },
     {
       "name": "Dotted Map Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dotted-map-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo.tsx",
       "component": "dotted-map",
       "sourceStatus": "ok",
@@ -24772,7 +24772,7 @@
     },
     {
       "name": "Dotted Map Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dotted-map-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo-2.tsx",
       "component": "dotted-map",
       "sourceStatus": "ok",
@@ -24866,7 +24866,7 @@
     },
     {
       "name": "Dotted Map Demo 3",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/dotted-map-demo-3.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo-3.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/dotted-map-demo-3.tsx",
       "component": "dotted-map",
       "sourceStatus": "ok",
@@ -24976,7 +24976,7 @@
     },
     {
       "name": "backlight-video-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/backlight-video-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-video-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-video-demo.tsx",
       "component": "backlight",
       "sourceStatus": "ok",
@@ -25074,7 +25074,7 @@
     },
     {
       "name": "backlight-image-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/backlight-image-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-image-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-image-demo.tsx",
       "component": "backlight",
       "sourceStatus": "ok",
@@ -25168,7 +25168,7 @@
     },
     {
       "name": "backlight-svg-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/backlight-svg-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-svg-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/backlight-svg-demo.tsx",
       "component": "backlight",
       "sourceStatus": "ok",
@@ -25262,7 +25262,7 @@
     },
     {
       "name": "kinetic-text-demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/kinetic-text-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/kinetic-text-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/kinetic-text-demo.tsx",
       "component": "kinetic-text",
       "sourceStatus": "ok",
@@ -25360,7 +25360,7 @@
     },
     {
       "name": "Text 3D Flip Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-3d-flip-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-3d-flip-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-3d-flip-demo.tsx",
       "component": "text-3d-flip",
       "sourceStatus": "ok",
@@ -25462,7 +25462,7 @@
     },
     {
       "name": "Text 3D Flip Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/text-3d-flip-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-3d-flip-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/text-3d-flip-demo-2.tsx",
       "component": "text-3d-flip",
       "sourceStatus": "ok",
@@ -25562,7 +25562,7 @@
     },
     {
       "name": "Floating 3D Particles Demo",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/floating-3d-particles-demo.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/floating-3d-particles-demo.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/floating-3d-particles-demo.tsx",
       "component": "floating-3d-particles",
       "sourceStatus": "ok",
@@ -25673,7 +25673,7 @@
     },
     {
       "name": "Floating 3D Particles Demo 2",
-      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/example/floating-3d-particles-demo-2.tsx",
+      "url": "https://github.com/magicuidesign/magicui/blob/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/floating-3d-particles-demo-2.tsx",
       "rawUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c/apps/www/registry/example/floating-3d-particles-demo-2.tsx",
       "component": "floating-3d-particles",
       "sourceStatus": "ok",
