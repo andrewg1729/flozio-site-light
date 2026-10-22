@@ -7,6 +7,9 @@
     "dev:homepage": "next dev -p 38471",
     "setup:component-lab": "node scripts/setup-magicui-lab.mjs",
     "prepare:aceternity-preview": "node scripts/prepare-aceternity-preview.mjs",
+    "prepare:kokonutui-catalog": "node scripts/refresh-kokonutui-catalog.mjs",
+    "review:kokonutui": "node scripts/audit-kokonutui-previews.mjs && node scripts/audit-kokonutui-mobile.mjs && node scripts/audit-kokonutui-triggers.mjs && node scripts/audit-kokonutui-variants.mjs && node scripts/audit-kokonutui-featured.mjs && node scripts/make-kokonutui-contact-sheets.mjs && node scripts/enrich-kokonutui-review.mjs",
+    "verify:kokonutui-lab": "node scripts/verify-kokonutui-lab.mjs",
     "build": "next build",
     "start": "next start -p 38471"
   },

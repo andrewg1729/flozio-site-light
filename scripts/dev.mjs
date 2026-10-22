@@ -11,6 +11,8 @@ const magicApp = resolve(magicRoot, 'apps/www');
 const magicNext = resolve(magicApp, 'node_modules/next/dist/bin/next');
 const aceternityApp = resolve(root, '.component-lab-cache/aceternity-app');
 const aceternityNext = resolve(aceternityApp, 'node_modules/next/dist/bin/next');
+const kokonutApp = resolve(root, '.component-lab-cache/kokonutui-source');
+const kokonutNext = resolve(kokonutApp, 'node_modules/next/dist/bin/next');
 const children = [];
 
 function launch(label, command, args, options) {
@@ -69,6 +71,14 @@ if (existsSync(aceternityNext) && existsSync(resolve(aceternityApp, 'app/page.ts
     env: { ...process.env, PORT: '38473', NEXT_DIST_DIR: '.next-flozio-aceternity' },
   });
   console.log('Aceternity native previews: http://localhost:38473');
+}
+
+if (existsSync(kokonutNext) && existsSync(resolve(kokonutApp, 'app/lab/page.tsx'))) {
+  launch('Kokonut UI free component lab', process.execPath, [kokonutNext, 'dev', '-p', '38474'], {
+    cwd: kokonutApp,
+    env: { ...process.env, PORT: '38474' },
+  });
+  console.log('Kokonut UI component lab: http://localhost:38474/lab');
 }
 
 console.log('Flozio: http://localhost:38471');

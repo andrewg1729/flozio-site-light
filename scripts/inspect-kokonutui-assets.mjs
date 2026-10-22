@@ -1,0 +1,13 @@
+import { createRequire } from "node:module";
+const require = createRequire(new URL("../.component-lab-cache/kokonutui-source/package.json", import.meta.url));
+const { chromium } = require("playwright-core");
+const browser = await chromium.launch({ headless: true, executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe", args: ["--disable-gpu", "--no-sandbox"] });
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+const failed = [];
+page.on("requestfailed", (request) => failed.push({ url: request.url(), failure: request.failure()?.errorText }));
+const route = process.argv[2] ?? "/docs/buttons/gradient-button";
+await page.goto(`http://localhost:38474${route}`, { waitUntil: "domcontentloaded" });
+await page.waitForTimeout(700);
+const images = await page.locator(".preview-surface img").evaluateAll((els) => els.map((img) => ({ src: img.src, naturalWidth: img.naturalWidth, naturalHeight: img.naturalHeight, alt: img.alt })));
+console.log(JSON.stringify({ route, images, failed }, null, 2));
+await browser.close();

@@ -8,8 +8,9 @@ button { color: inherit; font: inherit; }
 .lab-brand { display: inline-flex; align-items: center; gap: 8px; color: #1f2937; font-size: 17px; font-weight: 700; }
 .lab-brand img { width: 25px; height: 25px; object-fit: contain; }
 .lab-header-label { border-left: 1px solid var(--lab-line); padding-left: 22px; color: var(--lab-muted); font-size: 13px; }
+.lab-library-link { color: #2563a6; font-size: 13px; font-weight: 600; }
 .lab-back { margin-left: auto; color: var(--lab-muted); font-size: 13px; }
-.lab-back:hover, .lab-preview-heading a:hover { color: var(--lab-blue); }
+.lab-back:hover, .lab-library-link:hover, .lab-preview-heading a:hover { color: var(--lab-blue); }
 .lab-intro { width: 100%; max-width: 1440px; margin: 0 auto; padding: 30px 28px 22px; }
 .lab-eyebrow { margin: 0 0 8px; color: var(--lab-blue); font-size: 10px; font-weight: 700; letter-spacing: .11em; }
 .lab-intro h1 { margin: 0 0 7px; font-size: clamp(24px, 3vw, 34px); line-height: 1.16; letter-spacing: -.035em; }
