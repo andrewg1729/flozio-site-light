@@ -88,7 +88,7 @@ Every manifest item should include:
 
 ## Current implementation boundary
 
-Magic UI has an existing pinned source/docs workspace and a detailed source/runtime audit. Its preview currently uses the vendor docs app locally. That is useful evidence but is not the target architecture for new libraries. Aceternity's starter preview is a separate ignored Next app at `.component-lab-cache/aceternity-app`, with a generator that imports a selected registry component; the first Tracing Beam route compiles, but the all-component selector and browser-based motion audit are still pending. Keep Magic UI's pinned guide as its historical audit record; do not silently revise its counts when the vendor changes its catalog.
+Magic UI has an existing pinned source/docs workspace and a detailed source/runtime audit. Its preview currently uses the vendor docs app locally. That is useful evidence but is not the target architecture for new libraries. Aceternity's full free catalog is imported into the separate ignored Next app at `.component-lab-cache/aceternity-app`: 114 component sources and all 199 published-example/source-only routes, with local source panels and per-route browser evidence. Regenerate it with `node scripts/prepare-aceternity-preview.mjs`, then run `npm.cmd run dev --prefix .component-lab-cache/aceternity-app` and open `http://localhost:38473/`. Use `ACETERNITY_COMPONENT_GUIDE.md` for the reviewed free set. The remaining paid and unresolved official inventory is tracked in `TODO.md`; do not advance to Kokonut until those blockers are settled. Keep Magic UI's pinned guide as its historical audit record; do not silently revise its counts when the vendor changes its catalog.
 
 ## Handoff rule for future chats
 

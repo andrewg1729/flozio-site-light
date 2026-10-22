@@ -39,7 +39,7 @@ function findComponentExamples(strings, item) {
   ].filter(Boolean));
   const patterns = [...slugs].map((slug) => {
     const escaped = slug.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&");
-    return new RegExp(`from\\s+["'](?:(?:\\.{1,2}/)+ui/|@/components/ui/|@/ui/)${escaped}["']`);
+    return new RegExp(`(?:from\\s+|import\\s*\\(\\s*)["'](?:(?:\\.{1,2}/)+ui/|@/components/ui/|@/ui/)${escaped}["']`);
   });
   return strings.filter((source) => patterns.some((pattern) => pattern.test(source)));
 }
